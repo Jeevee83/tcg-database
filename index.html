@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéShopify - Manager</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.pro.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div id="app" class="max-w-7xl mx-auto p-6">
+        
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-8 bg-white p-6 rounded-xl shadow-sm">
+            <h1 class="text-2xl font-bold text-blue-600">PokéShopify CSV Generator</h1>
+            <div class="flex gap-4">
+                <input v-model="searchQuery" type="text" placeholder="Search card..." class="border p-2 rounded-lg w-64">
+                <select v-model="selectedSet" class="border p-2 rounded-lg">
+                    <option value="base-set">Base Set</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <!-- Card Grid -->
+            <div class="lg:col-span-2">
+                <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+                    <div v-for="card in filteredCards" :key="card.sku" 
+                         class="bg-white p-3 rounded-lg shadow hover:shadow-md transition cursor-pointer border-2 border-transparent hover:border-blue-400"
+                         @click="addToExport(card)">
+                        <img :src="card.image_url" class="w-full h-auto rounded-md mb-2" loading="lazy">
+                        <p class="text-xs text-gray-500">{{ card.number }}</p>
+                        <p class="font-bold text-sm truncate">{{ card.name }}</p>
+                        <p class="text-xs text-blue-500">{{ card.rarity }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Export List -->
+            <div class="bg-white p-6 rounded-xl shadow-lg sticky top-6 h-fit">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold">Export List ({{ exportList.length }})</h2>
+                    <button @click="exportCSV" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 disabled:bg-gray-300" :disabled="exportList.length === 0">
+                        Download CSV
+                    </button>
+                </div>
+
+                <div class="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+                    <div v-for="(item, index) in exportList" :key="index" class="border-b pb-4">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-sm text-blue-700">{{ item.name }}</span>
+                            <button @click="removeFromExport(index)" class="text-red-500 text-xs">Remove</button>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>
+                                <label class="text-[10px] uppercase font-bold text-gray-400">Condition</label>
+                                <select v-model="item.selectedCondition" class="w-full border p-1 text-sm rounded">
+                                    <option>MINT</option>
+                                    <option>Near Mint</option>
+                                    <option>Lightly Played</option>
+                                    <option>Played</option>
+                                    <option>Poor</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="text-[10px] uppercase font-bold text-gray-400">Price (€)</label>
+                                <input v-model="item.price" type="number" step="0.01" class="w-full border p-1 text-sm rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p v-if="exportList.length === 0" class="text-center text-gray-400 py-10">Select cards to start</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+
+        createApp({
+            data() {
+                return {
+                    cards: [],
+                    exportList: [],
+                    searchQuery: '',
+                    selectedSet: 'base-set'
+                }
+            },
+            computed: {
+                filteredCards() {
+                    return this.cards.filter(card => 
+                        card.name.toLowerCase().includes(this.searchQuery.toLowerCase())
+                    );
+                }
+            },
+            mounted() {
+                this.loadData();
+            },
+            methods: {
+                async loadData() {
+                    // Carica il JSON direttamente dal tuo GitHub (versione RAW)
+                    const url = `https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${this.selectedSet}/database.json`;
+                    try {
+                        const response = await fetch(url);
+                        this.cards = await response.json();
+                    } catch (error) {
+                        alert("Error loading database. Check GitHub URL.");
+                    }
+                },
+                addToExport(card) {
+                    this.exportList.push({
+                        ...card,
+                        selectedCondition: 'Near Mint',
+                        price: 1.00,
+                        qty: 1
+                    });
+                },
+                removeFromExport(index) {
+                    this.exportList.splice(index, 1);
+                },
+                exportCSV() {
+                    // Colonne standard richieste da Shopify
+                    let csvContent = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Image Src\n";
+
+                    this.exportList.forEach(item => {
+                        const handle = `${item.sku}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
+                        const title = `Pokemon ${item.name} - ${item.number} - ${item.selectedCondition}`;
+                        const tags = `Pokemon, ${item.category}, ${item.rarity}`;
+                        
+                        csvContent += `"${handle}","${title}","","YourStoreName","Single Card","${tags}",true,"Condition","${item.selectedCondition}","${item.sku}",5,"shopify",1,"deny","manual",${item.price},,"${item.image_url}"\n`;
+                    });
+
+                    // Download del file
+                    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                    const link = document.createElement("a");
+                    const url = URL.createObjectURL(blob);
+                    link.setAttribute("href", url);
+                    link.setAttribute("download", `shopify_import_${Date.now()}.csv`);
+                    link.style.visibility = 'hidden';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
