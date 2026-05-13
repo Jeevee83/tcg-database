@@ -11,7 +11,6 @@
 <body class="bg-gray-100 font-sans text-gray-900">
     <div id="app" v-cloak class="max-w-7xl mx-auto p-4 md:p-6">
         
-        <!-- NEW HEADER -->
         <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-6 rounded-xl shadow-sm gap-6 border-b-4 border-blue-600">
             <div class="text-center md:text-left">
                 <h1 class="text-4xl font-black text-gray-900 tracking-tighter uppercase">Cardex TCG Database</h1>
@@ -32,10 +31,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <!-- Card Grid -->
             <div class="lg:col-span-2">
-                <div v-if="loading" class="text-center py-20">
-                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-blue-600 border-t-transparent"></div>
-                    <p class="mt-4 font-bold text-gray-400">LOADING DATABASE...</p>
-                </div>
+                <div v-if="loading" class="text-center py-20 text-gray-400 font-black animate-pulse">LOADING...</div>
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
                     <div v-for="card in filteredCards" :key="card.sku" 
                          class="bg-white p-3 rounded-xl shadow hover:shadow-2xl transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-blue-500 group relative"
@@ -45,11 +41,10 @@
                         </div>
                         <div class="flex justify-between items-center mb-1">
                             <p class="text-[9px] text-gray-400 font-black">{{ card.number }}</p>
-                            <span class="text-[8px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded-full font-black uppercase">{{ card.category }}</span>
+                            <span class="text-[8px] bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded-full font-black uppercase">{{ card.category }}</span>
                         </div>
                         <p class="font-black text-xs truncate text-gray-800 uppercase tracking-tighter">{{ card.name }}</p>
                         <p class="text-[10px] text-blue-500 font-bold italic">{{ card.rarity }}</p>
-                        
                         <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl flex items-center justify-center">
                             <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-[10px] font-black shadow-lg translate-y-4 group-hover:translate-y-0 transition-transform">+ ADD</span>
                         </div>
@@ -61,44 +56,47 @@
             <div class="bg-white p-6 rounded-2xl shadow-xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-gray-200">
                 <div class="flex justify-between items-center mb-6">
                     <div>
-                        <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue</h2>
-                        <p class="text-xs text-gray-400">{{ exportList.length }} cards ready</p>
+                        <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter font-black">Export Queue</h2>
+                        <p class="text-xs text-gray-400">{{ exportList.length }} variants ready</p>
                     </div>
-                    <button @click="exportCSV" 
-                            class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition active:scale-95 disabled:opacity-20 disabled:grayscale" 
-                            :disabled="exportList.length === 0">
+                    <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition disabled:opacity-20" :disabled="exportList.length === 0">
                         GENERATE CSV
                     </button>
                 </div>
 
-                <div class="space-y-3 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-4 rounded-xl border border-gray-200 relative group animate-in slide-in-from-right duration-300">
+                <div class="space-y-4 overflow-y-auto pr-2 flex-grow">
+                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-4 rounded-xl border border-gray-200 relative group">
                         <button @click="removeFromExport(index)" class="absolute top-2 right-2 text-gray-300 hover:text-red-500 transition">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path d="M6 18L18 6M6 6l12 12" /></svg>
                         </button>
                         
-                        <p class="font-black text-[11px] text-blue-900 mb-3 uppercase tracking-tight">{{ item.name }} <span class="text-gray-400 ml-1">#{{ item.number }}</span></p>
-                        <div class="grid grid-cols-2 gap-3">
+                        <p class="font-black text-[11px] text-blue-900 mb-3 uppercase">{{ item.name }} <span class="text-gray-400">#{{ item.number }}</span></p>
+                        
+                        <div class="space-y-3">
+                            <!-- Variant Edition Selector -->
                             <div>
-                                <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Condition</label>
-                                <select v-model="item.selectedCondition" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-lg bg-white font-bold appearance-none">
-                                    <option>MINT</option>
-                                    <option>Near Mint</option>
-                                    <option>Lightly Played</option>
-                                    <option>Played</option>
-                                    <option>Poor</option>
+                                <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Edition / Variant</label>
+                                <select v-model="item.selectedVariant" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-lg bg-white font-bold text-blue-600">
+                                    <option>Unlimited</option>
+                                    <option>1st Edition</option>
+                                    <option>Shadowless</option>
                                 </select>
                             </div>
-                            <div>
-                                <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Price (CHF)</label>
-                                <input v-model="item.price" type="number" step="0.01" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-lg bg-white font-black text-green-700 focus:border-green-500 outline-none">
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Condition</label>
+                                    <select v-model="item.selectedCondition" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-lg bg-white font-bold">
+                                        <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Price (CHF)</label>
+                                    <input v-model="item.price" type="number" step="0.01" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-lg bg-white font-black text-green-700 outline-none">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div v-if="exportList.length === 0" class="text-center text-gray-200 py-20 flex flex-col items-center">
-                    <svg class="h-16 w-16 mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-                    <p class="font-bold uppercase text-sm tracking-widest">Select cards</p>
                 </div>
             </div>
         </div>
@@ -129,29 +127,40 @@
                     try {
                         const response = await fetch(url);
                         this.cards = await response.json();
-                    } catch (error) {
-                        alert("Error connecting to card database");
-                    } finally { this.loading = false; }
+                    } catch (error) { console.error(error); } finally { this.loading = false; }
                 },
                 addToExport(card) {
-                    this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', price: 1.00 });
+                    this.exportList.unshift({ 
+                        ...card, 
+                        selectedCondition: 'Near Mint', 
+                        selectedVariant: 'Unlimited',
+                        price: 1.00 
+                    });
                 },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
                 exportCSV() {
-                    let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
+                    let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
+                    
                     this.exportList.forEach(item => {
+                        const varClean = item.selectedVariant.toLowerCase().replace(/\s+/g, '-');
                         const condClean = item.selectedCondition.toLowerCase().replace(/\s+/g, '-');
-                        const handle = `${item.sku}-${condClean}`;
-                        const title = `Pokemon ${item.name} - ${item.number} (${item.selectedCondition})`;
-                        const tags = `Pokemon, ${item.category}, Base Set, ${item.rarity}`;
-                        csv += `"${handle}","${title}","","Jeevee TCG","Single Card","${tags}",true,"Condition","${item.selectedCondition}","${item.sku}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
+                        
+                        // Handle unico: base-set-4-shadowless-near-mint
+                        const handle = `${item.sku}-${varClean}-${condClean}`;
+                        
+                        // Titolo: Pokemon Charizard - 4/102 (Shadowless) [Near Mint]
+                        const title = `Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]`;
+                        
+                        const tags = `Pokemon, ${item.category}, Base Set, ${item.rarity}, ${item.selectedVariant}`;
+                        
+                        csv += `"${handle}","${title}","","Jeevee TCG","Single Card","${tags}",true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${handle}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
+                    
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.body.appendChild(document.createElement("a"));
                     link.href = URL.createObjectURL(blob);
                     link.download = `cardex_export_chf_${new Date().toISOString().slice(0,10)}.csv`;
                     link.click();
-                    document.body.removeChild(link);
                 }
             }
         }).mount('#app');
