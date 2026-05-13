@@ -1,0 +1,1022 @@
+[
+    {
+        "sku": "base-set-1-alakazam",
+        "name": "Alakazam",
+        "number": "1/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-1-alakazam.png"
+    },
+    {
+        "sku": "base-set-2-blastoise",
+        "name": "Blastoise",
+        "number": "2/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-2-blastoise.png"
+    },
+    {
+        "sku": "base-set-3-chansey",
+        "name": "Chansey",
+        "number": "3/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "120",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-3-chansey.png"
+    },
+    {
+        "sku": "base-set-4-charizard",
+        "name": "Charizard",
+        "number": "4/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "120",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-4-charizard.png"
+    },
+    {
+        "sku": "base-set-5-clefairy",
+        "name": "Clefairy",
+        "number": "5/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-5-clefairy.png"
+    },
+    {
+        "sku": "base-set-6-gyarados",
+        "name": "Gyarados",
+        "number": "6/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "100",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-6-gyarados.png"
+    },
+    {
+        "sku": "base-set-7-hitmonchan",
+        "name": "Hitmonchan",
+        "number": "7/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-7-hitmonchan.png"
+    },
+    {
+        "sku": "base-set-8-machamp",
+        "name": "Machamp",
+        "number": "8/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-8-machamp.png"
+    },
+    {
+        "sku": "base-set-9-magneton",
+        "name": "Magneton",
+        "number": "9/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-9-magneton.png"
+    },
+    {
+        "sku": "base-set-10-mewtwo",
+        "name": "Mewtwo",
+        "number": "10/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-10-mewtwo.png"
+    },
+    {
+        "sku": "base-set-11-nidoking",
+        "name": "Nidoking",
+        "number": "11/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-11-nidoking.png"
+    },
+    {
+        "sku": "base-set-12-ninetales",
+        "name": "Ninetales",
+        "number": "12/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-12-ninetales.png"
+    },
+    {
+        "sku": "base-set-13-poliwrath",
+        "name": "Poliwrath",
+        "number": "13/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-13-poliwrath.png"
+    },
+    {
+        "sku": "base-set-14-raichu",
+        "name": "Raichu",
+        "number": "14/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-14-raichu.png"
+    },
+    {
+        "sku": "base-set-15-venusaur",
+        "name": "Venusaur",
+        "number": "15/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "100",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-15-venusaur.png"
+    },
+    {
+        "sku": "base-set-16-zapdos",
+        "name": "Zapdos",
+        "number": "16/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-16-zapdos.png"
+    },
+    {
+        "sku": "base-set-17-beedrill",
+        "name": "Beedrill",
+        "number": "17/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-17-beedrill.png"
+    },
+    {
+        "sku": "base-set-18-dragonair",
+        "name": "Dragonair",
+        "number": "18/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-18-dragonair.png"
+    },
+    {
+        "sku": "base-set-19-dugtrio",
+        "name": "Dugtrio",
+        "number": "19/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-19-dugtrio.png"
+    },
+    {
+        "sku": "base-set-20-electabuzz",
+        "name": "Electabuzz",
+        "number": "20/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-20-electabuzz.png"
+    },
+    {
+        "sku": "base-set-21-electrode",
+        "name": "Electrode",
+        "number": "21/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-21-electrode.png"
+    },
+    {
+        "sku": "base-set-22-pidgeotto",
+        "name": "Pidgeotto",
+        "number": "22/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-22-pidgeotto.png"
+    },
+    {
+        "sku": "base-set-23-arcanine",
+        "name": "Arcanine",
+        "number": "23/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-23-arcanine.png"
+    },
+    {
+        "sku": "base-set-24-charmeleon",
+        "name": "Charmeleon",
+        "number": "24/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-24-charmeleon.png"
+    },
+    {
+        "sku": "base-set-25-dewgong",
+        "name": "Dewgong",
+        "number": "25/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-25-dewgong.png"
+    },
+    {
+        "sku": "base-set-26-dratini",
+        "name": "Dratini",
+        "number": "26/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-26-dratini.png"
+    },
+    {
+        "sku": "base-set-27-farfetchd",
+        "name": "Farfetch'd",
+        "number": "27/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-27-farfetchd.png"
+    },
+    {
+        "sku": "base-set-28-growlithe",
+        "name": "Growlithe",
+        "number": "28/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-28-growlithe.png"
+    },
+    {
+        "sku": "base-set-29-haunter",
+        "name": "Haunter",
+        "number": "29/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-29-haunter.png"
+    },
+    {
+        "sku": "base-set-30-ivysaur",
+        "name": "Ivysaur",
+        "number": "30/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-30-ivysaur.png"
+    },
+    {
+        "sku": "base-set-31-jynx",
+        "name": "Jynx",
+        "number": "31/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-31-jynx.png"
+    },
+    {
+        "sku": "base-set-32-kadabra",
+        "name": "Kadabra",
+        "number": "32/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-32-kadabra.png"
+    },
+    {
+        "sku": "base-set-33-kakuna",
+        "name": "Kakuna",
+        "number": "33/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-33-kakuna.png"
+    },
+    {
+        "sku": "base-set-34-machoke",
+        "name": "Machoke",
+        "number": "34/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-34-machoke.png"
+    },
+    {
+        "sku": "base-set-35-magikarp",
+        "name": "Magikarp",
+        "number": "35/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-35-magikarp.png"
+    },
+    {
+        "sku": "base-set-36-magmar",
+        "name": "Magmar",
+        "number": "36/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-36-magmar.png"
+    },
+    {
+        "sku": "base-set-37-nidorino",
+        "name": "Nidorino",
+        "number": "37/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-37-nidorino.png"
+    },
+    {
+        "sku": "base-set-38-poliwhirl",
+        "name": "Poliwhirl",
+        "number": "38/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-38-poliwhirl.png"
+    },
+    {
+        "sku": "base-set-39-porygon",
+        "name": "Porygon",
+        "number": "39/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Tomoaki Imakuni",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-39-porygon.png"
+    },
+    {
+        "sku": "base-set-40-raticate",
+        "name": "Raticate",
+        "number": "40/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-40-raticate.png"
+    },
+    {
+        "sku": "base-set-41-seel",
+        "name": "Seel",
+        "number": "41/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-41-seel.png"
+    },
+    {
+        "sku": "base-set-42-wartortle",
+        "name": "Wartortle",
+        "number": "42/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-42-wartortle.png"
+    },
+    {
+        "sku": "base-set-43-abra",
+        "name": "Abra",
+        "number": "43/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-43-abra.png"
+    },
+    {
+        "sku": "base-set-44-bulbasaur",
+        "name": "Bulbasaur",
+        "number": "44/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-44-bulbasaur.png"
+    },
+    {
+        "sku": "base-set-45-caterpie",
+        "name": "Caterpie",
+        "number": "45/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-45-caterpie.png"
+    },
+    {
+        "sku": "base-set-46-charmander",
+        "name": "Charmander",
+        "number": "46/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-46-charmander.png"
+    },
+    {
+        "sku": "base-set-47-diglett",
+        "name": "Diglett",
+        "number": "47/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-47-diglett.png"
+    },
+    {
+        "sku": "base-set-48-doduo",
+        "name": "Doduo",
+        "number": "48/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-48-doduo.png"
+    },
+    {
+        "sku": "base-set-49-drowzee",
+        "name": "Drowzee",
+        "number": "49/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-49-drowzee.png"
+    },
+    {
+        "sku": "base-set-50-gastly",
+        "name": "Gastly",
+        "number": "50/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-50-gastly.png"
+    },
+    {
+        "sku": "base-set-51-koffing",
+        "name": "Koffing",
+        "number": "51/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-51-koffing.png"
+    },
+    {
+        "sku": "base-set-52-machop",
+        "name": "Machop",
+        "number": "52/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-52-machop.png"
+    },
+    {
+        "sku": "base-set-53-magnemite",
+        "name": "Magnemite",
+        "number": "53/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-53-magnemite.png"
+    },
+    {
+        "sku": "base-set-54-metapod",
+        "name": "Metapod",
+        "number": "54/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-54-metapod.png"
+    },
+    {
+        "sku": "base-set-55-nidoran",
+        "name": "Nidoran♂",
+        "number": "55/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-55-nidoran.png"
+    },
+    {
+        "sku": "base-set-56-onix",
+        "name": "Onix",
+        "number": "56/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-56-onix.png"
+    },
+    {
+        "sku": "base-set-57-pidgey",
+        "name": "Pidgey",
+        "number": "57/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-57-pidgey.png"
+    },
+    {
+        "sku": "base-set-58-pikachu",
+        "name": "Pikachu",
+        "number": "58/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-58-pikachu.png"
+    },
+    {
+        "sku": "base-set-59-poliwag",
+        "name": "Poliwag",
+        "number": "59/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-59-poliwag.png"
+    },
+    {
+        "sku": "base-set-60-ponyta",
+        "name": "Ponyta",
+        "number": "60/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-60-ponyta.png"
+    },
+    {
+        "sku": "base-set-61-rattata",
+        "name": "Rattata",
+        "number": "61/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-61-rattata.png"
+    },
+    {
+        "sku": "base-set-62-sandshrew",
+        "name": "Sandshrew",
+        "number": "62/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-62-sandshrew.png"
+    },
+    {
+        "sku": "base-set-63-squirtle",
+        "name": "Squirtle",
+        "number": "63/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-63-squirtle.png"
+    },
+    {
+        "sku": "base-set-64-starmie",
+        "name": "Starmie",
+        "number": "64/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-64-starmie.png"
+    },
+    {
+        "sku": "base-set-65-staryu",
+        "name": "Staryu",
+        "number": "65/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-65-staryu.png"
+    },
+    {
+        "sku": "base-set-66-tangela",
+        "name": "Tangela",
+        "number": "66/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-66-tangela.png"
+    },
+    {
+        "sku": "base-set-67-voltorb",
+        "name": "Voltorb",
+        "number": "67/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-67-voltorb.png"
+    },
+    {
+        "sku": "base-set-68-vulpix",
+        "name": "Vulpix",
+        "number": "68/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-68-vulpix.png"
+    },
+    {
+        "sku": "base-set-69-weedle",
+        "name": "Weedle",
+        "number": "69/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-69-weedle.png"
+    },
+    {
+        "sku": "base-set-70-clefairy-doll",
+        "name": "Clefairy Doll",
+        "number": "70/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "10",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-70-clefairy-doll.png"
+    },
+    {
+        "sku": "base-set-71-computer-search",
+        "name": "Computer Search",
+        "number": "71/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-71-computer-search.png"
+    },
+    {
+        "sku": "base-set-72-devolution-spray",
+        "name": "Devolution Spray",
+        "number": "72/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-72-devolution-spray.png"
+    },
+    {
+        "sku": "base-set-73-imposter-professor-oak",
+        "name": "Imposter Professor Oak",
+        "number": "73/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-73-imposter-professor-oak.png"
+    },
+    {
+        "sku": "base-set-74-itemfinder",
+        "name": "Itemfinder",
+        "number": "74/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-74-itemfinder.png"
+    },
+    {
+        "sku": "base-set-75-lass",
+        "name": "Lass",
+        "number": "75/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-75-lass.png"
+    },
+    {
+        "sku": "base-set-76-pokmon-breeder",
+        "name": "Pokémon Breeder",
+        "number": "76/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-76-pokmon-breeder.png"
+    },
+    {
+        "sku": "base-set-77-pokmon-trader",
+        "name": "Pokémon Trader",
+        "number": "77/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-77-pokmon-trader.png"
+    },
+    {
+        "sku": "base-set-78-scoop-up",
+        "name": "Scoop Up",
+        "number": "78/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-78-scoop-up.png"
+    },
+    {
+        "sku": "base-set-79-super-energy-removal",
+        "name": "Super Energy Removal",
+        "number": "79/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-79-super-energy-removal.png"
+    },
+    {
+        "sku": "base-set-80-defender",
+        "name": "Defender",
+        "number": "80/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-80-defender.png"
+    },
+    {
+        "sku": "base-set-81-energy-retrieval",
+        "name": "Energy Retrieval",
+        "number": "81/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-81-energy-retrieval.png"
+    },
+    {
+        "sku": "base-set-82-full-heal",
+        "name": "Full Heal",
+        "number": "82/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-82-full-heal.png"
+    },
+    {
+        "sku": "base-set-83-maintanence",
+        "name": "Maintanence",
+        "number": "83/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-83-maintanence.png"
+    },
+    {
+        "sku": "base-set-84-plus-power",
+        "name": "Plus Power",
+        "number": "84/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-84-plus-power.png"
+    },
+    {
+        "sku": "base-set-85-pokmon-center",
+        "name": "Pokémon Center",
+        "number": "85/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-85-pokmon-center.png"
+    },
+    {
+        "sku": "base-set-86-pokmon-flute",
+        "name": "Pokémon Flute",
+        "number": "86/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-86-pokmon-flute.png"
+    },
+    {
+        "sku": "base-set-87-professor-oak",
+        "name": "Professor Oak",
+        "number": "87/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-87-professor-oak.png"
+    },
+    {
+        "sku": "base-set-88-pokdex",
+        "name": "Pokédex",
+        "number": "88/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-88-pokdex.png"
+    },
+    {
+        "sku": "base-set-89-revive",
+        "name": "Revive",
+        "number": "89/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-89-revive.png"
+    },
+    {
+        "sku": "base-set-90-super-potion",
+        "name": "Super Potion",
+        "number": "90/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-90-super-potion.png"
+    },
+    {
+        "sku": "base-set-91-bill",
+        "name": "Bill",
+        "number": "91/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-91-bill.png"
+    },
+    {
+        "sku": "base-set-92-energy-removal",
+        "name": "Energy Removal",
+        "number": "92/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-92-energy-removal.png"
+    },
+    {
+        "sku": "base-set-93-gust-of-wind",
+        "name": "Gust of Wind",
+        "number": "93/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-93-gust-of-wind.png"
+    },
+    {
+        "sku": "base-set-94-potion",
+        "name": "Potion",
+        "number": "94/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-94-potion.png"
+    },
+    {
+        "sku": "base-set-95-switch",
+        "name": "Switch",
+        "number": "95/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-95-switch.png"
+    },
+    {
+        "sku": "base-set-96-double-colorless",
+        "name": "Double Colorless",
+        "number": "96/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-96-double-colorless.png"
+    },
+    {
+        "sku": "base-set-97-fighting",
+        "name": "Fighting",
+        "number": "97/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-97-fighting.png"
+    },
+    {
+        "sku": "base-set-98-fire",
+        "name": "Fire",
+        "number": "98/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-98-fire.png"
+    },
+    {
+        "sku": "base-set-99-grass",
+        "name": "Grass",
+        "number": "99/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-99-grass.png"
+    },
+    {
+        "sku": "base-set-100-lightning",
+        "name": "Lightning",
+        "number": "100/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-100-lightning.png"
+    },
+    {
+        "sku": "base-set-101-psychic",
+        "name": "Psychic",
+        "number": "101/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-101-psychic.png"
+    },
+    {
+        "sku": "base-set-102-water",
+        "name": "Water",
+        "number": "102/102",
+        "category": "N/A",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-102-water.png"
+    }
+]
