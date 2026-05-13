@@ -64,7 +64,6 @@
                             <p class="text-[9px] text-gray-400 font-bold italic truncate">Illus. {{ card.illustrator }}</p>
                             <p class="text-[9px] text-blue-400 font-black uppercase mt-1">{{ card.rarity }}</p>
                         </div>
-                        
                         <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl flex items-center justify-center text-center p-4">
                             <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[10px] font-black shadow-xl translate-y-4 group-hover:translate-y-0 transition-transform tracking-widest uppercase">Add to Queue</span>
                         </div>
@@ -74,12 +73,15 @@
 
             <!-- Export List -->
             <div class="bg-white p-6 rounded-3xl shadow-xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-gray-100">
-                <div class="flex justify-between items-center mb-6">
+                <div class="flex justify-between items-start mb-6">
                     <div>
                         <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue</h2>
-                        <p class="text-[10px] font-black text-blue-500 uppercase tracking-widest">{{ exportList.length }} items</p>
+                        <div class="flex gap-2 items-center mt-1">
+                            <p class="text-[10px] font-black text-blue-500 uppercase tracking-widest">{{ exportList.length }} items</p>
+                            <button v-if="exportList.length > 0" @click="clearQueue" class="text-[9px] font-black text-red-400 hover:text-red-600 uppercase underline decoration-2 underline-offset-2 transition">Clear All</button>
+                        </div>
                     </div>
-                    <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition disabled:opacity-20" :disabled="exportList.length === 0">
+                    <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition active:scale-95 disabled:opacity-20 disabled:grayscale" :disabled="exportList.length === 0">
                         GET CSV
                     </button>
                 </div>
@@ -114,6 +116,10 @@
                         </div>
                     </div>
                 </div>
+                <div v-if="exportList.length === 0" class="text-center text-gray-200 py-20 flex flex-col items-center">
+                    <svg class="h-16 w-16 mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    <p class="font-bold uppercase text-sm tracking-widest">Your queue is empty</p>
+                </div>
             </div>
         </div>
     </div>
@@ -131,6 +137,15 @@
                     loading: true
                 }
             },
+            watch: {
+                // Ogni volta che exportList cambia, salviamo nel browser
+                exportList: {
+                    handler(newList) {
+                        localStorage.setItem('cardex_export_queue', JSON.stringify(newList));
+                    },
+                    deep: true
+                }
+            },
             computed: {
                 filteredCards() {
                     return this.cards.filter(c => {
@@ -141,7 +156,14 @@
                     });
                 }
             },
-            mounted() { this.loadData(); },
+            mounted() { 
+                this.loadData();
+                // Recuperiamo la coda salvata all'avvio
+                const savedQueue = localStorage.getItem('cardex_export_queue');
+                if (savedQueue) {
+                    this.exportList = JSON.parse(savedQueue);
+                }
+            },
             methods: {
                 async loadData() {
                     this.loading = true;
@@ -160,10 +182,13 @@
                     });
                 },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
+                clearQueue() {
+                    if(confirm("Are you sure you want to clear the entire list?")) {
+                        this.exportList = [];
+                    }
+                },
                 exportCSV() {
                     let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
-                    
-                    // Logic for Dynamic Vendor based on set
                     const vendor = this.selectedSet === 'base-set' ? "Wizards of the Coast" : "The Pokémon Company";
 
                     this.exportList.forEach(item => {
@@ -171,8 +196,6 @@
                         const condClean = item.selectedCondition.toLowerCase().replace(/\s+/g, '-');
                         const handle = `${item.sku}-${varClean}-${condClean}`;
                         const title = `Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]`;
-                        
-                        // Clean illustrator name (remove "Illus. " prefix if it exists in the string)
                         const cleanIllustrator = item.illustrator.replace(/^Illus\.\s+/i, '');
 
                         const tagsList = [
