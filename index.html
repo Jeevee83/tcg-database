@@ -19,12 +19,10 @@
                 <p class="text-[10px] text-gray-400 font-medium tracking-widest mt-1">by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-                <!-- Search -->
                 <div class="relative flex-grow">
                     <input v-model="searchQuery" type="text" placeholder="Search name or artist..." class="w-full md:w-64 border-2 border-gray-100 p-3 rounded-xl shadow-inner focus:border-blue-400 outline-none transition pl-10 text-sm font-bold">
                     <svg class="w-5 h-5 absolute left-3 top-3.5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
-                <!-- Set Selector -->
                 <select v-model="selectedSet" @change="loadData" class="border-2 border-gray-100 p-3 rounded-xl bg-white shadow-inner font-black text-gray-600 cursor-pointer focus:border-blue-400 outline-none text-sm">
                     <option value="base-set">Base Set (102)</option>
                 </select>
@@ -67,9 +65,8 @@
                             <p class="text-[9px] text-blue-400 font-black uppercase mt-1">{{ card.rarity }}</p>
                         </div>
                         
-                        <!-- Overlay on Hover -->
-                        <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl flex items-center justify-center">
-                            <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[10px] font-black shadow-xl translate-y-4 group-hover:translate-y-0 transition-transform tracking-widest">+ ADD TO QUEUE</span>
+                        <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl flex items-center justify-center text-center p-4">
+                            <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[10px] font-black shadow-xl translate-y-4 group-hover:translate-y-0 transition-transform tracking-widest uppercase">Add to Queue</span>
                         </div>
                     </div>
                 </div>
@@ -79,10 +76,10 @@
             <div class="bg-white p-6 rounded-3xl shadow-xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-gray-100">
                 <div class="flex justify-between items-center mb-6">
                     <div>
-                        <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter font-black">Export Queue</h2>
-                        <p class="text-[10px] font-black text-blue-500 uppercase tracking-widest">{{ exportList.length }} items selected</p>
+                        <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue</h2>
+                        <p class="text-[10px] font-black text-blue-500 uppercase tracking-widest">{{ exportList.length }} items</p>
                     </div>
-                    <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition active:scale-95 disabled:opacity-20 disabled:grayscale" :disabled="exportList.length === 0">
+                    <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition disabled:opacity-20" :disabled="exportList.length === 0">
                         GET CSV
                     </button>
                 </div>
@@ -166,32 +163,38 @@
                 exportCSV() {
                     let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
                     
+                    // Logic for Dynamic Vendor based on set
+                    const vendor = this.selectedSet === 'base-set' ? "Wizards of the Coast" : "The Pokémon Company";
+
                     this.exportList.forEach(item => {
                         const varClean = item.selectedVariant.toLowerCase().replace(/\s+/g, '-');
                         const condClean = item.selectedCondition.toLowerCase().replace(/\s+/g, '-');
                         const handle = `${item.sku}-${varClean}-${condClean}`;
                         const title = `Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]`;
                         
-                        // Dinamically build Tags string with all the info
+                        // Clean illustrator name (remove "Illus. " prefix if it exists in the string)
+                        const cleanIllustrator = item.illustrator.replace(/^Illus\.\s+/i, '');
+
                         const tagsList = [
                             'Pokemon',
                             item.category,
                             'Base Set',
                             item.rarity,
-                            `Illus. ${item.illustrator}`,
+                            cleanIllustrator,
                             item.selectedVariant,
                             item.selectedCondition
                         ];
                         const tags = `"${tagsList.join(', ')}"`;
                         
-                        csv += `"${handle}","${title}","","Jeevee TCG","Single Card",${tags},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${handle}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
+                        csv += `"${handle}","${title}","","${vendor}","Single Card Raw",${tags},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${handle}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
                     
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.body.appendChild(document.createElement("a"));
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_shopify_export.csv`;
+                    link.download = `cardex_export_shopify.csv`;
                     link.click();
+                    document.body.removeChild(link);
                 }
             }
         }).mount('#app');
