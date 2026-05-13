@@ -4,7 +4,7 @@
         "name": "Alakazam",
         "number": "1/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-1-alakazam.png"
@@ -14,7 +14,7 @@
         "name": "Blastoise",
         "number": "2/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-2-blastoise.png"
@@ -24,7 +24,7 @@
         "name": "Chansey",
         "number": "3/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "120",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-3-chansey.png"
@@ -34,7 +34,7 @@
         "name": "Charizard",
         "number": "4/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "120",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-4-charizard.png"
@@ -44,7 +44,7 @@
         "name": "Clefairy",
         "number": "5/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-5-clefairy.png"
@@ -54,7 +54,7 @@
         "name": "Gyarados",
         "number": "6/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-6-gyarados.png"
@@ -64,7 +64,7 @@
         "name": "Hitmonchan",
         "number": "7/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-7-hitmonchan.png"
@@ -74,7 +74,7 @@
         "name": "Machamp",
         "number": "8/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-8-machamp.png"
@@ -84,7 +84,7 @@
         "name": "Magneton",
         "number": "9/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-9-magneton.png"
@@ -94,7 +94,7 @@
         "name": "Mewtwo",
         "number": "10/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-10-mewtwo.png"
@@ -104,7 +104,7 @@
         "name": "Nidoking",
         "number": "11/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-11-nidoking.png"
@@ -114,7 +114,7 @@
         "name": "Ninetales",
         "number": "12/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-12-ninetales.png"
@@ -124,7 +124,7 @@
         "name": "Poliwrath",
         "number": "13/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-13-poliwrath.png"
@@ -134,7 +134,7 @@
         "name": "Raichu",
         "number": "14/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-14-raichu.png"
@@ -144,7 +144,7 @@
         "name": "Venusaur",
         "number": "15/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-15-venusaur.png"
@@ -154,7 +154,7 @@
         "name": "Zapdos",
         "number": "16/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-16-zapdos.png"
@@ -821,7 +821,7 @@
     },
     {
         "sku": "base-set-83-maintanence",
-        "name": "Maintanence",
+        "name": "Maintenance",
         "number": "83/102",
         "category": "Trainer",
         "rarity": "N/A",
