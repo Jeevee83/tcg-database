@@ -164,7 +164,7 @@
         "name": "Beedrill",
         "number": "17/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-17-beedrill.png"
@@ -174,7 +174,7 @@
         "name": "Dragonair",
         "number": "18/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-18-dragonair.png"
@@ -184,7 +184,7 @@
         "name": "Dugtrio",
         "number": "19/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "70",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-19-dugtrio.png"
@@ -194,7 +194,7 @@
         "name": "Electabuzz",
         "number": "20/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-20-electabuzz.png"
@@ -204,7 +204,7 @@
         "name": "Electrode",
         "number": "21/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-21-electrode.png"
@@ -214,7 +214,7 @@
         "name": "Pidgeotto",
         "number": "22/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-22-pidgeotto.png"
@@ -224,7 +224,7 @@
         "name": "Arcanine",
         "number": "23/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "100",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-23-arcanine.png"
@@ -234,7 +234,7 @@
         "name": "Charmeleon",
         "number": "24/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-24-charmeleon.png"
@@ -244,7 +244,7 @@
         "name": "Dewgong",
         "number": "25/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-25-dewgong.png"
@@ -254,7 +254,7 @@
         "name": "Dratini",
         "number": "26/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-26-dratini.png"
@@ -264,7 +264,7 @@
         "name": "Farfetch'd",
         "number": "27/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-27-farfetchd.png"
@@ -274,7 +274,7 @@
         "name": "Growlithe",
         "number": "28/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-28-growlithe.png"
@@ -284,7 +284,7 @@
         "name": "Haunter",
         "number": "29/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-29-haunter.png"
@@ -294,7 +294,7 @@
         "name": "Ivysaur",
         "number": "30/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-30-ivysaur.png"
@@ -304,7 +304,7 @@
         "name": "Jynx",
         "number": "31/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-31-jynx.png"
@@ -314,7 +314,7 @@
         "name": "Kadabra",
         "number": "32/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-32-kadabra.png"
@@ -324,7 +324,7 @@
         "name": "Kakuna",
         "number": "33/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-33-kakuna.png"
@@ -334,7 +334,7 @@
         "name": "Machoke",
         "number": "34/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-34-machoke.png"
@@ -344,7 +344,7 @@
         "name": "Magikarp",
         "number": "35/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "30",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-35-magikarp.png"
@@ -354,7 +354,7 @@
         "name": "Magmar",
         "number": "36/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-36-magmar.png"
@@ -364,7 +364,7 @@
         "name": "Nidorino",
         "number": "37/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-37-nidorino.png"
@@ -374,7 +374,7 @@
         "name": "Poliwhirl",
         "number": "38/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-38-poliwhirl.png"
@@ -384,7 +384,7 @@
         "name": "Porygon",
         "number": "39/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "30",
         "illustrator": "Tomoaki Imakuni",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-39-porygon.png"
@@ -394,7 +394,7 @@
         "name": "Raticate",
         "number": "40/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-40-raticate.png"
@@ -404,7 +404,7 @@
         "name": "Seel",
         "number": "41/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-41-seel.png"
@@ -414,7 +414,7 @@
         "name": "Wartortle",
         "number": "42/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-42-wartortle.png"
@@ -424,7 +424,7 @@
         "name": "Abra",
         "number": "43/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "30",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-43-abra.png"
@@ -434,7 +434,7 @@
         "name": "Bulbasaur",
         "number": "44/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-44-bulbasaur.png"
@@ -444,7 +444,7 @@
         "name": "Caterpie",
         "number": "45/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-45-caterpie.png"
@@ -454,7 +454,7 @@
         "name": "Charmander",
         "number": "46/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-46-charmander.png"
@@ -464,7 +464,7 @@
         "name": "Diglett",
         "number": "47/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "30",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-47-diglett.png"
@@ -474,7 +474,7 @@
         "name": "Doduo",
         "number": "48/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-48-doduo.png"
@@ -484,7 +484,7 @@
         "name": "Drowzee",
         "number": "49/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-49-drowzee.png"
@@ -494,7 +494,7 @@
         "name": "Gastly",
         "number": "50/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "30",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-50-gastly.png"
@@ -504,7 +504,7 @@
         "name": "Koffing",
         "number": "51/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-51-koffing.png"
@@ -514,7 +514,7 @@
         "name": "Machop",
         "number": "52/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-52-machop.png"
@@ -524,7 +524,7 @@
         "name": "Magnemite",
         "number": "53/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-53-magnemite.png"
@@ -534,7 +534,7 @@
         "name": "Metapod",
         "number": "54/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-54-metapod.png"
@@ -544,7 +544,7 @@
         "name": "Nidoran♂",
         "number": "55/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-55-nidoran.png"
@@ -554,7 +554,7 @@
         "name": "Onix",
         "number": "56/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "90",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-56-onix.png"
@@ -564,7 +564,7 @@
         "name": "Pidgey",
         "number": "57/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-57-pidgey.png"
@@ -574,7 +574,7 @@
         "name": "Pikachu",
         "number": "58/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-58-pikachu.png"
@@ -584,7 +584,7 @@
         "name": "Poliwag",
         "number": "59/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-59-poliwag.png"
@@ -594,7 +594,7 @@
         "name": "Ponyta",
         "number": "60/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-60-ponyta.png"
@@ -604,7 +604,7 @@
         "name": "Rattata",
         "number": "61/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "30",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-61-rattata.png"
@@ -614,7 +614,7 @@
         "name": "Sandshrew",
         "number": "62/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-62-sandshrew.png"
@@ -624,7 +624,7 @@
         "name": "Squirtle",
         "number": "63/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-63-squirtle.png"
@@ -634,7 +634,7 @@
         "name": "Starmie",
         "number": "64/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-64-starmie.png"
@@ -644,7 +644,7 @@
         "name": "Staryu",
         "number": "65/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-65-staryu.png"
@@ -654,7 +654,7 @@
         "name": "Tangela",
         "number": "66/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-66-tangela.png"
@@ -664,7 +664,7 @@
         "name": "Voltorb",
         "number": "67/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-67-voltorb.png"
@@ -674,7 +674,7 @@
         "name": "Vulpix",
         "number": "68/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-68-vulpix.png"
@@ -684,7 +684,7 @@
         "name": "Weedle",
         "number": "69/102",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-69-weedle.png"
@@ -694,7 +694,7 @@
         "name": "Clefairy Doll",
         "number": "70/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "10",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-70-clefairy-doll.png"
@@ -704,7 +704,7 @@
         "name": "Computer Search",
         "number": "71/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-71-computer-search.png"
@@ -714,7 +714,7 @@
         "name": "Devolution Spray",
         "number": "72/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-72-devolution-spray.png"
@@ -724,7 +724,7 @@
         "name": "Imposter Professor Oak",
         "number": "73/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-73-imposter-professor-oak.png"
@@ -734,7 +734,7 @@
         "name": "Itemfinder",
         "number": "74/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-74-itemfinder.png"
@@ -744,7 +744,7 @@
         "name": "Lass",
         "number": "75/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-75-lass.png"
@@ -754,7 +754,7 @@
         "name": "Pokémon Breeder",
         "number": "76/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-76-pokmon-breeder.png"
@@ -764,7 +764,7 @@
         "name": "Pokémon Trader",
         "number": "77/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-77-pokmon-trader.png"
@@ -774,7 +774,7 @@
         "name": "Scoop Up",
         "number": "78/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-78-scoop-up.png"
@@ -784,7 +784,7 @@
         "name": "Super Energy Removal",
         "number": "79/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-79-super-energy-removal.png"
@@ -794,7 +794,7 @@
         "name": "Defender",
         "number": "80/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-80-defender.png"
@@ -804,7 +804,7 @@
         "name": "Energy Retrieval",
         "number": "81/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-81-energy-retrieval.png"
@@ -814,7 +814,7 @@
         "name": "Full Heal",
         "number": "82/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-82-full-heal.png"
@@ -824,7 +824,7 @@
         "name": "Maintenance",
         "number": "83/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-83-maintanence.png"
@@ -834,7 +834,7 @@
         "name": "Plus Power",
         "number": "84/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-84-plus-power.png"
@@ -844,7 +844,7 @@
         "name": "Pokémon Center",
         "number": "85/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-85-pokmon-center.png"
@@ -854,7 +854,7 @@
         "name": "Pokémon Flute",
         "number": "86/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-86-pokmon-flute.png"
@@ -864,7 +864,7 @@
         "name": "Professor Oak",
         "number": "87/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-87-professor-oak.png"
@@ -874,7 +874,7 @@
         "name": "Pokédex",
         "number": "88/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-88-pokdex.png"
@@ -884,7 +884,7 @@
         "name": "Revive",
         "number": "89/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-89-revive.png"
@@ -894,7 +894,7 @@
         "name": "Super Potion",
         "number": "90/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-90-super-potion.png"
@@ -904,7 +904,7 @@
         "name": "Bill",
         "number": "91/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-91-bill.png"
@@ -914,7 +914,7 @@
         "name": "Energy Removal",
         "number": "92/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-92-energy-removal.png"
@@ -924,7 +924,7 @@
         "name": "Gust of Wind",
         "number": "93/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-93-gust-of-wind.png"
@@ -934,7 +934,7 @@
         "name": "Potion",
         "number": "94/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-94-potion.png"
@@ -944,7 +944,7 @@
         "name": "Switch",
         "number": "95/102",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-95-switch.png"
@@ -954,7 +954,7 @@
         "name": "Double Colorless",
         "number": "96/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-96-double-colorless.png"
@@ -964,7 +964,7 @@
         "name": "Fighting",
         "number": "97/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-97-fighting.png"
@@ -974,7 +974,7 @@
         "name": "Fire",
         "number": "98/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-98-fire.png"
@@ -984,7 +984,7 @@
         "name": "Grass",
         "number": "99/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-99-grass.png"
@@ -994,7 +994,7 @@
         "name": "Lightning",
         "number": "100/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-100-lightning.png"
@@ -1004,7 +1004,7 @@
         "name": "Psychic",
         "number": "101/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-101-psychic.png"
@@ -1014,7 +1014,7 @@
         "name": "Water",
         "number": "102/102",
         "category": "Energy",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-102-water.png"
