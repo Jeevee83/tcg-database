@@ -24,12 +24,12 @@
         <!-- HEADER -->
         <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
             <div>
-                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none text-center md:text-left">Cardex TCG</h1>
-                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic text-center md:text-left">Ultimate Management System by Jeevee83</p>
+                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">Cardex TCG</h1>
+                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic">Global Management System</p>
                 <p class="text-[9px] text-gray-300 font-bold tracking-widest mt-1 uppercase text-center md:text-left">by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3">
-                <input v-model="searchQuery" type="text" placeholder="Search card, artist, attack..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
+                <input v-model="searchQuery" type="text" placeholder="Search card, artist..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
                 <select v-model="selectedSet" class="border-2 border-slate-100 p-4 rounded-2xl bg-white font-black text-slate-600 outline-none text-sm cursor-pointer">
                     <option value="all">🌍 All Generations</option>
                     <option v-for="set in availableSets" :key="set.id" :value="set.id">{{ set.name }}</option>
@@ -48,11 +48,12 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <!-- LISTA CARTE -->
             <div class="lg:col-span-2">
-                <div v-if="loading" class="text-center py-20 font-black text-slate-200 text-4xl italic uppercase animate-pulse">Syncing Global Data...</div>
+                <div v-if="loading" class="text-center py-20 font-black text-slate-200 text-4xl animate-pulse">Syncing...</div>
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
                     <div v-for="card in filteredCards" :key="card.sku" 
-                         class="bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-500 group relative flex flex-col h-full">
+                         class="bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-2xl transition-all border-2 border-transparent hover:border-blue-500 group relative flex flex-col h-full">
                         <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[3/4] bg-slate-50">
                             <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-110 transition duration-700">
                             <div class="absolute top-3 left-3 bg-slate-900/80 text-white text-[7px] font-black px-2 py-1 rounded-md uppercase tracking-tighter">{{ getSetName(card.sku) }}</div>
@@ -66,93 +67,61 @@
                             <p class="text-[9px] text-slate-400 font-bold italic truncate mb-4">Illus. {{ card.illustrator }}</p>
                         </div>
                         <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2.5 rounded-xl hover:bg-blue-700 uppercase shadow-md transition">Add</button>
-                            <button @click="showDetails(card)" class="bg-slate-100 text-slate-600 text-[9px] font-black py-2.5 rounded-xl hover:bg-slate-200 uppercase transition">Details</button>
+                            <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2.5 rounded-xl hover:bg-blue-700 shadow-md transition uppercase">Add</button>
+                            <button @click="showDetails(card)" class="bg-slate-100 text-slate-600 text-[9px] font-black py-2.5 rounded-xl hover:bg-slate-200 shadow-sm transition uppercase">Details</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- EXPORT QUEUE -->
+            <!-- CODA ESPORTAZIONE -->
             <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-slate-100">
                 <div class="flex justify-between items-start mb-8">
-                    <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter italic">Queue <span class="text-blue-500 ml-2">[{{ exportList.length }}]</span></h2>
+                    <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter">Queue <span class="text-blue-500 ml-1">[{{ exportList.length }}]</span></h2>
                     <button @click="exportCSV" class="bg-green-600 text-white px-6 py-3 rounded-2xl font-black text-sm shadow-xl hover:bg-green-700 transition" :disabled="exportList.length === 0">CSV</button>
                 </div>
                 <div class="space-y-4 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
-                        <button @click="removeFromExport(index)" class="absolute top-4 right-4 text-slate-300 hover:text-red-500 font-bold">✕</button>
-                        <p class="font-black text-xs text-blue-900 mb-4 uppercase leading-none">{{ item.name }}</p>
+                    <div v-for="(item, index) in exportList" :key="index" class="bg-slate-50 p-5 rounded-[1.5rem] border border-slate-100 relative group">
+                        <button @click="removeFromExport(index)" class="absolute top-4 right-4 text-slate-300 hover:text-red-500">✕</button>
+                        <p class="font-black text-xs text-blue-900 mb-4 uppercase">{{ item.name }}</p>
                         <div class="space-y-3">
-                            <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none">
-                                <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
-                            </select>
+                            <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none"><option>Unlimited</option><option>1st Edition</option><option>Shadowless</option></select>
                             <div class="grid grid-cols-2 gap-3">
-                                <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none">
-                                    <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
-                                </select>
-                                <div class="relative">
-                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400 uppercase font-black">CHF</span>
-                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-10 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
-                                </div>
+                                <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none"><option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option></select>
+                                <div class="relative"><span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400">CHF</span><input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-9 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none"></div>
                             </div>
-                            <div class="bg-white p-3 rounded-xl border-2 border-slate-100 flex items-center justify-between">
-                                <label class="text-[9px] font-black text-slate-300 uppercase">Quantity:</label>
-                                <input v-model.number="item.qty" type="number" min="1" class="w-16 font-black text-right text-blue-600 outline-none">
-                            </div>
+                            <div class="bg-white p-3 rounded-xl border-2 border-slate-100 flex items-center justify-between"><label class="text-[9px] font-black text-slate-300 uppercase">Qty:</label><input v-model.number="item.qty" type="number" min="1" class="w-16 font-black text-right text-blue-600 outline-none"></div>
                         </div>
                     </div>
                 </div>
-                <button v-if="exportList.length > 0" @click="clearQueue" class="mt-4 text-[10px] font-black text-red-400 uppercase tracking-widest hover:text-red-600">Clear All Items</button>
+                <button v-if="exportList.length > 0" @click="clearQueue" class="mt-4 text-[10px] font-black text-red-400 uppercase tracking-widest hover:text-red-600">Clear All</button>
             </div>
         </div>
 
-        <!-- DETAIL MODAL -->
+        <!-- MODAL DETTAGLI -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-10" @click.self="selectedCard = null">
-            <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative">
+            <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative animate-in zoom-in duration-300">
                 <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-300 hover:text-slate-900 text-4xl transition">✕</button>
-                <div class="md:w-1/2 bg-slate-50 p-8 md:p-12 flex items-center justify-center border-r border-slate-100 h-64 md:h-auto">
-                    <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_50px_rgba(0,0,0,0.2)] rounded-2xl">
-                </div>
+                <div class="md:w-1/2 bg-slate-50 p-8 md:p-12 flex items-center justify-center border-r border-slate-100 h-64 md:h-auto"><img :src="selectedCard.image_url" class="max-h-full drop-shadow-2xl rounded-2xl"></div>
                 <div class="md:w-1/2 flex flex-col bg-white">
                     <div class="flex-grow overflow-y-auto p-8 md:p-12 pb-6">
                         <header class="mb-10">
-                            <div class="flex items-center gap-4 mb-2">
-                                <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
-                                <p class="text-slate-300 font-black text-xl tracking-tighter">#{{ selectedCard.number }}</p>
-                            </div>
-                            <h3 class="text-4xl font-black uppercase tracking-tighter text-slate-900 leading-tight">{{ selectedCard.name }}</h3>
+                            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
+                            <h3 class="text-4xl font-black uppercase tracking-tighter text-slate-900 leading-tight mt-4">{{ selectedCard.name }}</h3>
                             <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-600 font-black text-2xl tracking-tighter mt-1">{{ selectedCard.hp }} HP</p>
                         </header>
                         <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y-2 border-slate-50 py-8 mb-8">
-                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
-                                <p class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-1">{{ label }}</p>
-                                <p class="font-black text-sm uppercase tracking-tight text-slate-700">{{ val }}</p>
-                            </div>
+                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label"><p class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-1">{{ label }}</p><p class="font-black text-sm uppercase tracking-tight text-slate-700">{{ val }}</p></div>
                         </div>
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6 mb-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Attacks & Abilities</p>
                             <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-slate-50 p-6 rounded-3xl border border-slate-100">
-                                <div class="flex justify-between items-start mb-2">
-                                    <div class="flex flex-wrap gap-1 items-center">
-                                        <span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span>
-                                        <p class="font-black uppercase text-base ml-2 leading-none">{{ atk.name }}</p>
-                                    </div>
-                                    <p class="font-black text-lg text-slate-900">{{ atk.damage }}</p>
-                                </div>
-                                <p class="text-xs text-slate-500 leading-relaxed font-medium italic">{{ atk.text }}</p>
-                            </div>
-                        </div>
-                        <div v-if="selectedCard.rules && selectedCard.rules.length > 0" class="space-y-4 mb-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Card Text</p>
-                            <div class="bg-slate-900 rounded-3xl p-6 text-white italic text-xs leading-relaxed font-medium">
-                                <p v-for="rule in selectedCard.rules" :key="rule" class="mb-2">{{ rule }}</p>
+                                <p class="font-black uppercase text-base mb-1">{{ atk.name }} <span class="float-right text-slate-900">{{ atk.damage }}</span></p>
+                                <p class="text-xs text-slate-500 italic">{{ atk.text }}</p>
                             </div>
                         </div>
                     </div>
-                    <div class="p-8 pt-0 bg-white">
-                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-base hover:bg-blue-700 shadow-2xl transition transform active:scale-95">Add to Queue</button>
-                    </div>
+                    <div class="p-8 pt-0 bg-white"><button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-base hover:bg-blue-700 shadow-2xl transition transform active:scale-95">Add to Queue</button></div>
                 </div>
             </div>
         </div>
@@ -207,45 +176,72 @@
                 clearQueue() { if(confirm("Clear current queue?")) this.exportList = []; },
                 
                 generateProductHTML(item) {
-                    let html = `<h3>Technical Specifications</h3><table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">`;
-                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Set</td><td style="padding: 8px;">${this.getSetName(item.sku)}</td></tr>`;
-                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Number</td><td style="padding: 8px;">${item.number}</td></tr>`;
-                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Rarity</td><td style="padding: 8px;">${item.rarity}</td></tr>`;
-                    if(item.hp && item.hp !== 'N/A') html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">HP</td><td style="padding: 8px;">${item.hp}</td></tr>`;
-                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Illustrator</td><td style="padding: 8px;">${item.illustrator}</td></tr></table>`;
+                    let html = `<strong>Technical Specifications</strong><br><ul>`;
+                    html += `<li>Set: ${this.getSetName(item.sku)}</li>`;
+                    html += `<li>Number: ${item.number}</li>`;
+                    html += `<li>Rarity: ${item.rarity}</li>`;
+                    if(item.hp && item.hp !== 'N/A') html += `<li>HP: ${item.hp}</li>`;
+                    html += `<li>Illustrator: ${item.illustrator}</li></ul><br>`;
                     if(item.attacks && item.attacks.length > 0) {
-                        html += `<h3>Attacks & Abilities</h3>`;
+                        html += `<strong>Attacks & Abilities</strong><br>`;
                         item.attacks.forEach(atk => {
-                            html += `<div style="margin-bottom: 15px; border-left: 4px solid #2563eb; padding-left: 10px;"><p><strong>${atk.name.toUpperCase()}</strong> (${atk.damage ? atk.damage : '0'} damage)</p><p style="font-style: italic; font-size: 0.9em;">${atk.text}</p></div>`;
+                            html += `<p><strong>${atk.name.toUpperCase()}</strong> (${atk.damage ? atk.damage : '0'} dmg)<br><em>${atk.text}</em></p>`;
                         });
-                    }
-                    if(item.rules && item.rules.length > 0) {
-                        html += `<h3>Card Text</h3>`;
-                        item.rules.forEach(rule => { html += `<p style="font-style: italic;">${rule}</p>`; });
                     }
                     return html.replace(/"/g, '""');
                 },
 
                 exportCSV() {
-                    // HEADER AGGIORNATO PER SHOPIFY 2024
-                    let csv = "Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Image Src\n";
-                    
+                    // ARRAY DEI NOMI DELLE COLONNE (2024 STANDARD)
+                    const headers = [
+                        "Handle", "Title", "Body (HTML)", "Vendor", "Product Category", "Type", "Tags", "Published",
+                        "Option1 Name", "Option1 Value", "Option2 Name", "Option2 Value", "Variant SKU", "Variant Grams",
+                        "Variant Inventory Tracker", "Variant Inventory Qty", "Variant Inventory Policy", "Variant Fulfillment Service",
+                        "Variant Price", "Variant Compare At Price", "Image Src"
+                    ];
+
+                    let csvRows = [headers.join(",")];
+
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
-                        const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
+                        const condClean = item.selectedCondition.toLowerCase().replace(/\s+/g, '-');
+                        const varClean = item.selectedVariant.toLowerCase().replace(/\s+/g, '-');
+                        const handle = `${item.sku}-${varClean}-${condClean}`;
+                        const title = `Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]`;
                         const cleanIllus = item.illustrator.replace(/^Illus\.\s+/i, '');
-                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
-                        const productBody = this.generateProductHTML(item);
-                        
-                        // "Product Category" UFFICIALE: Toys & Games > Games > Card Games > Trading Cards
-                        const officialCat = "Toys & Games > Games > Card Games > Trading Cards";
+                        const tags = `Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}`;
+                        const body = this.generateProductHTML(item);
 
-                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","${officialCat}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},,"${item.image_url}"\n`;
+                        // COSTRUZIONE RIGA (21 COLONNE PRECISE)
+                        const row = [
+                            `"${handle}"`,                       // 1 Handle
+                            `"${title}"`,                        // 2 Title
+                            `"${body}"`,                         // 3 Body
+                            `"${set.vendor}"`,                   // 4 Vendor
+                            `""`,                                // 5 Product Category (EMPTY TO AVOID ERROR)
+                            `"Single Card Raw"`,                 // 6 Type
+                            `"${tags}"`,                         // 7 Tags
+                            `"true"`,                            // 8 Published
+                            `"Edition"`,                         // 9 Opt1 Name
+                            `"${item.selectedVariant}"`,         // 10 Opt1 Value
+                            `"Condition"`,                       // 11 Opt2 Name
+                            `"${item.selectedCondition}"`,       // 12 Opt2 Value
+                            `"${handle}"`,                       // 13 Variant SKU
+                            `"5"`,                               // 14 Grams
+                            `"shopify"`,                         // 15 Tracker
+                            item.qty.toString(),                 // 16 QUANTITY
+                            `"deny"`,                            // 17 Policy
+                            `"manual"`,                          // 18 Service
+                            item.price.toString(),               // 19 Price
+                            `""`,                                // 20 Compare
+                            `"${item.image_url}"`                // 21 Image
+                        ];
+                        csvRows.push(row.join(","));
                     });
 
                     const now = new Date();
                     const filename = `tcg-data-csv-${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}-${now.getHours()}-${now.getMinutes()}.csv`;
-                    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                    const blob = new Blob([csvRows.join("\n")], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
                     link.download = filename;
