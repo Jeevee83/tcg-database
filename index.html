@@ -24,8 +24,8 @@
         <!-- HEADER -->
         <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
             <div>
-                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none text-center md:text-left">Cardex TCG</h1>
-                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic text-center md:text-left">Ultimate Management System by Jeevee83</p>
+                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">Cardex TCG</h1>
+                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic">Ultimate Management System by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3">
                 <input v-model="searchQuery" type="text" placeholder="Search card, artist, attack..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
@@ -76,7 +76,7 @@
                 </div>
             </div>
 
-            <!-- EXPORT QUEUE (Quantity support added) -->
+            <!-- EXPORT QUEUE -->
             <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-slate-100">
                 <div class="flex justify-between items-start mb-8">
                     <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter italic">Queue <span class="text-blue-500 ml-2">[{{ exportList.length }}]</span></h2>
@@ -88,24 +88,20 @@
                         <p class="font-black text-xs text-blue-900 mb-4 uppercase leading-none">{{ item.name }}</p>
                         
                         <div class="space-y-3">
-                            <!-- Edition -->
                             <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none">
                                 <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
                             </select>
                             
-                            <div class="grid grid-cols-2 gap-2">
-                                <!-- Condition -->
+                            <div class="grid grid-cols-2 gap-3">
                                 <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none">
                                     <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
                                 </select>
-                                <!-- Price -->
                                 <div class="relative">
-                                    <span class="absolute left-2 top-2.5 text-[8px] font-black text-slate-400">CHF</span>
-                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-8 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
+                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400 uppercase">CHF</span>
+                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-10 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
                                 </div>
                             </div>
-
-                            <!-- QUANTITY (NEW) -->
+                            
                             <div class="flex items-center gap-3 bg-white p-2 rounded-xl border border-slate-200">
                                 <label class="text-[9px] font-black text-slate-400 uppercase">Quantity:</label>
                                 <input v-model.number="item.qty" type="number" min="1" class="w-full font-black text-center text-sm outline-none text-blue-600">
@@ -246,13 +242,24 @@
                         const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}"`;
                         const productBody = this.generateProductHTML(item);
                         
-                        // "item.qty" is now used for "Variant Inventory Qty" column
                         csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
+
+                    // FUNZIONE PER IL NOME FILE CON DATA E ORA
+                    const now = new Date();
+                    const year = now.getFullYear();
+                    const month = String(now.getMonth() + 1).padStart(2, '0');
+                    const day = String(now.getDate()).padStart(2, '0');
+                    const hours = String(now.getHours()).padStart(2, '0');
+                    const mins = String(now.getMinutes()).padStart(2, '0');
+                    const secs = String(now.getSeconds()).padStart(2, '0');
+                    
+                    const filename = `tcg-data-csv-${year}-${month}-${day}-${hours}-${mins}-${secs}.csv`;
+
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_export_inventory.csv`;
+                    link.download = filename;
                     link.click();
                 }
             }
