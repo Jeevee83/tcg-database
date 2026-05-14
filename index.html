@@ -9,57 +9,42 @@
     <style>
         [v-cloak] { display: none; }
         body { background-color: #0f172a; overflow-x: hidden; }
-        
         .modal-overlay { background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(12px); }
-        
-        /* Custom Scrollbar */
         .custom-scroll::-webkit-scrollbar { width: 4px; }
         .custom-scroll::-webkit-scrollbar-track { background: #1e293b; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
-
-        /* Stile Bottoni Categoria */
-        .cat-btn {
-            background: #1e293b;
-            border-bottom: 3px solid transparent;
-            transition: all 0.2s ease;
-            white-space: nowrap;
-        }
+        .cat-btn { background: #1e293b; border-bottom: 3px solid transparent; transition: all 0.2s ease; white-space: nowrap; }
         .cat-btn:hover { background: #334155; }
         .cat-btn.active.accent-red { border-bottom-color: #f87171; background: #334155; }
         .cat-btn.active.accent-green { border-bottom-color: #4ade80; background: #334155; }
         .cat-btn.active.accent-blue { border-bottom-color: #60a5fa; background: #334155; }
         .cat-btn.active.accent-yellow { border-bottom-color: #fbbf24; background: #334155; }
+        .dash-btn { background: #1e293b; border-left: 4px solid transparent; transition: all 0.3s ease; }
+        .type-pill { padding: 2px 8px; border-radius: 4px; color: white; font-weight: 800; font-size: 10px; text-transform: uppercase; }
+        .type-Fire { background: #ef4444; } .type-Water { background: #3b82f6; } .type-Grass { background: #22c55e; }
+        .type-Lightning { background: #eab308; color: #000; } .type-Psychic { background: #a855f7; }
     </style>
 </head>
 <body class="text-slate-200 font-sans">
     <div id="app" v-cloak>
         
-        <!-- FIXED HEADER (TOP BAR) -->
+        <!-- HEADER -->
         <header class="fixed top-0 left-0 right-0 z-50 bg-[#0f172a] border-b border-slate-800 shadow-2xl">
-            <div class="max-w-[1800px] mx-auto px-4 sm:px-6 py-4 flex flex-col lg:flex-row items-center justify-between gap-4">
-                
+            <div class="max-w-[1800px] mx-auto px-4 sm:px-8 py-4 flex flex-col lg:flex-row items-center justify-between gap-4">
                 <div class="flex flex-col sm:flex-row items-center gap-6 w-full lg:w-auto">
                     <div class="text-center sm:text-left">
                         <h1 class="text-5xl font-bold text-white tracking-tighter leading-none uppercase">Cardex</h1>
                         <p class="text-[9px] text-slate-500 font-black uppercase tracking-[0.2em] mt-1">TCG System <span class="text-slate-700 ml-1">by Jeevee83</span></p>
                     </div>
-                    
                     <nav class="flex gap-1 bg-slate-900/50 p-1 rounded-xl border border-slate-800">
-                        <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
-                                @click="activeCategory = cat"
-                                :class="['cat-btn px-4 py-2 rounded-lg font-bold text-[10px] sm:text-xs uppercase tracking-wider', 
-                                activeCategory === cat ? 'active' : '', 
-                                cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">
-                            {{ cat }}
-                        </button>
+                        <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat" @click="activeCategory = cat"
+                                :class="['cat-btn px-4 py-2 rounded-lg font-bold text-[10px] sm:text-xs uppercase tracking-wider', activeCategory === cat ? 'active' : '', cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">{{ cat }}</button>
                     </nav>
                 </div>
-
                 <div class="flex items-center gap-3 w-full lg:max-w-2xl justify-center lg:justify-end">
                     <div class="relative flex-grow max-w-md">
-                        <input v-model="searchQuery" type="text" placeholder="Search card..." 
-                               class="w-full bg-[#1e293b] border border-slate-700 p-2.5 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-sm font-bold text-white">
-                        <svg class="w-4 h-4 absolute left-3 top-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                        <input v-model="searchQuery" type="text" placeholder="Search card..." class="w-full bg-[#1e293b] border border-slate-700 p-2.5 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-sm font-bold text-white">
+                        <svg class="w-4 h-4 absolute left-3 top-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </div>
                     <select v-model="selectedSet" class="bg-[#1e293b] border border-slate-700 p-2.5 rounded-xl font-bold text-slate-300 outline-none text-sm cursor-pointer min-w-[140px] sm:min-w-[180px]">
                         <option value="all">All Generations</option>
@@ -67,144 +52,85 @@
                     </select>
                 </div>
             </div>
-
-            <!-- "Torna in alto" link area -->
-            <div class="max-w-[1800px] mx-auto px-6 pb-2 flex justify-end">
-                <button @click="scrollToTop" class="text-[10px] font-black uppercase tracking-widest text-slate-500 hover:text-white flex items-center gap-2 transition">
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-width="4"/></svg>
-                    Torna in alto
-                </button>
+            <div class="max-w-[1800px] mx-auto px-8 pb-2 flex justify-end">
+                <button @click="scrollToTop" class="text-[10px] font-black uppercase tracking-widest text-slate-500 hover:text-white flex items-center gap-2 transition"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-width="4"/></svg>Torna in alto</button>
             </div>
         </header>
 
-        <!-- SPAZIO COMPATTATO (RIDOTTO AL MINIMO) -->
-        <div class="h-[180px] lg:h-[110px]"></div>
+        <div class="h-[210px] lg:h-[135px]"></div>
 
         <div class="max-w-[1800px] mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
-            
-            <!-- SIDEBAR STICKY (ALZATA SUBITO SOTTO L'HEADER) -->
             <aside class="lg:col-span-3">
-                <div class="lg:sticky lg:top-[110px] space-y-6">
-                    <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col">
-                        <div class="p-6 border-b border-slate-800 bg-slate-900/20 flex justify-between items-center">
+                <div class="lg:sticky lg:top-[145px]">
+                    <!-- BOX CODA ACCORCIATO (h-[55vh]) -->
+                    <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col h-[55vh] max-h-[600px]">
+                        <div class="p-5 border-b border-slate-800 bg-slate-900/20 flex justify-between items-center shrink-0">
                             <div>
                                 <h3 class="text-slate-500 text-[9px] font-black uppercase tracking-[0.2em]">Export Queue</h3>
-                                <span class="text-5xl font-light text-white leading-none">{{ exportList.length }}</span>
+                                <span class="text-4xl font-light text-white leading-none">{{ exportList.length }}</span>
                             </div>
-                            <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg active:scale-95" :disabled="exportList.length === 0">CSV</button>
+                            <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg" :disabled="exportList.length === 0">CSV</button>
                         </div>
 
-                        <!-- LISTA ALLUNGATA (max-h-[65vh]) -->
-                        <div class="custom-scroll overflow-y-auto p-4 space-y-3 max-h-[65vh]">
-                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-left duration-200">
+                        <div class="custom-scroll overflow-y-auto p-4 space-y-3 flex-grow">
+                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800 relative group">
                                 <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-slate-600 hover:text-red-500 transition font-bold">✕</button>
                                 <p class="font-black text-[10px] text-blue-400 mb-3 uppercase truncate pr-4">{{ item.name }}</p>
-                                
                                 <div class="grid grid-cols-2 gap-2 mb-2">
-                                    <select v-model="item.selectedVariant" class="bg-[#1e293b] border border-slate-700 p-1.5 rounded-lg text-[9px] font-bold text-slate-300 outline-none"><option>Unlimited</option><option>1st Edition</option><option>Shadowless</option></select>
-                                    <select v-model="item.selectedCondition" class="bg-[#1e293b] border border-slate-700 p-1.5 rounded-lg text-[9px] font-bold text-slate-300 outline-none"><option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option></select>
+                                    <select v-model="item.selectedVariant" class="bg-[#0f172a] border border-slate-700 p-1.5 rounded-lg text-[9px] font-bold text-slate-300 outline-none"><option>Unlimited</option><option>1st Edition</option><option>Shadowless</option></select>
+                                    <select v-model="item.selectedCondition" class="bg-[#0f172a] border border-slate-700 p-1.5 rounded-lg text-[9px] font-bold text-slate-300 outline-none"><option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option></select>
                                 </div>
                                 <div class="flex gap-2">
                                     <div class="relative flex-grow">
                                         <span class="absolute left-2 top-2 text-[7px] font-black text-slate-600 uppercase">CHF</span>
-                                        <input v-model="item.price" type="number" step="0.01" class="w-full bg-[#1e293b] border border-slate-700 p-2 pl-7 rounded-lg text-[10px] font-black text-green-400 outline-none text-right">
+                                        <input v-model="item.price" type="number" step="0.01" class="w-full bg-[#0f172a] border border-slate-700 p-2 pl-7 rounded-lg text-[10px] font-black text-green-400 outline-none text-right">
                                     </div>
-                                    <div class="flex items-center gap-2 bg-black/20 px-2 rounded-lg">
-                                        <button @click="item.qty > 1 ? item.qty-- : null" class="text-slate-500 hover:text-white font-bold">-</button>
+                                    <div class="flex items-center gap-2 bg-black/20 px-2 rounded-lg shrink-0">
+                                        <button @click="item.qty > 1 ? item.qty-- : null" class="text-slate-500">-</button>
                                         <span class="text-[10px] font-black text-blue-400 w-4 text-center">{{ item.qty }}</span>
-                                        <button @click="item.qty++" class="text-blue-500 hover:text-blue-300 font-bold">+</button>
+                                        <button @click="item.qty++" class="text-blue-500">+</button>
                                     </div>
                                 </div>
                             </div>
-                            <div v-if="exportList.length === 0" class="py-12 text-center opacity-10">
-                                <p class="text-[10px] font-black uppercase tracking-widest">Queue Empty</p>
-                            </div>
                         </div>
 
-                        <div class="p-4 border-t border-slate-800 bg-slate-900/40">
-                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[9px] text-slate-600 hover:text-red-400 uppercase font-black tracking-widest transition">Clear Queue</button>
+                        <div class="p-4 border-t border-slate-800 bg-slate-900/40 shrink-0">
+                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[10px] text-red-400 hover:text-red-600 uppercase font-black tracking-widest transition">Clear All Items</button>
                         </div>
                     </div>
                 </div>
             </aside>
 
-            <!-- MAIN GRID -->
             <main class="lg:col-span-9">
-                <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-                    <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem] animate-pulse"></div>
-                </div>
-                
+                <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 animate-pulse"><div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem]"></div></div>
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
-                    <div v-for="card in filteredCards" :key="card.sku" 
-                         class="bg-[#1e293b] rounded-[2rem] border border-slate-800 hover:border-slate-500 transition-all duration-500 group overflow-hidden flex flex-col h-full relative shadow-lg">
-                        
+                    <div v-for="card in filteredCards" :key="card.sku" class="bg-[#1e293b] rounded-[2.5rem] border border-slate-800 hover:border-slate-500 transition-all duration-500 group overflow-hidden flex flex-col h-full relative shadow-lg">
                         <div class="relative p-4 flex-grow bg-black/10 flex items-center justify-center">
-                            <div class="aspect-[3/4] overflow-hidden rounded-xl bg-slate-900/50 w-full flex items-center justify-center border border-white/5">
-                                <img :src="card.image_url" class="max-h-full max-w-full object-contain group-hover:scale-105 transition duration-700" loading="lazy">
-                            </div>
-                            <div class="absolute top-6 left-6 bg-black/70 backdrop-blur-md text-[8px] font-black px-2 py-1 rounded text-white uppercase tracking-tighter border border-white/10">
-                                {{ getSetName(card.sku) }}
-                            </div>
+                            <div class="aspect-[3/4] overflow-hidden rounded-xl bg-slate-900/50 w-full flex items-center justify-center border border-white/5"><img :src="card.image_url" class="max-h-full max-w-full object-contain group-hover:scale-105 transition duration-700" loading="lazy"></div>
+                            <div class="absolute top-6 left-6 bg-black/70 backdrop-blur-md text-[8px] font-black px-2 py-1 rounded text-white uppercase tracking-tighter border border-white/10">{{ getSetName(card.sku) }}</div>
                         </div>
-
-                        <div class="p-5 pt-2 text-center">
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="text-[9px] font-bold text-slate-600">#{{ card.number }}</span>
-                                <span :class="['text-[7px] font-black px-2 py-0.5 rounded-full uppercase', 
-                                    card.category === 'Pokémon' ? 'bg-green-500/20 text-green-400' : 
-                                    card.category === 'Trainer' ? 'bg-blue-500/20 text-blue-400' : 'bg-yellow-500/20 text-yellow-400']">
-                                    {{ card.category }}
-                                </span>
-                            </div>
-                            <h4 class="font-black text-xs text-white uppercase tracking-tight truncate mb-4">{{ card.name }}</h4>
-                            
-                            <div class="grid grid-cols-2 gap-2">
-                                <button @click="addToExport(card)" class="bg-blue-600 hover:bg-blue-500 text-white text-[9px] font-black py-2.5 rounded-xl transition uppercase tracking-widest shadow-lg active:scale-95">Add</button>
-                                <button @click="showDetails(card)" class="bg-slate-800 hover:bg-slate-700 text-slate-400 text-[9px] font-black py-2.5 rounded-xl transition uppercase tracking-widest">Details</button>
-                            </div>
+                        <div class="p-6 pt-2 text-center">
+                            <div class="flex justify-between items-center mb-2"><span class="text-[10px] font-bold text-slate-600">#{{ card.number }}</span><span :class="['text-[8px] font-black px-2 py-0.5 rounded-full uppercase', card.category === 'Pokémon' ? 'bg-green-500/20 text-green-400' : card.category === 'Trainer' ? 'bg-blue-500/20 text-blue-400' : 'bg-yellow-500/20 text-yellow-400']">{{ card.category }}</span></div>
+                            <h4 class="font-black text-sm text-white uppercase tracking-tight truncate mb-4">{{ card.name }}</h4>
+                            <div class="grid grid-cols-2 gap-3"><button @click="addToExport(card)" class="bg-blue-600 hover:bg-blue-500 text-white text-[10px] font-black py-3 rounded-2xl transition uppercase tracking-widest shadow-lg active:scale-95">Add</button><button @click="showDetails(card)" class="bg-slate-800 hover:bg-slate-700 text-slate-400 text-[10px] font-black py-3 rounded-2xl transition uppercase tracking-widest">Details</button></div>
                         </div>
                     </div>
                 </div>
             </main>
         </div>
 
-        <!-- MODAL DETAILS -->
-        <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4" @click.self="selectedCard = null">
-            <div class="bg-[#1e293b] rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
+        <!-- MODAL -->
+        <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
+            <div class="bg-[#1e293b] rounded-[3.5rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
                 <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition font-bold">✕</button>
-                <div class="md:w-1/2 bg-[#080e1e] p-12 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto">
-                    <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] rounded-xl scale-110">
-                </div>
+                <div class="md:w-1/2 bg-[#080e1e] p-12 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto"><img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] rounded-xl scale-110"></div>
                 <div class="md:w-1/2 flex flex-col bg-[#1e293b]">
-                    <div class="flex-grow overflow-y-auto p-12 pb-6">
-                        <header class="mb-8 text-center md:text-left">
-                            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
-                            <h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3>
-                            <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-500 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p>
-                        </header>
-                        <div class="grid grid-cols-2 gap-y-10 gap-x-6 border-y border-slate-800 py-10 mb-10 text-center md:text-left">
-                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
-                                <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p>
-                                <p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p>
-                            </div>
-                        </div>
-                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
-                            <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-5 rounded-3xl border border-slate-800 shadow-inner">
-                                <div class="flex justify-between items-start mb-2">
-                                    <div class="flex flex-wrap gap-1 items-center">
-                                        <span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span>
-                                        <p class="font-black uppercase text-sm ml-2 text-white leading-none">{{ atk.name }}</p>
-                                    </div>
-                                    <p class="font-black text-xl text-white">{{ atk.damage }}</p>
-                                </div>
-                                <p class="text-xs text-slate-400 leading-relaxed italic">{{ atk.text }}</p>
-                            </div>
-                        </div>
+                    <div class="flex-grow overflow-y-auto p-12 pb-6 custom-scroll">
+                        <header class="mb-8"><span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span><h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3><p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-500 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p></header>
+                        <div class="grid grid-cols-2 gap-y-10 gap-x-6 border-y border-slate-800 py-10 mb-10 text-center"><div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label"><p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p><p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p></div></div>
+                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6"><p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p><div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-inner"><div class="flex justify-between items-start mb-2"><div class="flex flex-wrap gap-1 items-center"><span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span><p class="font-black uppercase text-base ml-2 text-white leading-none">{{ atk.name }}</p></div><p class="font-black text-xl text-white">{{ atk.damage }}</p></div><p class="text-xs text-slate-400 leading-relaxed italic">{{ atk.text }}</p></div></div>
                     </div>
-                    <div class="p-10 pt-0 bg-[#1e293b]">
-                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-lg shadow-2xl transition transform active:scale-95">Add to Queue</button>
-                    </div>
+                    <div class="p-12 pt-0 bg-[#1e293b]"><button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-5 rounded-[2.5rem] font-black uppercase tracking-widest text-lg shadow-2xl transition transform active:scale-95">Add to Queue</button></div>
                 </div>
             </div>
         </div>
@@ -270,16 +196,13 @@
                     return html.replace(/"/g, '""');
                 },
                 exportCSV() {
-                    const headers = ["Handle","Title","Body (HTML)","Vendor","Product Category","Type","Tags","Published","Option1 Name","Option1 Value","Option2 Name","Option2 Value","Variant SKU","Variant Grams","Variant Inventory Tracker","Variant Inventory Qty","Variant Inventory Policy","Variant Fulfillment Service","Variant Price","Image Src"];
+                    const headers = ["Handle","Title","Body (HTML)","Vendor","Product Category","Type","Tags","Published","Option1 Name","Option1 Value","Option2 Name","Option2 Value","Variant SKU","Variant Grams","Variant Inventory Tracker","Variant Inventory Qty","Variant Inventory Policy","Variant Fulfillment Service","Variant Price","Variant Compare At Price","Image Src"];
                     let csvRows = [headers.join(",")];
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
                         const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator.replace(/^Illus\.\s+/i, '')}, ${item.selectedVariant}, ${item.selectedCondition}"`;
-                        const row = [
-                            `"${h}"`,`"Pokemon ${item.name} - ${item.number} (${item.selectedVariant})"`,`"${this.generateProductHTML(item)}"`,`"${set.vendor}"`,`""`,`"Single Card Raw"`,t,`"true"`,
-                            `"Edition"`,`"${item.selectedVariant}"`,`"Condition"`,`"${item.selectedCondition}"`,`"${h}"`,`"5"`,`"shopify"`,item.qty.toString(),`"deny"`,`"manual"`,item.price.toString(),`""`,`"${item.image_url}"`
-                        ];
+                        const row = [`"${h}"`,`"Pokemon ${item.name} - ${item.number} (${item.selectedVariant})"`,`"${this.generateProductHTML(item)}"`,`"${set.vendor}"`,`""`,`"Single Card Raw"`,t,`"true"`,`"Edition"`,`"${item.selectedVariant}"`,`"Condition"`,`"${item.selectedCondition}"`,`"${h}"`,`"5"`,`"shopify"`,item.qty.toString(),`"deny"`,`"manual"`,item.price.toString(),`""`,`"${item.image_url}"`];
                         csvRows.push(row.join(","));
                     });
                     const now = new Date();
