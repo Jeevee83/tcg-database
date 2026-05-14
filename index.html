@@ -8,16 +8,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         [v-cloak] { display: none; }
-        body { background-color: #0f172a; } /* Dark background from screenshot */
+        body { background-color: #0f172a; }
         
         .modal-overlay { background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(12px); }
         
-        /* Custom scrollbar for dark mode */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #0f172a; }
         ::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
 
-        /* Dashboard Button Style */
         .dash-btn {
             background: #1e293b;
             border-left: 4px solid transparent;
@@ -26,7 +24,6 @@
         .dash-btn:hover { background: #334155; transform: translateX(4px); }
         .dash-btn.active { background: #334155; border-left-width: 6px; }
 
-        /* Accent Colors */
         .accent-red { border-left-color: #f87171; }
         .accent-green { border-left-color: #4ade80; }
         .accent-blue { border-left-color: #60a5fa; }
@@ -40,10 +37,10 @@
 <body class="text-slate-200 font-sans">
     <div id="app" v-cloak class="max-w-7xl mx-auto p-4 md:p-8">
         
-        <!-- DASHBOARD HEADER -->
-        <header class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <!-- STICKY HEADER -->
+        <header class="sticky top-0 z-40 bg-[#0f172a]/90 backdrop-blur-md pt-4 pb-8 flex flex-col md:row justify-between items-end mb-4 gap-6">
             <div>
-                <h1 class="text-5xl font-bold text-white tracking-tight">Dashboard</h1>
+                <h1 class="text-5xl font-bold text-white tracking-tight">Cardex</h1>
                 <p class="text-slate-500 font-medium mt-2 uppercase tracking-widest text-xs">TCG Management System <span class="text-slate-700 ml-2">by Jeevee83</span></p>
             </div>
             <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
@@ -57,8 +54,8 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-10">
             
-            <!-- LEFT NAVIGATION (FILTERS) -->
-            <aside class="space-y-8">
+            <!-- STICKY SIDEBAR -->
+            <aside class="lg:sticky lg:top-40 h-fit space-y-8 z-30">
                 <div>
                     <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4 flex items-center">
                         <span class="w-2 h-2 bg-red-400 rounded-full mr-2"></span> Category
@@ -74,8 +71,8 @@
                     </div>
                 </div>
 
-                <!-- QUICK STATS -->
-                <div class="bg-[#1e293b]/50 p-6 rounded-2xl border border-slate-800">
+                <!-- EXPORT QUEUE BOX (Fixed in Sidebar) -->
+                <div class="bg-[#1e293b]/50 p-6 rounded-2xl border border-slate-800 shadow-xl">
                     <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4">Export Queue</h3>
                     <div class="flex justify-between items-end">
                         <span class="text-4xl font-light text-white">{{ exportList.length }}</span>
@@ -85,7 +82,7 @@
                 </div>
             </aside>
 
-            <!-- MAIN CONTENT (GRID) -->
+            <!-- MAIN CONTENT -->
             <main class="lg:col-span-3">
                 <div v-if="loading" class="grid grid-cols-2 md:grid-cols-4 gap-4 animate-pulse">
                     <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-2xl"></div>
@@ -93,7 +90,7 @@
                 
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
                     <div v-for="card in filteredCards" :key="card.sku" 
-                         class="bg-[#1e293b] rounded-2xl border border-slate-800 hover:border-slate-600 transition-all duration-300 group overflow-hidden flex flex-col h-full">
+                         class="bg-[#1e293b] rounded-2xl border border-slate-800 hover:border-slate-600 transition-all duration-300 group overflow-hidden flex flex-col h-full relative">
                         
                         <div class="relative p-2 flex-grow">
                             <img :src="card.image_url" class="w-full h-auto rounded-xl group-hover:scale-105 transition duration-500" loading="lazy">
@@ -123,18 +120,16 @@
             </main>
         </div>
 
-        <!-- DARK MODAL -->
+        <!-- MODAL -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
             <div class="bg-[#1e293b] rounded-[2.5rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative">
                 
                 <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-500 hover:text-white text-3xl transition">✕</button>
 
-                <!-- Left: Card Image -->
-                <div class="md:w-1/2 bg-[#0f172a] p-10 flex items-center justify-center border-r border-slate-800">
+                <div class="md:w-1/2 bg-[#0f172a] p-10 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto">
                     <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-xl scale-110">
                 </div>
                 
-                <!-- Right: Data -->
                 <div class="md:w-1/2 flex flex-col bg-[#1e293b]">
                     <div class="flex-grow overflow-y-auto p-10">
                         <header class="mb-8">
@@ -153,7 +148,6 @@
                             </div>
                         </div>
 
-                        <!-- Attacks -->
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-4">
                             <p class="text-[9px] font-black text-blue-400 uppercase tracking-widest">Abilities & Attacks</p>
                             <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-5 rounded-2xl border border-slate-800">
@@ -198,10 +192,7 @@
                 filteredCards() {
                     return this.cards.filter(c => {
                         const s = this.searchQuery.toLowerCase();
-                        const matchesSearch = c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s);
-                        const matchesCategory = this.activeCategory === 'All' || c.category === this.activeCategory;
-                        const matchesSet = this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet);
-                        return matchesSearch && matchesCategory && matchesSet;
+                        return (c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s)) && (this.activeCategory === 'All' || c.category === this.activeCategory) && (this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet));
                     });
                 }
             },
