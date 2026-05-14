@@ -35,14 +35,14 @@
         .type-Lightning { background: #eab308; color: #000; } .type-Psychic { background: #a855f7; }
     </style>
 </head>
-<body class="text-slate-200 font-sans">
+<body class="text-slate-200 font-sans"> <!-- Ritorno al font-sans di sistema -->
     <div id="app" v-cloak>
         
         <!-- HEADER FULL WIDTH STICKY -->
         <header class="sticky top-0 z-50 bg-[#0f172a]/95 backdrop-blur-xl border-b border-slate-800 shadow-2xl">
             <div class="max-w-[1600px] mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div class="flex flex-col items-center md:items-start text-center md:text-left">
-                    <h1 class="text-6xl font-bold text-white tracking-tighter leading-none uppercase font-serif">Cardex</h1>
+                    <h1 class="text-6xl font-bold text-white tracking-tighter leading-none uppercase">Cardex</h1>
                     <div class="flex gap-4 mt-2">
                         <p class="text-slate-500 font-black uppercase tracking-[0.2em] text-[10px]">TCG Management System</p>
                         <p class="text-slate-700 font-black uppercase tracking-[0.2em] text-[10px]">by Jeevee83</p>
@@ -52,7 +52,7 @@
                 <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
                     <div class="relative">
                         <input v-model="searchQuery" type="text" placeholder="Search card..." 
-                               class="bg-[#1e293b] border border-slate-700 p-3 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none w-full md:w-80 text-sm">
+                               class="bg-[#1e293b] border border-slate-700 p-3 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none w-full md:w-80 text-sm font-bold text-white">
                         <svg class="w-4 h-4 absolute left-3 top-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </div>
                     <select v-model="selectedSet" class="bg-[#1e293b] border border-slate-700 p-3 rounded-xl font-bold text-slate-300 outline-none text-sm cursor-pointer min-w-[180px]">
@@ -84,22 +84,21 @@
                         </div>
                     </div>
 
-                    <!-- EXPORT QUEUE BOX (FIXED HEIGHT SCROLL) -->
-                    <div class="bg-[#1e293b] rounded-[2.5rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col">
-                        <!-- Top Header Fixed -->
+                    <!-- EXPORT QUEUE BOX (SCROLL FIX) -->
+                    <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col">
                         <div class="p-6 border-b border-slate-800 bg-slate-900/10">
                             <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4">Export Queue</h3>
                             <div class="flex justify-between items-center">
                                 <span class="text-6xl font-light text-white leading-none">{{ exportList.length }}</span>
-                                <button @click="exportCSV" class="bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg active:scale-95" :disabled="exportList.length === 0">CSV</button>
+                                <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg active:scale-95" :disabled="exportList.length === 0">CSV</button>
                             </div>
                         </div>
 
-                        <!-- SCROLLABLE LIST AREA (This is the fix) -->
-                        <div class="custom-scroll overflow-y-auto p-4 space-y-4 max-h-[450px]">
-                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/50 p-4 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-right duration-200">
+                        <!-- ZONA SCROLL INTERNA DINAMICA -->
+                        <div class="custom-scroll overflow-y-auto p-4 space-y-4 max-h-[60vh]">
+                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-5 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-right duration-200">
                                 <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-slate-600 hover:text-red-500 transition font-bold">✕</button>
-                                <p class="font-black text-[11px] text-blue-400 mb-3 uppercase tracking-wide truncate pr-4">{{ item.name }}</p>
+                                <p class="font-black text-[11px] text-blue-400 mb-4 uppercase tracking-wide truncate pr-4">{{ item.name }}</p>
                                 
                                 <div class="space-y-3">
                                     <select v-model="item.selectedVariant" class="w-full bg-[#1e293b] border border-slate-700 p-2 rounded-lg text-[10px] font-bold text-slate-300 outline-none cursor-pointer">
@@ -110,12 +109,12 @@
                                             <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
                                         </select>
                                         <div class="relative">
-                                            <span class="absolute left-2 top-2 text-[8px] font-black text-slate-600 uppercase">CHF</span>
+                                            <span class="absolute left-2 top-2 text-[8px] font-black text-slate-600 uppercase font-black">CHF</span>
                                             <input v-model="item.price" type="number" step="0.01" class="w-full bg-[#1e293b] border border-slate-700 p-2 pl-8 rounded-lg text-[10px] font-black text-green-400 outline-none">
                                         </div>
                                     </div>
                                     <div class="bg-black/20 p-2 rounded-lg flex items-center justify-between">
-                                        <span class="text-[9px] font-black text-slate-600 uppercase ml-1">Quantity</span>
+                                        <span class="text-[9px] font-black text-slate-600 uppercase ml-1">Qty</span>
                                         <div class="flex items-center gap-3">
                                             <button @click="item.qty > 1 ? item.qty-- : null" class="w-6 h-6 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 font-bold">-</button>
                                             <input v-model.number="item.qty" type="number" class="w-8 bg-transparent text-center text-xs font-black text-blue-400 outline-none">
@@ -124,12 +123,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div v-if="exportList.length === 0" class="py-10 text-center opacity-20">
-                                <p class="text-[10px] font-black uppercase tracking-widest italic">Waiting for selection...</p>
-                            </div>
                         </div>
 
-                        <!-- Bottom Footer Fixed -->
                         <div class="p-4 border-t border-slate-800 bg-slate-900/40">
                             <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[10px] text-slate-500 hover:text-red-400 uppercase font-black tracking-widest transition">Clear Queue</button>
                         </div>
@@ -137,7 +132,7 @@
                 </div>
             </aside>
 
-            <!-- MAIN CONTENT -->
+            <!-- MAIN GRID -->
             <main class="lg:col-span-9">
                 <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 animate-pulse">
                     <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem]"></div>
@@ -177,10 +172,10 @@
             </main>
         </div>
 
-        <!-- MODAL (UNCHANGED STYLES) -->
+        <!-- MODAL DETAILS -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
-            <div class="bg-[#1e293b] rounded-[3rem] max-w-5xl w-full max-h-[92vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
-                <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition">✕</button>
+            <div class="bg-[#1e293b] rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
+                <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition font-bold">✕</button>
                 <div class="md:w-1/2 bg-[#080e1e] p-12 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto">
                     <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] rounded-xl scale-110">
                 </div>
@@ -191,29 +186,23 @@
                             <h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3>
                             <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-500 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p>
                         </header>
-                        <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y border-slate-800 py-10 mb-10 text-center">
+                        <div class="grid grid-cols-2 gap-y-10 gap-x-6 border-y border-slate-800 py-10 mb-10 text-center">
                             <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
                                 <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p>
                                 <p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p>
                             </div>
                         </div>
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Attacks & Abilities</p>
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
                             <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-inner">
                                 <div class="flex justify-between items-start mb-2">
                                     <div class="flex flex-wrap gap-1 items-center">
                                         <span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span>
-                                        <p class="font-black uppercase text-base ml-2 text-white">{{ atk.name }}</p>
+                                        <p class="font-black uppercase text-base ml-2 text-white leading-none">{{ atk.name }}</p>
                                     </div>
                                     <p class="font-black text-xl text-white">{{ atk.damage }}</p>
                                 </div>
                                 <p class="text-xs text-slate-400 leading-relaxed italic">{{ atk.text }}</p>
-                            </div>
-                        </div>
-                        <div v-if="selectedCard.rules && selectedCard.rules.length > 0" class="space-y-4 mt-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Card Text</p>
-                            <div class="bg-black/40 p-6 rounded-2xl border border-slate-800 italic text-xs text-slate-400 leading-relaxed">
-                                <p v-for="rule in selectedCard.rules" :key="rule" class="mb-2">{{ rule }}</p>
                             </div>
                         </div>
                     </div>
@@ -273,10 +262,8 @@
                 },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
                 clearQueue() { if(confirm("Clear current queue?")) this.exportList = []; },
-                
                 generateProductHTML(item) {
-                    let html = `<strong>Technical Specifications</strong><br><ul>`;
-                    html += `<li>Set: ${this.getSetName(item.sku)}</li><li>Number: ${item.number}</li><li>Rarity: ${item.rarity}</li>`;
+                    let html = `<strong>Technical Specifications</strong><br><ul><li>Set: ${this.getSetName(item.sku)}</li><li>Number: ${item.number}</li><li>Rarity: ${item.rarity}</li>`;
                     if(item.hp && item.hp !== 'N/A') html += `<li>HP: ${item.hp}</li>`;
                     html += `<li>Illustrator: ${item.illustrator}</li></ul><br>`;
                     if(item.attacks && item.attacks.length > 0) {
@@ -285,7 +272,6 @@
                     }
                     return html.replace(/"/g, '""');
                 },
-
                 exportCSV() {
                     const headers = ["Handle","Title","Body (HTML)","Vendor","Product Category","Type","Tags","Published","Option1 Name","Option1 Value","Option2 Name","Option2 Value","Variant SKU","Variant Grams","Variant Inventory Tracker","Variant Inventory Qty","Variant Inventory Policy","Variant Fulfillment Service","Variant Price","Variant Compare At Price","Image Src"];
                     let csvRows = [headers.join(",")];
@@ -300,11 +286,9 @@
                         csvRows.push(row.join(","));
                     });
                     const now = new Date();
-                    const filename = `tcg-data-csv-${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}-${now.getHours()}-${now.getMinutes()}.csv`;
-                    const blob = new Blob([csvRows.join("\n")], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
-                    link.href = URL.createObjectURL(blob);
-                    link.download = filename;
+                    link.href = URL.createObjectURL(new Blob([csvRows.join("\n")], { type: 'text/csv;charset=utf-8;' }));
+                    link.download = `cardex-export-${now.toISOString().slice(0,10)}.csv`;
                     link.click();
                 }
             }
