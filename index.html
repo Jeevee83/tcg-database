@@ -24,8 +24,9 @@
         <!-- HEADER -->
         <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
             <div>
-                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">Cardex TCG</h1>
-                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic">Ultimate Management System by Jeevee83</p>
+                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none text-center md:text-left">Cardex TCG</h1>
+                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic text-center md:text-left">Global Management System</p>
+                <p class="text-[9px] text-gray-300 font-bold tracking-widest mt-1 uppercase text-center md:text-left">by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3">
                 <input v-model="searchQuery" type="text" placeholder="Search card, artist, attack..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
@@ -47,18 +48,15 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            <!-- MAIN GRID -->
             <div class="lg:col-span-2">
                 <div v-if="loading" class="text-center py-20 font-black text-slate-200 text-4xl italic uppercase animate-pulse">Syncing Global Data...</div>
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
                     <div v-for="card in filteredCards" :key="card.sku" 
                          class="bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-500 group relative flex flex-col h-full">
-                        
                         <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[3/4] bg-slate-50">
                             <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-110 transition duration-700">
                             <div class="absolute top-3 left-3 bg-slate-900/80 text-white text-[7px] font-black px-2 py-1 rounded-md uppercase tracking-tighter">{{ getSetName(card.sku) }}</div>
                         </div>
-
                         <div class="text-center flex-grow">
                             <div class="flex justify-between items-center mb-1">
                                 <span class="text-[10px] font-black text-slate-300">#{{ card.number }}</span>
@@ -67,7 +65,6 @@
                             <p class="font-black text-sm truncate text-slate-800 uppercase tracking-tighter mb-1">{{ card.name }}</p>
                             <p class="text-[9px] text-slate-400 font-bold italic truncate mb-4">Illus. {{ card.illustrator }}</p>
                         </div>
-                        
                         <div class="grid grid-cols-2 gap-2 mt-auto">
                             <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2.5 rounded-xl hover:bg-blue-700 uppercase shadow-md transition">Add</button>
                             <button @click="showDetails(card)" class="bg-slate-100 text-slate-600 text-[9px] font-black py-2.5 rounded-xl hover:bg-slate-200 uppercase transition">Details</button>
@@ -83,28 +80,26 @@
                     <button @click="exportCSV" class="bg-green-600 text-white px-6 py-3 rounded-2xl font-black text-sm shadow-xl hover:bg-green-700 transition" :disabled="exportList.length === 0">CSV</button>
                 </div>
                 <div class="space-y-4 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-slate-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
+                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
                         <button @click="removeFromExport(index)" class="absolute top-4 right-4 text-slate-300 hover:text-red-500 font-bold">✕</button>
                         <p class="font-black text-xs text-blue-900 mb-4 uppercase leading-none">{{ item.name }}</p>
-                        
                         <div class="space-y-3">
                             <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none">
                                 <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
                             </select>
-                            
                             <div class="grid grid-cols-2 gap-3">
                                 <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none">
                                     <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
                                 </select>
                                 <div class="relative">
-                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400 uppercase">CHF</span>
+                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400 uppercase font-black">CHF</span>
                                     <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-10 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
                                 </div>
                             </div>
-                            
-                            <div class="flex items-center gap-3 bg-white p-2 rounded-xl border border-slate-200">
-                                <label class="text-[9px] font-black text-slate-400 uppercase">Quantity:</label>
-                                <input v-model.number="item.qty" type="number" min="1" class="w-full font-black text-center text-sm outline-none text-blue-600">
+                            <!-- QUANTITY BOX -->
+                            <div class="bg-white p-3 rounded-xl border-2 border-slate-100 flex items-center justify-between">
+                                <label class="text-[9px] font-black text-slate-300 uppercase">Quantity:</label>
+                                <input v-model.number="item.qty" type="number" min="1" class="w-16 font-black text-right text-blue-600 outline-none">
                             </div>
                         </div>
                     </div>
@@ -113,7 +108,7 @@
             </div>
         </div>
 
-        <!-- DETAIL MODAL -->
+        <!-- MODAL -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-10" @click.self="selectedCard = null">
             <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative">
                 <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-300 hover:text-slate-900 text-4xl transition">✕</button>
@@ -136,8 +131,9 @@
                                 <p class="font-black text-sm uppercase tracking-tight text-slate-700">{{ val }}</p>
                             </div>
                         </div>
+                        <!-- Attacks -->
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6 mb-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Attacks & Abilities</p>
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
                             <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-slate-50 p-6 rounded-3xl border border-slate-100">
                                 <div class="flex justify-between items-start mb-2">
                                     <div class="flex flex-wrap gap-1 items-center">
@@ -150,14 +146,14 @@
                             </div>
                         </div>
                         <div v-if="selectedCard.rules && selectedCard.rules.length > 0" class="space-y-4 mb-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Card Text</p>
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Card Text</p>
                             <div class="bg-slate-900 rounded-3xl p-6 text-white italic text-xs leading-relaxed font-medium">
                                 <p v-for="rule in selectedCard.rules" :key="rule" class="mb-2">{{ rule }}</p>
                             </div>
                         </div>
                     </div>
                     <div class="p-8 pt-0 bg-white">
-                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-base hover:bg-blue-700 shadow-2xl transition transform active:scale-95">Add to Export List</button>
+                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-base hover:bg-blue-700 shadow-2xl transition transform active:scale-95">Add to Queue</button>
                     </div>
                 </div>
             </div>
@@ -204,8 +200,7 @@
                         const promises = this.availableSets.map(s => fetch(`https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${s.id}/database.json`).then(res => res.json()));
                         const results = await Promise.all(promises);
                         this.cards = results.flat();
-                    } catch (e) { console.error("Sync Failed", e); }
-                    finally { this.loading = false; }
+                    } catch (e) { console.error(e); } finally { this.loading = false; }
                 },
                 getSetName(sku) { return this.availableSets.find(s => sku.startsWith(s.id))?.name || 'Set'; },
                 showDetails(card) { this.selectedCard = card; },
@@ -234,28 +229,20 @@
                 },
 
                 exportCSV() {
-                    let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
+                    let csv = "Handle,Title,Body (HTML),Vendor,Standard Product Type,Custom Product Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
                         const cleanIllus = item.illustrator.replace(/^Illus\.\s+/i, '');
-                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}"`;
+                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
                         const productBody = this.generateProductHTML(item);
                         
-                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},"${item.image_url}"\n`;
+                        // Header alignment fix for quantity
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
 
-                    // FUNZIONE PER IL NOME FILE CON DATA E ORA
                     const now = new Date();
-                    const year = now.getFullYear();
-                    const month = String(now.getMonth() + 1).padStart(2, '0');
-                    const day = String(now.getDate()).padStart(2, '0');
-                    const hours = String(now.getHours()).padStart(2, '0');
-                    const mins = String(now.getMinutes()).padStart(2, '0');
-                    const secs = String(now.getSeconds()).padStart(2, '0');
-                    
-                    const filename = `tcg-data-csv-${year}-${month}-${day}-${hours}-${mins}-${secs}.csv`;
-
+                    const filename = `tcg-data-csv-${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}-${now.getHours()}-${now.getMinutes()}.csv`;
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
