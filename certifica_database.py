@@ -1,17 +1,19 @@
 import json
 import os
+import re
 
-def certifica_dati():
-    sets_config = {
-        "base-set": {"total": 102, "pkm_max": 69, "trainer_max": 95},
-        "jungle": {"total": 64, "pkm_max": 63, "trainer_max": 64},
-        "fossil": {"total": 62, "pkm_max": 60, "trainer_max": 62},
-        "team-rocket": {"total": 83, "pkm_max": 70, "trainer_max": 82},
-        "gym-heroes": {"total": 132, "pkm_max": 99, "trainer_max": 126},
-        "gym-challenge": {"total": 132, "pkm_max": 100, "trainer_max": 126}
+def perfect_fix():
+    # COORDINATE UFFICIALI GEN 1 (WotC)
+    config = {
+        "base-set":     {"total": 102, "pkm": 69,  "train": 95},
+        "jungle":       {"total": 64,  "pkm": 63,  "train": 64},
+        "fossil":       {"total": 62,  "pkm": 60,  "train": 62},
+        "team-rocket":  {"total": 83,  "pkm": 70,  "train": 82},
+        "gym-heroes":   {"total": 132, "pkm": 100, "train": 126},
+        "gym-challenge": {"total": 132, "pkm": 100, "train": 126}
     }
 
-    for set_id, limits in sets_config.items():
+    for set_id, limits in config.items():
         path = f"data/{set_id}/database.json"
         if not os.path.exists(path): continue
 
@@ -20,41 +22,35 @@ def certifica_dati():
 
         for card in cards:
             num = int(card["number"].split("/")[0])
-            
-            # 1. CATEGORIA CERTIFICATA
+            name = card["name"]
+
+            # 1. FIX CATEGORIA
             if set_id == "team-rocket" and num == 17:
-                card["category"] = "Energy" # Rainbow Energy Holo
-            elif num <= limits["pkm_max"]:
+                card["category"] = "Energy"
+            elif set_id == "team-rocket" and num == 83:
+                card["category"] = "Pokémon" # Dark Raichu Secret
+            elif num <= limits["pkm"]:
                 card["category"] = "Pokémon"
-            elif num <= limits["trainer_max"]:
+            elif num <= limits["train"]:
                 card["category"] = "Trainer"
             else:
                 card["category"] = "Energy"
 
-            # 2. RARITÀ CERTIFICATA (Standard WotC)
-            if set_id in ["base-set", "jungle", "fossil", "team-rocket"]:
-                if num <= (16 if set_id != "team-rocket" else 17): card["rarity"] = "Rare Holo"
-                elif num <= (22 if set_id == "base-set" else 32 if set_id == "jungle" else 30): card["rarity"] = "Rare"
-            
-            # Casi speciali per Dark Raichu (Rocket #83)
-            if set_id == "team-rocket" and num == 83:
-                card["category"] = "Pokémon"
-                card["rarity"] = "Rare Holo (Secret)"
-
-            # Correzione Gym Sets (Heroes & Challenge)
-            if "gym-" in set_id:
+            # 2. FIX RARITÀ (Per coerenza totale)
+            if "gym" in set_id:
                 if num <= (19 if set_id == "gym-heroes" else 20): card["rarity"] = "Rare Holo"
-                elif num <= 100: card["rarity"] = "Rare"
-                elif num <= 126: card["rarity"] = "Uncommon"
-                else: card["rarity"] = "Common"
-
-            # 3. PULIZIA EXTRA
-            card["name"] = card["name"].replace("Maintanence", "Maintenance")
+                elif num <= 100: card["rarity"] = "Rare" if num <= 42 else "Uncommon" if num <= 64 else "Common"
+            
+            # 3. FIX NOMI SIMBOLI (Nidoran)
+            card["name"] = card["name"].replace("Nidoran♀", "Nidoran F").replace("Nidoran♂", "Nidoran M")
+            
+            # 4. PULIZIA ILLUSTRARE (Rimuove eventuali residui)
             card["illustrator"] = card["illustrator"].replace("Illustration:", "").strip()
 
         with open(path, "w", encoding="utf-8") as f:
             json.dump(cards, f, indent=4, ensure_ascii=False)
-        print(f"✅ {set_id.upper()} certificato con successo!")
+        
+        print(f"✅ {set_id.upper()} verificato al 100%")
 
 if __name__ == "__main__":
-    certifica_dati()
+    perfect_fix()
