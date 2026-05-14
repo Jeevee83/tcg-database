@@ -1,0 +1,832 @@
+[
+    {
+        "sku": "team-rocket-1-dark-alakazam",
+        "name": "Dark Alakazam",
+        "number": "1/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-1-dark-alakazam.png"
+    },
+    {
+        "sku": "team-rocket-2-dark-arbok",
+        "name": "Dark Arbok",
+        "number": "2/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-2-dark-arbok.png"
+    },
+    {
+        "sku": "team-rocket-3-dark-blastoise",
+        "name": "Dark Blastoise",
+        "number": "3/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-3-dark-blastoise.png"
+    },
+    {
+        "sku": "team-rocket-4-dark-charizard",
+        "name": "Dark Charizard",
+        "number": "4/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-4-dark-charizard.png"
+    },
+    {
+        "sku": "team-rocket-5-dark-dragonite",
+        "name": "Dark Dragonite",
+        "number": "5/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-5-dark-dragonite.png"
+    },
+    {
+        "sku": "team-rocket-6-dark-dugtrio",
+        "name": "Dark Dugtrio",
+        "number": "6/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-6-dark-dugtrio.png"
+    },
+    {
+        "sku": "team-rocket-7-dark-golbat",
+        "name": "Dark Golbat",
+        "number": "7/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-7-dark-golbat.png"
+    },
+    {
+        "sku": "team-rocket-8-dark-gyarados",
+        "name": "Dark Gyarados",
+        "number": "8/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-8-dark-gyarados.png"
+    },
+    {
+        "sku": "team-rocket-9-dark-hypno",
+        "name": "Dark Hypno",
+        "number": "9/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-9-dark-hypno.png"
+    },
+    {
+        "sku": "team-rocket-10-dark-machamp",
+        "name": "Dark Machamp",
+        "number": "10/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-10-dark-machamp.png"
+    },
+    {
+        "sku": "team-rocket-11-dark-magneton",
+        "name": "Dark Magneton",
+        "number": "11/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Miki Tanaka",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-11-dark-magneton.png"
+    },
+    {
+        "sku": "team-rocket-12-dark-slowbro",
+        "name": "Dark Slowbro",
+        "number": "12/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-12-dark-slowbro.png"
+    },
+    {
+        "sku": "team-rocket-13-dark-vileplume",
+        "name": "Dark Vileplume",
+        "number": "13/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-13-dark-vileplume.png"
+    },
+    {
+        "sku": "team-rocket-14-dark-weezing",
+        "name": "Dark Weezing",
+        "number": "14/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Shin-ichi Yoshida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-14-dark-weezing.png"
+    },
+    {
+        "sku": "team-rocket-15-here-comes-team-rocket",
+        "name": "Here Comes Team Rocket",
+        "number": "15/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-15-here-comes-team-rocket.png"
+    },
+    {
+        "sku": "team-rocket-16-rockets-sneak-attack",
+        "name": "Rocket's Sneak Attack",
+        "number": "16/83",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-16-rockets-sneak-attack.png"
+    },
+    {
+        "sku": "team-rocket-17-rainbow-energy",
+        "name": "Rainbow Energy",
+        "number": "17/83",
+        "category": "Energy",
+        "rarity": "Rare",
+        "hp": "N/A",
+        "illustrator": "Takumi Akabane",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-17-rainbow-energy.png"
+    },
+    {
+        "sku": "team-rocket-18-dark-alakazam",
+        "name": "Dark Alakazam",
+        "number": "18/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-18-dark-alakazam.png"
+    },
+    {
+        "sku": "team-rocket-19-dark-arbok",
+        "name": "Dark Arbok",
+        "number": "19/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-19-dark-arbok.png"
+    },
+    {
+        "sku": "team-rocket-20-dark-blastoise",
+        "name": "Dark Blastoise",
+        "number": "20/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-20-dark-blastoise.png"
+    },
+    {
+        "sku": "team-rocket-21-dark-charizard",
+        "name": "Dark Charizard",
+        "number": "21/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-21-dark-charizard.png"
+    },
+    {
+        "sku": "team-rocket-22-dark-dragonite",
+        "name": "Dark Dragonite",
+        "number": "22/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-22-dark-dragonite.png"
+    },
+    {
+        "sku": "team-rocket-23-dark-dugtrio",
+        "name": "Dark Dugtrio",
+        "number": "23/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-23-dark-dugtrio.png"
+    },
+    {
+        "sku": "team-rocket-24-dark-golbat",
+        "name": "Dark Golbat",
+        "number": "24/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-24-dark-golbat.png"
+    },
+    {
+        "sku": "team-rocket-25-dark-gyarados",
+        "name": "Dark Gyarados",
+        "number": "25/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-25-dark-gyarados.png"
+    },
+    {
+        "sku": "team-rocket-26-dark-hypno",
+        "name": "Dark Hypno",
+        "number": "26/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-26-dark-hypno.png"
+    },
+    {
+        "sku": "team-rocket-27-dark-machamp",
+        "name": "Dark Machamp",
+        "number": "27/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-27-dark-machamp.png"
+    },
+    {
+        "sku": "team-rocket-28-dark-magneton",
+        "name": "Dark Magneton",
+        "number": "28/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Miki Tanaka",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-28-dark-magneton.png"
+    },
+    {
+        "sku": "team-rocket-29-dark-slowbro",
+        "name": "Dark Slowbro",
+        "number": "29/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-29-dark-slowbro.png"
+    },
+    {
+        "sku": "team-rocket-30-dark-vileplume",
+        "name": "Dark Vileplume",
+        "number": "30/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-30-dark-vileplume.png"
+    },
+    {
+        "sku": "team-rocket-31-dark-weezing",
+        "name": "Dark Weezing",
+        "number": "31/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Shin-ichi Yoshida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-31-dark-weezing.png"
+    },
+    {
+        "sku": "team-rocket-32-dark-charmeleon",
+        "name": "Dark Charmeleon",
+        "number": "32/83",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-32-dark-charmeleon.png"
+    },
+    {
+        "sku": "team-rocket-33-dark-dragonair",
+        "name": "Dark Dragonair",
+        "number": "33/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-33-dark-dragonair.png"
+    },
+    {
+        "sku": "team-rocket-34-dark-electrode",
+        "name": "Dark Electrode",
+        "number": "34/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-34-dark-electrode.png"
+    },
+    {
+        "sku": "team-rocket-35-dark-flareon",
+        "name": "Dark Flareon",
+        "number": "35/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-35-dark-flareon.png"
+    },
+    {
+        "sku": "team-rocket-36-dark-gloom",
+        "name": "Dark Gloom",
+        "number": "36/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-36-dark-gloom.png"
+    },
+    {
+        "sku": "team-rocket-37-dark-golduck",
+        "name": "Dark Golduck",
+        "number": "37/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-37-dark-golduck.png"
+    },
+    {
+        "sku": "team-rocket-38-dark-jolteon",
+        "name": "Dark Jolteon",
+        "number": "38/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-38-dark-jolteon.png"
+    },
+    {
+        "sku": "team-rocket-39-dark-kadabra",
+        "name": "Dark Kadabra",
+        "number": "39/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-39-dark-kadabra.png"
+    },
+    {
+        "sku": "team-rocket-40-dark-machoke",
+        "name": "Dark Machoke",
+        "number": "40/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-40-dark-machoke.png"
+    },
+    {
+        "sku": "team-rocket-41-dark-muk",
+        "name": "Dark Muk",
+        "number": "41/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-41-dark-muk.png"
+    },
+    {
+        "sku": "team-rocket-42-dark-persian",
+        "name": "Dark Persian",
+        "number": "42/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Shin-ichi Yoshida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-42-dark-persian.png"
+    },
+    {
+        "sku": "team-rocket-43-dark-primeape",
+        "name": "Dark Primeape",
+        "number": "43/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-43-dark-primeape.png"
+    },
+    {
+        "sku": "team-rocket-44-dark-rapidash",
+        "name": "Dark Rapidash",
+        "number": "44/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-44-dark-rapidash.png"
+    },
+    {
+        "sku": "team-rocket-45-dark-vaporeon",
+        "name": "Dark Vaporeon",
+        "number": "45/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-45-dark-vaporeon.png"
+    },
+    {
+        "sku": "team-rocket-46-dark-wartortle",
+        "name": "Dark Wartortle",
+        "number": "46/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-46-dark-wartortle.png"
+    },
+    {
+        "sku": "team-rocket-47-magikarp",
+        "name": "Magikarp",
+        "number": "47/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-47-magikarp.png"
+    },
+    {
+        "sku": "team-rocket-48-porygon",
+        "name": "Porygon",
+        "number": "48/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-48-porygon.png"
+    },
+    {
+        "sku": "team-rocket-49-abra",
+        "name": "Abra",
+        "number": "49/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-49-abra.png"
+    },
+    {
+        "sku": "team-rocket-50-charmander",
+        "name": "Charmander",
+        "number": "50/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-50-charmander.png"
+    },
+    {
+        "sku": "team-rocket-51-dark-raticate",
+        "name": "Dark Raticate",
+        "number": "51/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Shin-ichi Yoshida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-51-dark-raticate.png"
+    },
+    {
+        "sku": "team-rocket-52-diglett",
+        "name": "Diglett",
+        "number": "52/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-52-diglett.png"
+    },
+    {
+        "sku": "team-rocket-53-dratini",
+        "name": "Dratini",
+        "number": "53/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-53-dratini.png"
+    },
+    {
+        "sku": "team-rocket-54-drowzee",
+        "name": "Drowzee",
+        "number": "54/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-54-drowzee.png"
+    },
+    {
+        "sku": "team-rocket-55-eevee",
+        "name": "Eevee",
+        "number": "55/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-55-eevee.png"
+    },
+    {
+        "sku": "team-rocket-56-ekans",
+        "name": "Ekans",
+        "number": "56/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-56-ekans.png"
+    },
+    {
+        "sku": "team-rocket-57-grimer",
+        "name": "Grimer",
+        "number": "57/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-57-grimer.png"
+    },
+    {
+        "sku": "team-rocket-58-koffing",
+        "name": "Koffing",
+        "number": "58/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-58-koffing.png"
+    },
+    {
+        "sku": "team-rocket-59-machop",
+        "name": "Machop",
+        "number": "59/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-59-machop.png"
+    },
+    {
+        "sku": "team-rocket-60-magnemite",
+        "name": "Magnemite",
+        "number": "60/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Miki Tanaka",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-60-magnemite.png"
+    },
+    {
+        "sku": "team-rocket-61-mankey",
+        "name": "Mankey",
+        "number": "61/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-61-mankey.png"
+    },
+    {
+        "sku": "team-rocket-62-meowth",
+        "name": "Meowth",
+        "number": "62/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-62-meowth.png"
+    },
+    {
+        "sku": "team-rocket-63-oddish",
+        "name": "Oddish",
+        "number": "63/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-63-oddish.png"
+    },
+    {
+        "sku": "team-rocket-64-ponyta",
+        "name": "Ponyta",
+        "number": "64/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-64-ponyta.png"
+    },
+    {
+        "sku": "team-rocket-65-psyduck",
+        "name": "Psyduck",
+        "number": "65/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-65-psyduck.png"
+    },
+    {
+        "sku": "team-rocket-66-rattata",
+        "name": "Rattata",
+        "number": "66/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-66-rattata.png"
+    },
+    {
+        "sku": "team-rocket-67-slowpoke",
+        "name": "Slowpoke",
+        "number": "67/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-67-slowpoke.png"
+    },
+    {
+        "sku": "team-rocket-68-squirtle",
+        "name": "Squirtle",
+        "number": "68/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-68-squirtle.png"
+    },
+    {
+        "sku": "team-rocket-69-voltorb",
+        "name": "Voltorb",
+        "number": "69/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-69-voltorb.png"
+    },
+    {
+        "sku": "team-rocket-70-zubat",
+        "name": "Zubat",
+        "number": "70/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-70-zubat.png"
+    },
+    {
+        "sku": "team-rocket-71-here-comes-team-rocket",
+        "name": "Here Comes Team Rocket",
+        "number": "71/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-71-here-comes-team-rocket.png"
+    },
+    {
+        "sku": "team-rocket-72-rockets-sneak-attack",
+        "name": "Rocket's Sneak Attack",
+        "number": "72/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-72-rockets-sneak-attack.png"
+    },
+    {
+        "sku": "team-rocket-73-the-bosss-way",
+        "name": "The Boss's Way",
+        "number": "73/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-73-the-bosss-way.png"
+    },
+    {
+        "sku": "team-rocket-74-challenge",
+        "name": "Challenge!",
+        "number": "74/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-74-challenge.png"
+    },
+    {
+        "sku": "team-rocket-75-digger",
+        "name": "Digger",
+        "number": "75/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-75-digger.png"
+    },
+    {
+        "sku": "team-rocket-76-imposter-oaks-revenge",
+        "name": "Imposter Oak's Revenge",
+        "number": "76/83",
+        "category": "Trainer",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-76-imposter-oaks-revenge.png"
+    },
+    {
+        "sku": "team-rocket-77-nightly-garbage-run",
+        "name": "Nightly Garbage Run",
+        "number": "77/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-77-nightly-garbage-run.png"
+    },
+    {
+        "sku": "team-rocket-78-goop-gas-attack",
+        "name": "Goop Gas Attack",
+        "number": "78/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-78-goop-gas-attack.png"
+    },
+    {
+        "sku": "team-rocket-79-sleep",
+        "name": "Sleep!",
+        "number": "79/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-79-sleep.png"
+    },
+    {
+        "sku": "team-rocket-80-rainbow-energy",
+        "name": "Rainbow Energy",
+        "number": "80/83",
+        "category": "Energy",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Takumi Akabane",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-80-rainbow-energy.png"
+    },
+    {
+        "sku": "team-rocket-81-full-heal-energy",
+        "name": "Full Heal Energy",
+        "number": "81/83",
+        "category": "Energy",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-81-full-heal-energy.png"
+    },
+    {
+        "sku": "team-rocket-82-potion-energy",
+        "name": "Potion Energy",
+        "number": "82/83",
+        "category": "Energy",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-82-potion-energy.png"
+    },
+    {
+        "sku": "team-rocket-83-dark-raichu",
+        "name": "Dark Raichu",
+        "number": "83/83",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-83-dark-raichu.png"
+    }
+]

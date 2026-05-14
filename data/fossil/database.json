@@ -1,0 +1,622 @@
+[
+    {
+        "sku": "fossil-1-aerodactyl",
+        "name": "Aerodactyl",
+        "number": "1/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-1-aerodactyl.png"
+    },
+    {
+        "sku": "fossil-2-articuno",
+        "name": "Articuno",
+        "number": "2/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-2-articuno.png"
+    },
+    {
+        "sku": "fossil-3-ditto",
+        "name": "Ditto",
+        "number": "3/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "50",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-3-ditto.png"
+    },
+    {
+        "sku": "fossil-4-dragonite",
+        "name": "Dragonite",
+        "number": "4/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "100",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-4-dragonite.png"
+    },
+    {
+        "sku": "fossil-5-gengar",
+        "name": "Gengar",
+        "number": "5/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-5-gengar.png"
+    },
+    {
+        "sku": "fossil-6-haunter",
+        "name": "Haunter",
+        "number": "6/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-6-haunter.png"
+    },
+    {
+        "sku": "fossil-7-hitmonlee",
+        "name": "Hitmonlee",
+        "number": "7/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-7-hitmonlee.png"
+    },
+    {
+        "sku": "fossil-8-hypno",
+        "name": "Hypno",
+        "number": "8/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-8-hypno.png"
+    },
+    {
+        "sku": "fossil-9-kabutops",
+        "name": "Kabutops",
+        "number": "9/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-9-kabutops.png"
+    },
+    {
+        "sku": "fossil-10-lapras",
+        "name": "Lapras",
+        "number": "10/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-10-lapras.png"
+    },
+    {
+        "sku": "fossil-11-magneton",
+        "name": "Magneton",
+        "number": "11/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-11-magneton.png"
+    },
+    {
+        "sku": "fossil-12-moltres",
+        "name": "Moltres",
+        "number": "12/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-12-moltres.png"
+    },
+    {
+        "sku": "fossil-13-muk",
+        "name": "Muk",
+        "number": "13/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-13-muk.png"
+    },
+    {
+        "sku": "fossil-14-raichu",
+        "name": "Raichu",
+        "number": "14/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-14-raichu.png"
+    },
+    {
+        "sku": "fossil-15-zapdos",
+        "name": "Zapdos",
+        "number": "15/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-15-zapdos.png"
+    },
+    {
+        "sku": "fossil-16-aerodactyl",
+        "name": "Aerodactyl",
+        "number": "16/62",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-16-aerodactyl.png"
+    },
+    {
+        "sku": "fossil-17-articuno",
+        "name": "Articuno",
+        "number": "17/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-17-articuno.png"
+    },
+    {
+        "sku": "fossil-18-ditto",
+        "name": "Ditto",
+        "number": "18/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "50",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-18-ditto.png"
+    },
+    {
+        "sku": "fossil-19-dragonite",
+        "name": "Dragonite",
+        "number": "19/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "100",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-19-dragonite.png"
+    },
+    {
+        "sku": "fossil-20-gengar",
+        "name": "Gengar",
+        "number": "20/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-20-gengar.png"
+    },
+    {
+        "sku": "fossil-21-haunter",
+        "name": "Haunter",
+        "number": "21/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-21-haunter.png"
+    },
+    {
+        "sku": "fossil-22-hitmonlee",
+        "name": "Hitmonlee",
+        "number": "22/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-22-hitmonlee.png"
+    },
+    {
+        "sku": "fossil-23-hypno",
+        "name": "Hypno",
+        "number": "23/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-23-hypno.png"
+    },
+    {
+        "sku": "fossil-24-kabutops",
+        "name": "Kabutops",
+        "number": "24/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-24-kabutops.png"
+    },
+    {
+        "sku": "fossil-25-lapras",
+        "name": "Lapras",
+        "number": "25/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-25-lapras.png"
+    },
+    {
+        "sku": "fossil-26-magneton",
+        "name": "Magneton",
+        "number": "26/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-26-magneton.png"
+    },
+    {
+        "sku": "fossil-27-moltres",
+        "name": "Moltres",
+        "number": "27/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-27-moltres.png"
+    },
+    {
+        "sku": "fossil-28-muk",
+        "name": "Muk",
+        "number": "28/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-28-muk.png"
+    },
+    {
+        "sku": "fossil-29-raichu",
+        "name": "Raichu",
+        "number": "29/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-29-raichu.png"
+    },
+    {
+        "sku": "fossil-30-zapdos",
+        "name": "Zapdos",
+        "number": "30/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-30-zapdos.png"
+    },
+    {
+        "sku": "fossil-31-arbok",
+        "name": "Arbok",
+        "number": "31/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-31-arbok.png"
+    },
+    {
+        "sku": "fossil-32-cloyster",
+        "name": "Cloyster",
+        "number": "32/62",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-32-cloyster.png"
+    },
+    {
+        "sku": "fossil-33-gastly",
+        "name": "Gastly",
+        "number": "33/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-33-gastly.png"
+    },
+    {
+        "sku": "fossil-34-golbat",
+        "name": "Golbat",
+        "number": "34/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-34-golbat.png"
+    },
+    {
+        "sku": "fossil-35-golduck",
+        "name": "Golduck",
+        "number": "35/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-35-golduck.png"
+    },
+    {
+        "sku": "fossil-36-golem",
+        "name": "Golem",
+        "number": "36/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-36-golem.png"
+    },
+    {
+        "sku": "fossil-37-graveler",
+        "name": "Graveler",
+        "number": "37/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-37-graveler.png"
+    },
+    {
+        "sku": "fossil-38-kingler",
+        "name": "Kingler",
+        "number": "38/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-38-kingler.png"
+    },
+    {
+        "sku": "fossil-39-magmar",
+        "name": "Magmar",
+        "number": "39/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-39-magmar.png"
+    },
+    {
+        "sku": "fossil-40-omastar",
+        "name": "Omastar",
+        "number": "40/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-40-omastar.png"
+    },
+    {
+        "sku": "fossil-41-sandslash",
+        "name": "Sandslash",
+        "number": "41/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-41-sandslash.png"
+    },
+    {
+        "sku": "fossil-42-seadra",
+        "name": "Seadra",
+        "number": "42/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-42-seadra.png"
+    },
+    {
+        "sku": "fossil-43-slowbro",
+        "name": "Slowbro",
+        "number": "43/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-43-slowbro.png"
+    },
+    {
+        "sku": "fossil-44-tentacruel",
+        "name": "Tentacruel",
+        "number": "44/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-44-tentacruel.png"
+    },
+    {
+        "sku": "fossil-45-weezing",
+        "name": "Weezing",
+        "number": "45/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-45-weezing.png"
+    },
+    {
+        "sku": "fossil-46-ekans",
+        "name": "Ekans",
+        "number": "46/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-46-ekans.png"
+    },
+    {
+        "sku": "fossil-47-geodude",
+        "name": "Geodude",
+        "number": "47/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-47-geodude.png"
+    },
+    {
+        "sku": "fossil-48-grimer",
+        "name": "Grimer",
+        "number": "48/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-48-grimer.png"
+    },
+    {
+        "sku": "fossil-49-horsea",
+        "name": "Horsea",
+        "number": "49/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-49-horsea.png"
+    },
+    {
+        "sku": "fossil-50-kabuto",
+        "name": "Kabuto",
+        "number": "50/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-50-kabuto.png"
+    },
+    {
+        "sku": "fossil-51-krabby",
+        "name": "Krabby",
+        "number": "51/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-51-krabby.png"
+    },
+    {
+        "sku": "fossil-52-omanyte",
+        "name": "Omanyte",
+        "number": "52/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-52-omanyte.png"
+    },
+    {
+        "sku": "fossil-53-psyduck",
+        "name": "Psyduck",
+        "number": "53/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-53-psyduck.png"
+    },
+    {
+        "sku": "fossil-54-shellder",
+        "name": "Shellder",
+        "number": "54/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-54-shellder.png"
+    },
+    {
+        "sku": "fossil-55-slowpoke",
+        "name": "Slowpoke",
+        "number": "55/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Miki Tanaka",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-55-slowpoke.png"
+    },
+    {
+        "sku": "fossil-56-tentacool",
+        "name": "Tentacool",
+        "number": "56/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-56-tentacool.png"
+    },
+    {
+        "sku": "fossil-57-zubat",
+        "name": "Zubat",
+        "number": "57/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-57-zubat.png"
+    },
+    {
+        "sku": "fossil-58-mr-fuji",
+        "name": "Mr. Fuji",
+        "number": "58/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-58-mr-fuji.png"
+    },
+    {
+        "sku": "fossil-59-energy-search",
+        "name": "Energy Search",
+        "number": "59/62",
+        "category": "Energy",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-59-energy-search.png"
+    },
+    {
+        "sku": "fossil-60-gambler",
+        "name": "Gambler",
+        "number": "60/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-60-gambler.png"
+    },
+    {
+        "sku": "fossil-61-recycle",
+        "name": "Recycle",
+        "number": "61/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-61-recycle.png"
+    },
+    {
+        "sku": "fossil-62-mysterious-fossil",
+        "name": "Mysterious Fossil",
+        "number": "62/62",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "10",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-62-mysterious-fossil.png"
+    }
+]

@@ -1,0 +1,1322 @@
+[
+    {
+        "sku": "gym-challenge-1-blaines-arcanine",
+        "name": "Blaine's Arcanine",
+        "number": "1/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-1-blaines-arcanine.png"
+    },
+    {
+        "sku": "gym-challenge-2-blaines-charizard",
+        "name": "Blaine's Charizard",
+        "number": "2/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-2-blaines-charizard.png"
+    },
+    {
+        "sku": "gym-challenge-3-brocks-ninetales",
+        "name": "Brock's Ninetales",
+        "number": "3/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-3-brocks-ninetales.png"
+    },
+    {
+        "sku": "gym-challenge-4-erikas-venusaur",
+        "name": "Erika's Venusaur",
+        "number": "4/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-4-erikas-venusaur.png"
+    },
+    {
+        "sku": "gym-challenge-5-giovannis-gyarados",
+        "name": "Giovanni's Gyarados",
+        "number": "5/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-5-giovannis-gyarados.png"
+    },
+    {
+        "sku": "gym-challenge-6-giovannis-machamp",
+        "name": "Giovanni's Machamp",
+        "number": "6/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-6-giovannis-machamp.png"
+    },
+    {
+        "sku": "gym-challenge-7-giovannis-nidoking",
+        "name": "Giovanni's Nidoking",
+        "number": "7/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "120",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-7-giovannis-nidoking.png"
+    },
+    {
+        "sku": "gym-challenge-8-giovannis-persian",
+        "name": "Giovanni's Persian",
+        "number": "8/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-8-giovannis-persian.png"
+    },
+    {
+        "sku": "gym-challenge-9-kogas-beedrill",
+        "name": "Koga's Beedrill",
+        "number": "9/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-9-kogas-beedrill.png"
+    },
+    {
+        "sku": "gym-challenge-10-kogas-ditto",
+        "name": "Koga's Ditto",
+        "number": "10/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-10-kogas-ditto.png"
+    },
+    {
+        "sku": "gym-challenge-11-lt-surges-raichu",
+        "name": "Lt. Surge's Raichu",
+        "number": "11/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-11-lt-surges-raichu.png"
+    },
+    {
+        "sku": "gym-challenge-12-mistys-golduck",
+        "name": "Misty's Golduck",
+        "number": "12/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-12-mistys-golduck.png"
+    },
+    {
+        "sku": "gym-challenge-13-mistys-gyarados",
+        "name": "Misty's Gyarados",
+        "number": "13/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-13-mistys-gyarados.png"
+    },
+    {
+        "sku": "gym-challenge-14-rockets-mewtwo",
+        "name": "Rocket's Mewtwo",
+        "number": "14/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Shin-ichi Yoshida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-14-rockets-mewtwo.png"
+    },
+    {
+        "sku": "gym-challenge-15-rockets-zapdos",
+        "name": "Rocket's Zapdos",
+        "number": "15/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Shin-ichi Yoshida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-15-rockets-zapdos.png"
+    },
+    {
+        "sku": "gym-challenge-16-sabrinas-alakazam",
+        "name": "Sabrina's Alakazam",
+        "number": "16/132",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-16-sabrinas-alakazam.png"
+    },
+    {
+        "sku": "gym-challenge-17-blaine",
+        "name": "Blaine",
+        "number": "17/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-17-blaine.png"
+    },
+    {
+        "sku": "gym-challenge-18-giovanni",
+        "name": "Giovanni",
+        "number": "18/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-18-giovanni.png"
+    },
+    {
+        "sku": "gym-challenge-19-koga",
+        "name": "Koga",
+        "number": "19/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-19-koga.png"
+    },
+    {
+        "sku": "gym-challenge-20-sabrina",
+        "name": "Sabrina",
+        "number": "20/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-20-sabrina.png"
+    },
+    {
+        "sku": "gym-challenge-21-blaines-ninetales",
+        "name": "Blaine's Ninetales",
+        "number": "21/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-21-blaines-ninetales.png"
+    },
+    {
+        "sku": "gym-challenge-22-brocks-dugtrio",
+        "name": "Brock's Dugtrio",
+        "number": "22/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-22-brocks-dugtrio.png"
+    },
+    {
+        "sku": "gym-challenge-23-giovannis-nidoqueen",
+        "name": "Giovanni's Nidoqueen",
+        "number": "23/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-23-giovannis-nidoqueen.png"
+    },
+    {
+        "sku": "gym-challenge-24-giovannis-pinsir",
+        "name": "Giovanni's Pinsir",
+        "number": "24/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-24-giovannis-pinsir.png"
+    },
+    {
+        "sku": "gym-challenge-25-kogas-arbok",
+        "name": "Koga's Arbok",
+        "number": "25/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-25-kogas-arbok.png"
+    },
+    {
+        "sku": "gym-challenge-26-kogas-muk",
+        "name": "Koga's Muk",
+        "number": "26/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-26-kogas-muk.png"
+    },
+    {
+        "sku": "gym-challenge-27-kogas-pidgeotto",
+        "name": "Koga's Pidgeotto",
+        "number": "27/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-27-kogas-pidgeotto.png"
+    },
+    {
+        "sku": "gym-challenge-28-lt-surges-jolteon",
+        "name": "Lt. Surge's Jolteon",
+        "number": "28/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-28-lt-surges-jolteon.png"
+    },
+    {
+        "sku": "gym-challenge-29-sabrinas-gengar",
+        "name": "Sabrina's Gengar",
+        "number": "29/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-29-sabrinas-gengar.png"
+    },
+    {
+        "sku": "gym-challenge-30-sabrinas-golduck",
+        "name": "Sabrina's Golduck",
+        "number": "30/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-30-sabrinas-golduck.png"
+    },
+    {
+        "sku": "gym-challenge-31-blaines-charmeleon",
+        "name": "Blaine's Charmeleon",
+        "number": "31/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-31-blaines-charmeleon.png"
+    },
+    {
+        "sku": "gym-challenge-32-blaines-dodrio",
+        "name": "Blaine's Dodrio",
+        "number": "32/132",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-32-blaines-dodrio.png"
+    },
+    {
+        "sku": "gym-challenge-33-blaines-rapidash",
+        "name": "Blaine's Rapidash",
+        "number": "33/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-33-blaines-rapidash.png"
+    },
+    {
+        "sku": "gym-challenge-34-brocks-graveler",
+        "name": "Brock's Graveler",
+        "number": "34/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-34-brocks-graveler.png"
+    },
+    {
+        "sku": "gym-challenge-35-brocks-primeape",
+        "name": "Brock's Primeape",
+        "number": "35/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-35-brocks-primeape.png"
+    },
+    {
+        "sku": "gym-challenge-36-brocks-sandslash",
+        "name": "Brock's Sandslash",
+        "number": "36/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-36-brocks-sandslash.png"
+    },
+    {
+        "sku": "gym-challenge-37-brocks-vulpix",
+        "name": "Brock's Vulpix",
+        "number": "37/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-37-brocks-vulpix.png"
+    },
+    {
+        "sku": "gym-challenge-38-erikas-bellsprout",
+        "name": "Erika's Bellsprout",
+        "number": "38/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-38-erikas-bellsprout.png"
+    },
+    {
+        "sku": "gym-challenge-39-erikas-bulbasaur",
+        "name": "Erika's Bulbasaur",
+        "number": "39/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-39-erikas-bulbasaur.png"
+    },
+    {
+        "sku": "gym-challenge-40-erikas-clefairy",
+        "name": "Erika's Clefairy",
+        "number": "40/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-40-erikas-clefairy.png"
+    },
+    {
+        "sku": "gym-challenge-41-erikas-ivysaur",
+        "name": "Erika's Ivysaur",
+        "number": "41/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-41-erikas-ivysaur.png"
+    },
+    {
+        "sku": "gym-challenge-42-giovannis-machoke",
+        "name": "Giovanni's Machoke",
+        "number": "42/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-42-giovannis-machoke.png"
+    },
+    {
+        "sku": "gym-challenge-43-giovannis-meowth",
+        "name": "Giovanni's Meowth",
+        "number": "43/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-43-giovannis-meowth.png"
+    },
+    {
+        "sku": "gym-challenge-44-giovannis-nidorina",
+        "name": "Giovanni's Nidorina",
+        "number": "44/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-44-giovannis-nidorina.png"
+    },
+    {
+        "sku": "gym-challenge-45-giovannis-nidorino",
+        "name": "Giovanni's Nidorino",
+        "number": "45/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-45-giovannis-nidorino.png"
+    },
+    {
+        "sku": "gym-challenge-46-kogas-golbat",
+        "name": "Koga's Golbat",
+        "number": "46/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-46-kogas-golbat.png"
+    },
+    {
+        "sku": "gym-challenge-47-kogas-kakuna",
+        "name": "Koga's Kakuna",
+        "number": "47/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-47-kogas-kakuna.png"
+    },
+    {
+        "sku": "gym-challenge-48-kogas-koffing",
+        "name": "Koga's Koffing",
+        "number": "48/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-48-kogas-koffing.png"
+    },
+    {
+        "sku": "gym-challenge-49-kogas-pidgey",
+        "name": "Koga's Pidgey",
+        "number": "49/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-49-kogas-pidgey.png"
+    },
+    {
+        "sku": "gym-challenge-50-kogas-weezing",
+        "name": "Koga's Weezing",
+        "number": "50/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-50-kogas-weezing.png"
+    },
+    {
+        "sku": "gym-challenge-51-lt-surges-eevee",
+        "name": "Lt. Surge's Eevee",
+        "number": "51/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-51-lt-surges-eevee.png"
+    },
+    {
+        "sku": "gym-challenge-52-lt-surges-electrode",
+        "name": "Lt. Surge's Electrode",
+        "number": "52/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-52-lt-surges-electrode.png"
+    },
+    {
+        "sku": "gym-challenge-53-lt-surges-raticate",
+        "name": "Lt. Surge's Raticate",
+        "number": "53/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-53-lt-surges-raticate.png"
+    },
+    {
+        "sku": "gym-challenge-54-mistys-dewgong",
+        "name": "Misty's Dewgong",
+        "number": "54/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-54-mistys-dewgong.png"
+    },
+    {
+        "sku": "gym-challenge-55-sabrinas-haunter",
+        "name": "Sabrina's Haunter",
+        "number": "55/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-55-sabrinas-haunter.png"
+    },
+    {
+        "sku": "gym-challenge-56-sabrinas-hypno",
+        "name": "Sabrina's Hypno",
+        "number": "56/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-56-sabrinas-hypno.png"
+    },
+    {
+        "sku": "gym-challenge-57-sabrinas-jynx",
+        "name": "Sabrina's Jynx",
+        "number": "57/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-57-sabrinas-jynx.png"
+    },
+    {
+        "sku": "gym-challenge-58-sabrinas-kadabra",
+        "name": "Sabrina's Kadabra",
+        "number": "58/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-58-sabrinas-kadabra.png"
+    },
+    {
+        "sku": "gym-challenge-59-sabrinas-mr-mime",
+        "name": "Sabrina's Mr. Mime",
+        "number": "59/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-59-sabrinas-mr-mime.png"
+    },
+    {
+        "sku": "gym-challenge-60-blaines-charmander",
+        "name": "Blaine's Charmander",
+        "number": "60/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-60-blaines-charmander.png"
+    },
+    {
+        "sku": "gym-challenge-61-blaines-doduo",
+        "name": "Blaine's Doduo",
+        "number": "61/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-61-blaines-doduo.png"
+    },
+    {
+        "sku": "gym-challenge-62-blaines-growlithe",
+        "name": "Blaine's Growlithe",
+        "number": "62/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-62-blaines-growlithe.png"
+    },
+    {
+        "sku": "gym-challenge-63-blaines-mankey",
+        "name": "Blaine's Mankey",
+        "number": "63/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-63-blaines-mankey.png"
+    },
+    {
+        "sku": "gym-challenge-64-blaines-ponyta",
+        "name": "Blaine's Ponyta",
+        "number": "64/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-64-blaines-ponyta.png"
+    },
+    {
+        "sku": "gym-challenge-65-blaines-rhyhorn",
+        "name": "Blaine's Rhyhorn",
+        "number": "65/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-65-blaines-rhyhorn.png"
+    },
+    {
+        "sku": "gym-challenge-66-blaines-vulpix",
+        "name": "Blaine's Vulpix",
+        "number": "66/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-66-blaines-vulpix.png"
+    },
+    {
+        "sku": "gym-challenge-67-brocks-diglett",
+        "name": "Brock's Diglett",
+        "number": "67/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-67-brocks-diglett.png"
+    },
+    {
+        "sku": "gym-challenge-68-brocks-geodude",
+        "name": "Brock's Geodude",
+        "number": "68/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-68-brocks-geodude.png"
+    },
+    {
+        "sku": "gym-challenge-69-erikas-jigglypuff",
+        "name": "Erika's Jigglypuff",
+        "number": "69/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-69-erikas-jigglypuff.png"
+    },
+    {
+        "sku": "gym-challenge-70-erikas-oddish",
+        "name": "Erika's Oddish",
+        "number": "70/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-70-erikas-oddish.png"
+    },
+    {
+        "sku": "gym-challenge-71-erikas-paras",
+        "name": "Erika's Paras",
+        "number": "71/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-71-erikas-paras.png"
+    },
+    {
+        "sku": "gym-challenge-72-giovannis-machop",
+        "name": "Giovanni's Machop",
+        "number": "72/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-72-giovannis-machop.png"
+    },
+    {
+        "sku": "gym-challenge-73-giovannis-magikarp",
+        "name": "Giovanni's Magikarp",
+        "number": "73/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-73-giovannis-magikarp.png"
+    },
+    {
+        "sku": "gym-challenge-74-giovannis-meowth",
+        "name": "Giovanni's Meowth",
+        "number": "74/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-74-giovannis-meowth.png"
+    },
+    {
+        "sku": "gym-challenge-75-giovannis-nidoranf",
+        "name": "Giovanni's Nidoran♀",
+        "number": "75/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-75-giovannis-nidoranf.png"
+    },
+    {
+        "sku": "gym-challenge-76-giovannis-nidoranm",
+        "name": "Giovanni's Nidoran♂",
+        "number": "76/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-76-giovannis-nidoranm.png"
+    },
+    {
+        "sku": "gym-challenge-77-kogas-ekans",
+        "name": "Koga's Ekans",
+        "number": "77/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-77-kogas-ekans.png"
+    },
+    {
+        "sku": "gym-challenge-78-kogas-grimer",
+        "name": "Koga's Grimer",
+        "number": "78/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-78-kogas-grimer.png"
+    },
+    {
+        "sku": "gym-challenge-79-kogas-koffing",
+        "name": "Koga's Koffing",
+        "number": "79/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-79-kogas-koffing.png"
+    },
+    {
+        "sku": "gym-challenge-80-kogas-pidgey",
+        "name": "Koga's Pidgey",
+        "number": "80/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-80-kogas-pidgey.png"
+    },
+    {
+        "sku": "gym-challenge-81-kogas-tangela",
+        "name": "Koga's Tangela",
+        "number": "81/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-81-kogas-tangela.png"
+    },
+    {
+        "sku": "gym-challenge-82-kogas-weedle",
+        "name": "Koga's Weedle",
+        "number": "82/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-82-kogas-weedle.png"
+    },
+    {
+        "sku": "gym-challenge-83-kogas-zubat",
+        "name": "Koga's Zubat",
+        "number": "83/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-83-kogas-zubat.png"
+    },
+    {
+        "sku": "gym-challenge-84-lt-surges-pikachu",
+        "name": "Lt. Surge's Pikachu",
+        "number": "84/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-84-lt-surges-pikachu.png"
+    },
+    {
+        "sku": "gym-challenge-85-lt-surges-rattata",
+        "name": "Lt. Surge's Rattata",
+        "number": "85/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-85-lt-surges-rattata.png"
+    },
+    {
+        "sku": "gym-challenge-86-lt-surges-voltorb",
+        "name": "Lt. Surge's Voltorb",
+        "number": "86/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-86-lt-surges-voltorb.png"
+    },
+    {
+        "sku": "gym-challenge-87-mistys-horsea",
+        "name": "Misty's Horsea",
+        "number": "87/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-87-mistys-horsea.png"
+    },
+    {
+        "sku": "gym-challenge-88-mistys-magikarp",
+        "name": "Misty's Magikarp",
+        "number": "88/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-88-mistys-magikarp.png"
+    },
+    {
+        "sku": "gym-challenge-89-mistys-poliwag",
+        "name": "Misty's Poliwag",
+        "number": "89/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-89-mistys-poliwag.png"
+    },
+    {
+        "sku": "gym-challenge-90-mistys-psyduck",
+        "name": "Misty's Psyduck",
+        "number": "90/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-90-mistys-psyduck.png"
+    },
+    {
+        "sku": "gym-challenge-91-mistys-seel",
+        "name": "Misty's Seel",
+        "number": "91/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-91-mistys-seel.png"
+    },
+    {
+        "sku": "gym-challenge-92-mistys-staryu",
+        "name": "Misty's Staryu",
+        "number": "92/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-92-mistys-staryu.png"
+    },
+    {
+        "sku": "gym-challenge-93-sabrinas-abra",
+        "name": "Sabrina's Abra",
+        "number": "93/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-93-sabrinas-abra.png"
+    },
+    {
+        "sku": "gym-challenge-94-sabrinas-abra",
+        "name": "Sabrina's Abra",
+        "number": "94/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-94-sabrinas-abra.png"
+    },
+    {
+        "sku": "gym-challenge-95-sabrinas-drowzee",
+        "name": "Sabrina's Drowzee",
+        "number": "95/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-95-sabrinas-drowzee.png"
+    },
+    {
+        "sku": "gym-challenge-96-sabrinas-gastly",
+        "name": "Sabrina's Gastly",
+        "number": "96/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "30",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-96-sabrinas-gastly.png"
+    },
+    {
+        "sku": "gym-challenge-97-sabrinas-gastly",
+        "name": "Sabrina's Gastly",
+        "number": "97/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Atsuko Nishida",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-97-sabrinas-gastly.png"
+    },
+    {
+        "sku": "gym-challenge-98-sabrinas-porygon",
+        "name": "Sabrina's Porygon",
+        "number": "98/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-98-sabrinas-porygon.png"
+    },
+    {
+        "sku": "gym-challenge-99-sabrinas-psyduck",
+        "name": "Sabrina's Psyduck",
+        "number": "99/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-99-sabrinas-psyduck.png"
+    },
+    {
+        "sku": "gym-challenge-100-blaine",
+        "name": "Blaine",
+        "number": "100/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-100-blaine.png"
+    },
+    {
+        "sku": "gym-challenge-101-brocks-protection",
+        "name": "Brock's Protection",
+        "number": "101/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-101-brocks-protection.png"
+    },
+    {
+        "sku": "gym-challenge-102-chaos-gym",
+        "name": "Chaos Gym",
+        "number": "102/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-102-chaos-gym.png"
+    },
+    {
+        "sku": "gym-challenge-103-erikas-kindness",
+        "name": "Erika's Kindness",
+        "number": "103/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-103-erikas-kindness.png"
+    },
+    {
+        "sku": "gym-challenge-104-giovanni",
+        "name": "Giovanni",
+        "number": "104/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-104-giovanni.png"
+    },
+    {
+        "sku": "gym-challenge-105-giovannis-last-resort",
+        "name": "Giovanni's Last Resort",
+        "number": "105/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-105-giovannis-last-resort.png"
+    },
+    {
+        "sku": "gym-challenge-106-koga",
+        "name": "Koga",
+        "number": "106/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-106-koga.png"
+    },
+    {
+        "sku": "gym-challenge-107-lt-surges-secret-plan",
+        "name": "Lt. Surge's Secret Plan",
+        "number": "107/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-107-lt-surges-secret-plan.png"
+    },
+    {
+        "sku": "gym-challenge-108-mistys-wish",
+        "name": "Misty's Wish",
+        "number": "108/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-108-mistys-wish.png"
+    },
+    {
+        "sku": "gym-challenge-109-resistance-gym",
+        "name": "Resistance Gym",
+        "number": "109/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-109-resistance-gym.png"
+    },
+    {
+        "sku": "gym-challenge-110-sabrina",
+        "name": "Sabrina",
+        "number": "110/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-110-sabrina.png"
+    },
+    {
+        "sku": "gym-challenge-111-blaines-quiz-2",
+        "name": "Blaine's Quiz #2",
+        "number": "111/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-111-blaines-quiz-2.png"
+    },
+    {
+        "sku": "gym-challenge-112-blaines-quiz-3",
+        "name": "Blaine's Quiz #3",
+        "number": "112/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-112-blaines-quiz-3.png"
+    },
+    {
+        "sku": "gym-challenge-113-cinnabar-city-gym",
+        "name": "Cinnabar City Gym",
+        "number": "113/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-113-cinnabar-city-gym.png"
+    },
+    {
+        "sku": "gym-challenge-114-fuchsia-city-gym",
+        "name": "Fuchsia City Gym",
+        "number": "114/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-114-fuchsia-city-gym.png"
+    },
+    {
+        "sku": "gym-challenge-115-kogas-ninja-trick",
+        "name": "Koga's Ninja Trick",
+        "number": "115/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Sumiyoshi Kizuki",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-115-kogas-ninja-trick.png"
+    },
+    {
+        "sku": "gym-challenge-116-master-ball",
+        "name": "Master Ball",
+        "number": "116/132",
+        "category": "Trainer",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-116-master-ball.png"
+    },
+    {
+        "sku": "gym-challenge-117-max-revive",
+        "name": "Max Revive",
+        "number": "117/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Hikaru Koike",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-117-max-revive.png"
+    },
+    {
+        "sku": "gym-challenge-118-mistys-tears",
+        "name": "Misty's Tears",
+        "number": "118/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-118-mistys-tears.png"
+    },
+    {
+        "sku": "gym-challenge-119-rockets-minefield-gym",
+        "name": "Rocket's Minefield Gym",
+        "number": "119/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-119-rockets-minefield-gym.png"
+    },
+    {
+        "sku": "gym-challenge-120-rockets-secret-experiment",
+        "name": "Rocket's Secret Experiment",
+        "number": "120/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-120-rockets-secret-experiment.png"
+    },
+    {
+        "sku": "gym-challenge-121-sabrinas-psychic-control",
+        "name": "Sabrina's Psychic Control",
+        "number": "121/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-121-sabrinas-psychic-control.png"
+    },
+    {
+        "sku": "gym-challenge-122-saffron-city-gym",
+        "name": "Saffron City Gym",
+        "number": "122/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-122-saffron-city-gym.png"
+    },
+    {
+        "sku": "gym-challenge-123-viridian-city-gym",
+        "name": "Viridian City Gym",
+        "number": "123/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-123-viridian-city-gym.png"
+    },
+    {
+        "sku": "gym-challenge-124-fervor",
+        "name": "Fervor",
+        "number": "124/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-124-fervor.png"
+    },
+    {
+        "sku": "gym-challenge-125-transparent-walls",
+        "name": "Transparent Walls",
+        "number": "125/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-125-transparent-walls.png"
+    },
+    {
+        "sku": "gym-challenge-126-warp-point",
+        "name": "Warp Point",
+        "number": "126/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-126-warp-point.png"
+    },
+    {
+        "sku": "gym-challenge-127-fighting",
+        "name": "Fighting",
+        "number": "127/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-127-fighting.png"
+    },
+    {
+        "sku": "gym-challenge-128-fire",
+        "name": "Fire",
+        "number": "128/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-128-fire.png"
+    },
+    {
+        "sku": "gym-challenge-129-grass",
+        "name": "Grass",
+        "number": "129/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-129-grass.png"
+    },
+    {
+        "sku": "gym-challenge-130-lightning",
+        "name": "Lightning",
+        "number": "130/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-130-lightning.png"
+    },
+    {
+        "sku": "gym-challenge-131-psychic",
+        "name": "Psychic",
+        "number": "131/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-131-psychic.png"
+    },
+    {
+        "sku": "gym-challenge-132-water",
+        "name": "Water",
+        "number": "132/132",
+        "category": "Pokémon",
+        "rarity": "N/A",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-132-water.png"
+    }
+]
