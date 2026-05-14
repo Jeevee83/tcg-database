@@ -9,13 +9,9 @@
     <style>
         [v-cloak] { display: none; }
         .modal-overlay { background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); }
-        
-        /* Custom thin scrollbar */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
-        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-
         .type-pill { padding: 2px 8px; border-radius: 4px; color: white; font-weight: 800; font-size: 10px; text-transform: uppercase; }
         .type-Fire { background: #ff4422; } .type-Water { background: #3399ff; } .type-Grass { background: #77cc55; }
         .type-Lightning { background: #ffcc33; color: #333; } .type-Psychic { background: #ff5599; }
@@ -28,8 +24,8 @@
         <!-- HEADER -->
         <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
             <div>
-                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">Cardex TCG</h1>
-                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic">Ultimate Management System by Jeevee83</p>
+                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none text-center md:text-left">Cardex TCG</h1>
+                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic text-center md:text-left">Ultimate Management System by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3">
                 <input v-model="searchQuery" type="text" placeholder="Search card, artist, attack..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
@@ -110,21 +106,14 @@
             </div>
         </div>
 
-        <!-- ENHANCED SCROLLABLE MODAL -->
+        <!-- DETAIL MODAL (THE POKEDEX) -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-10" @click.self="selectedCard = null">
             <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative">
-                
-                <!-- Fixed Close Button -->
                 <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-300 hover:text-slate-900 text-4xl transition">✕</button>
-
-                <!-- Left Column: Fixed Image -->
                 <div class="md:w-1/2 bg-slate-50 p-8 md:p-12 flex items-center justify-center border-r border-slate-100 h-64 md:h-auto">
                     <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_50px_rgba(0,0,0,0.2)] rounded-2xl">
                 </div>
-                
-                <!-- Right Column: Scrollable Content + Fixed Footer Button -->
                 <div class="md:w-1/2 flex flex-col bg-white">
-                    <!-- Scrollable Area -->
                     <div class="flex-grow overflow-y-auto p-8 md:p-12 pb-6">
                         <header class="mb-10">
                             <div class="flex items-center gap-4 mb-2">
@@ -134,16 +123,12 @@
                             <h3 class="text-4xl font-black uppercase tracking-tighter text-slate-900 leading-tight">{{ selectedCard.name }}</h3>
                             <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-600 font-black text-2xl tracking-tighter mt-1">{{ selectedCard.hp }} HP</p>
                         </header>
-
-                        <!-- Tech Grid -->
                         <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y-2 border-slate-50 py-8 mb-8">
                             <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
                                 <p class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-1">{{ label }}</p>
                                 <p class="font-black text-sm uppercase tracking-tight text-slate-700">{{ val }}</p>
                             </div>
                         </div>
-
-                        <!-- Attacks -->
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6 mb-6">
                             <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Attacks & Abilities</p>
                             <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-slate-50 p-6 rounded-3xl border border-slate-100">
@@ -157,8 +142,6 @@
                                 <p class="text-xs text-slate-500 leading-relaxed font-medium italic">{{ atk.text }}</p>
                             </div>
                         </div>
-
-                        <!-- Rules (Trainers) -->
                         <div v-if="selectedCard.rules && selectedCard.rules.length > 0" class="space-y-4 mb-6">
                             <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Card Text</p>
                             <div class="bg-slate-900 rounded-3xl p-6 text-white italic text-xs leading-relaxed font-medium">
@@ -166,8 +149,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Fixed Footer Button -->
                     <div class="p-8 pt-0 bg-white">
                         <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-base hover:bg-blue-700 shadow-2xl transition transform active:scale-95">Add to Export List</button>
                     </div>
@@ -216,26 +197,64 @@
                         const promises = this.availableSets.map(s => fetch(`https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${s.id}/database.json`).then(res => res.json()));
                         const results = await Promise.all(promises);
                         this.cards = results.flat();
-                    } catch (e) { console.error("Database Sync Failed", e); }
+                    } catch (e) { console.error("Sync Failed", e); }
                     finally { this.loading = false; }
                 },
                 getSetName(sku) { return this.availableSets.find(s => sku.startsWith(s.id))?.name || 'Set'; },
                 showDetails(card) { this.selectedCard = card; },
                 addToExport(card) { this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00 }); },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
-                clearQueue() { if(confirm("Clear current queue?")) this.exportList = []; },
+                clearQueue() { if(confirm("Clear all items?")) this.exportList = []; },
+                
+                // --- NUOVA FUNZIONE PER GENERARE L'HTML DEL PRODOTTO ---
+                generateProductHTML(item) {
+                    let html = `<h3>Technical Specifications</h3>`;
+                    html += `<table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">`;
+                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Set</td><td style="padding: 8px;">${this.getSetName(item.sku)}</td></tr>`;
+                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Number</td><td style="padding: 8px;">${item.number}</td></tr>`;
+                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Rarity</td><td style="padding: 8px;">${item.rarity}</td></tr>`;
+                    if(item.hp && item.hp !== 'N/A') html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">HP</td><td style="padding: 8px;">${item.hp}</td></tr>`;
+                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Illustrator</td><td style="padding: 8px;">${item.illustrator}</td></tr>`;
+                    html += `</table>`;
+
+                    if(item.attacks && item.attacks.length > 0) {
+                        html += `<h3>Attacks & Abilities</h3>`;
+                        item.attacks.forEach(atk => {
+                            html += `<div style="margin-bottom: 15px; border-left: 4px solid #2563eb; padding-left: 10px;">`;
+                            html += `<p><strong>${atk.name.toUpperCase()}</strong> (${atk.damage ? atk.damage : '0'} damage)</p>`;
+                            html += `<p style="font-style: italic; font-size: 0.9em;">${atk.text}</p>`;
+                            html += `</div>`;
+                        });
+                    }
+
+                    if(item.rules && item.rules.length > 0) {
+                        html += `<h3>Card Text</h3>`;
+                        item.rules.forEach(rule => {
+                            html += `<p style="font-style: italic;">${rule}</p>`;
+                        });
+                    }
+
+                    // Escaping per il CSV (doppie virgolette diventano quadruple o gestite dalla riga)
+                    return html.replace(/"/g, '""');
+                },
+
                 exportCSV() {
                     let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
-                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator}, ${item.selectedVariant}"`;
-                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
+                        const cleanIllus = item.illustrator.replace(/^Illus\.\s+/i, '');
+                        const tags = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
+                        
+                        // Generiamo il contenuto HTML
+                        const productBody = this.generateProductHTML(item);
+                        
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw",${tags},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_shopify_export.csv`;
+                    link.download = `cardex_full_export.csv`;
                     link.click();
                 }
             }
