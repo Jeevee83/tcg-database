@@ -7,7 +7,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-1-aerodactyl.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-1-aerodactyl.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-2-articuno",
@@ -17,7 +22,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-2-articuno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-2-articuno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-3-ditto",
@@ -27,7 +37,12 @@
         "rarity": "Rare Holo",
         "hp": "50",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-3-ditto.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-3-ditto.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-4-dragonite",
@@ -37,7 +52,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-4-dragonite.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-4-dragonite.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-5-gengar",
@@ -47,7 +67,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-5-gengar.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-5-gengar.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-6-haunter",
@@ -57,7 +82,12 @@
         "rarity": "Rare Holo",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-6-haunter.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-6-haunter.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-7-hitmonlee",
@@ -67,7 +97,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-7-hitmonlee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-7-hitmonlee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-8-hypno",
@@ -77,7 +112,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-8-hypno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-8-hypno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-9-kabutops",
@@ -87,7 +127,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-9-kabutops.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-9-kabutops.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-10-lapras",
@@ -97,7 +142,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-10-lapras.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-10-lapras.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-11-magneton",
@@ -107,7 +157,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-11-magneton.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-11-magneton.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-12-moltres",
@@ -117,7 +172,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-12-moltres.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-12-moltres.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-13-muk",
@@ -127,7 +187,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-13-muk.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-13-muk.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-14-raichu",
@@ -137,7 +202,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-14-raichu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-14-raichu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-15-zapdos",
@@ -147,7 +217,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-15-zapdos.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-15-zapdos.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-16-aerodactyl",
@@ -157,7 +232,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-16-aerodactyl.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-16-aerodactyl.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-17-articuno",
@@ -167,7 +247,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-17-articuno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-17-articuno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-18-ditto",
@@ -177,7 +262,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-18-ditto.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-18-ditto.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-19-dragonite",
@@ -187,7 +277,12 @@
         "rarity": "Rare",
         "hp": "100",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-19-dragonite.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-19-dragonite.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-20-gengar",
@@ -197,7 +292,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-20-gengar.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-20-gengar.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-21-haunter",
@@ -207,7 +307,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-21-haunter.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-21-haunter.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-22-hitmonlee",
@@ -217,7 +322,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-22-hitmonlee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-22-hitmonlee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-23-hypno",
@@ -227,7 +337,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-23-hypno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-23-hypno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-24-kabutops",
@@ -237,7 +352,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-24-kabutops.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-24-kabutops.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-25-lapras",
@@ -247,7 +367,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-25-lapras.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-25-lapras.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-26-magneton",
@@ -257,7 +382,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-26-magneton.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-26-magneton.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-27-moltres",
@@ -267,7 +397,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-27-moltres.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-27-moltres.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-28-muk",
@@ -277,7 +412,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-28-muk.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-28-muk.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-29-raichu",
@@ -287,7 +427,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-29-raichu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-29-raichu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-30-zapdos",
@@ -297,7 +442,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-30-zapdos.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-30-zapdos.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-31-arbok",
@@ -307,7 +457,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-31-arbok.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-31-arbok.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-32-cloyster",
@@ -317,7 +472,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-32-cloyster.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-32-cloyster.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-33-gastly",
@@ -327,7 +487,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-33-gastly.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-33-gastly.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-34-golbat",
@@ -337,7 +502,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-34-golbat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-34-golbat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-35-golduck",
@@ -347,7 +517,12 @@
         "rarity": "N/A",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-35-golduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-35-golduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-36-golem",
@@ -357,7 +532,12 @@
         "rarity": "N/A",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-36-golem.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-36-golem.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-37-graveler",
@@ -367,7 +547,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-37-graveler.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-37-graveler.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-38-kingler",
@@ -377,7 +562,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-38-kingler.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-38-kingler.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-39-magmar",
@@ -387,7 +577,12 @@
         "rarity": "N/A",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-39-magmar.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-39-magmar.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-40-omastar",
@@ -397,7 +592,12 @@
         "rarity": "N/A",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-40-omastar.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-40-omastar.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-41-sandslash",
@@ -407,7 +607,12 @@
         "rarity": "N/A",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-41-sandslash.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-41-sandslash.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-42-seadra",
@@ -417,7 +622,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-42-seadra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-42-seadra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-43-slowbro",
@@ -427,7 +637,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-43-slowbro.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-43-slowbro.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-44-tentacruel",
@@ -437,7 +652,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-44-tentacruel.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-44-tentacruel.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-45-weezing",
@@ -447,7 +667,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-45-weezing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-45-weezing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-46-ekans",
@@ -457,7 +682,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-46-ekans.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-46-ekans.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-47-geodude",
@@ -467,7 +697,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-47-geodude.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-47-geodude.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-48-grimer",
@@ -477,7 +712,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-48-grimer.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-48-grimer.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-49-horsea",
@@ -487,7 +727,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-49-horsea.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-49-horsea.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-50-kabuto",
@@ -497,7 +742,12 @@
         "rarity": "N/A",
         "hp": "30",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-50-kabuto.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-50-kabuto.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-51-krabby",
@@ -507,7 +757,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-51-krabby.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-51-krabby.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-52-omanyte",
@@ -517,7 +772,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-52-omanyte.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-52-omanyte.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-53-psyduck",
@@ -527,7 +787,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-53-psyduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-53-psyduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-54-shellder",
@@ -537,7 +802,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-54-shellder.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-54-shellder.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-55-slowpoke",
@@ -547,7 +817,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Miki Tanaka",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-55-slowpoke.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-55-slowpoke.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-56-tentacool",
@@ -557,7 +832,12 @@
         "rarity": "N/A",
         "hp": "30",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-56-tentacool.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-56-tentacool.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-57-zubat",
@@ -567,7 +847,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-57-zubat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-57-zubat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-58-mr-fuji",
@@ -577,7 +862,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-58-mr-fuji.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-58-mr-fuji.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-59-energy-search",
@@ -587,7 +877,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-59-energy-search.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-59-energy-search.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-60-gambler",
@@ -597,7 +892,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-60-gambler.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-60-gambler.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-61-recycle",
@@ -607,7 +907,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-61-recycle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-61-recycle.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "fossil-62-mysterious-fossil",
@@ -617,6 +922,11 @@
         "rarity": "N/A",
         "hp": "10",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-62-mysterious-fossil.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-62-mysterious-fossil.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     }
 ]

@@ -3,132 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardex TCG Database - Manager</title>
+    <title>Cardex TCG - Professional Manager</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>[v-cloak] { display: none; }</style>
+    <style>
+        [v-cloak] { display: none; }
+        .modal-overlay { background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); }
+    </style>
 </head>
 <body class="bg-gray-100 font-sans text-gray-900">
     <div id="app" v-cloak class="max-w-7xl mx-auto p-4 md:p-6">
         
         <!-- HEADER -->
-        <header class="flex flex-col md:flex-row justify-between items-center mb-6 bg-white p-6 rounded-2xl shadow-sm gap-6 border-b-4 border-blue-600">
-            <div class="text-center md:text-left">
-                <h1 class="text-4xl font-black text-gray-900 tracking-tighter uppercase font-serif">Cardex TCG</h1>
-                <h2 class="text-lg font-bold text-blue-600 leading-tight uppercase tracking-tight">Global Search & Shopify Export</h2>
-                <p class="text-[10px] text-gray-400 font-medium tracking-widest mt-1 uppercase">Database System by Jeevee83</p>
+        <header class="flex flex-col md:flex-row justify-between items-center mb-6 bg-white p-6 rounded-3xl shadow-sm gap-6 border-b-8 border-blue-600">
+            <div>
+                <h1 class="text-4xl font-black text-gray-900 tracking-tighter uppercase">Cardex TCG</h1>
+                <p class="text-xs font-bold text-blue-600 tracking-widest uppercase">Global Management System</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-                <!-- Search -->
-                <div class="relative flex-grow">
-                    <input v-model="searchQuery" type="text" placeholder="Search Pokemon or Artist..." class="w-full md:w-72 border-2 border-gray-100 p-3 rounded-xl shadow-inner focus:border-blue-400 outline-none transition pl-10 text-sm font-bold">
-                    <svg class="w-5 h-5 absolute left-3 top-3.5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                </div>
-                <!-- Set Selector -->
-                <select v-model="selectedSet" class="border-2 border-gray-100 p-3 rounded-xl bg-white shadow-inner font-black text-gray-600 cursor-pointer focus:border-blue-400 outline-none text-sm">
+                <input v-model="searchQuery" type="text" placeholder="Search card or artist..." class="w-full md:w-72 border-2 border-gray-100 p-3 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold">
+                <select v-model="selectedSet" class="border-2 border-gray-100 p-3 rounded-2xl bg-white font-black text-gray-600 cursor-pointer outline-none">
                     <option value="all">🌍 All Sets</option>
                     <option v-for="set in availableSets" :key="set.id" :value="set.id">{{ set.name }}</option>
                 </select>
             </div>
         </header>
 
-        <!-- GLOBAL FILTERS -->
-        <div class="flex flex-wrap gap-2 mb-8 items-center">
-            <span class="text-[10px] font-black uppercase text-gray-400 mr-2">Filter by Type:</span>
+        <!-- FILTERS -->
+        <div class="flex flex-wrap gap-2 mb-8">
             <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
                     @click="activeCategory = cat"
-                    :class="['px-6 py-2 rounded-full font-black text-xs uppercase tracking-widest transition-all shadow-sm border-2', 
-                    activeCategory === cat ? 'bg-blue-600 border-blue-600 text-white scale-105' : 'bg-white border-white text-gray-400 hover:border-blue-200']">
+                    :class="['px-6 py-2 rounded-full font-black text-xs uppercase transition-all border-2', 
+                    activeCategory === cat ? 'bg-blue-600 border-blue-600 text-white shadow-lg' : 'bg-white border-white text-gray-400']">
                 {{ cat }}
             </button>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <!-- Card Grid -->
+            <!-- Main Grid -->
             <div class="lg:col-span-2">
-                <div v-if="loading" class="text-center py-20">
-                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-blue-600 border-t-transparent"></div>
-                    <p class="mt-4 font-black text-gray-300 uppercase tracking-widest italic">Syncing Global Database...</p>
-                </div>
-                <div v-else>
-                    <div class="mb-4 text-xs font-bold text-gray-400 uppercase tracking-widest">
-                        Found {{ filteredCards.length }} cards matching your criteria
-                    </div>
-                    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-                        <div v-for="card in filteredCards" :key="card.sku" 
-                             class="bg-white p-3 rounded-2xl shadow hover:shadow-2xl transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-blue-500 group relative"
-                             @click="addToExport(card)">
-                            
-                            <div class="relative overflow-hidden rounded-xl mb-3 aspect-[3/4] bg-gray-50 border border-gray-100">
-                                <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-105 transition duration-500" loading="lazy">
-                                <!-- Set Label on image -->
-                                <div class="absolute top-2 left-2 bg-black/70 text-white text-[7px] font-black px-2 py-0.5 rounded uppercase tracking-tighter">
-                                    {{ getSetName(card.sku) }}
-                                </div>
-                            </div>
+                <div v-if="loading" class="text-center py-20 animate-pulse font-black text-gray-300 uppercase tracking-widest">Loading Database...</div>
+                <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+                    <div v-for="card in filteredCards" :key="card.sku" 
+                         class="bg-white p-4 rounded-3xl shadow-sm hover:shadow-2xl transition-all border-2 border-transparent hover:border-blue-500 group">
+                        
+                        <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[3/4] bg-gray-50 border border-gray-100">
+                            <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-105 transition duration-500">
+                        </div>
 
-                            <div class="px-1 text-center">
-                                <div class="flex justify-between items-center mb-1">
-                                    <span class="text-[9px] font-black text-gray-300">{{ card.number }}</span>
-                                    <span class="text-[8px] bg-blue-50 text-blue-500 px-2 py-0.5 rounded-full font-black uppercase tracking-tighter">{{ card.category }}</span>
-                                </div>
-                                <p class="font-black text-xs truncate text-gray-800 uppercase tracking-tighter mb-0.5">{{ card.name }}</p>
-                                <p class="text-[9px] text-gray-400 font-bold italic truncate">{{ card.illustrator }}</p>
-                                <p class="text-[9px] text-blue-400 font-black uppercase mt-1">{{ card.rarity }}</p>
+                        <div class="space-y-1 mb-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[9px] font-black text-gray-300">{{ card.number }}</span>
+                                <span class="text-[8px] bg-blue-50 text-blue-500 px-2 py-0.5 rounded-full font-black uppercase">{{ card.category }}</span>
                             </div>
-                            <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl flex items-center justify-center text-center p-4">
-                                <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[10px] font-black shadow-xl translate-y-4 group-hover:translate-y-0 transition-transform tracking-widest uppercase">Add to Queue</span>
-                            </div>
+                            <p class="font-black text-xs truncate text-gray-800 uppercase tracking-tighter">{{ card.name }}</p>
+                            <p class="text-[10px] text-blue-500 font-bold italic">{{ card.rarity }}</p>
+                        </div>
+                        
+                        <!-- Actions -->
+                        <div class="grid grid-cols-2 gap-2">
+                            <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2 rounded-xl hover:bg-blue-700 transition uppercase">Add</button>
+                            <button @click="showDetails(card)" class="bg-gray-100 text-gray-600 text-[9px] font-black py-2 rounded-xl hover:bg-gray-200 transition uppercase">Details</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Export List (Stays Persistent) -->
+            <!-- Export Queue -->
             <div class="bg-white p-6 rounded-3xl shadow-xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-gray-100">
                 <div class="flex justify-between items-start mb-6">
-                    <div>
-                        <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue</h2>
-                        <div class="flex gap-2 items-center mt-1">
-                            <p class="text-[10px] font-black text-blue-500 uppercase tracking-widest">{{ exportList.length }} items</p>
-                            <button v-if="exportList.length > 0" @click="clearQueue" class="text-[9px] font-black text-red-400 hover:text-red-600 uppercase underline transition">Clear All</button>
-                        </div>
-                    </div>
-                    <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition active:scale-95 disabled:opacity-20 disabled:grayscale" :disabled="exportList.length === 0">
-                        GET CSV
-                    </button>
+                    <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue ({{ exportList.length }})</h2>
+                    <button @click="exportCSV" class="bg-green-600 text-white px-4 py-2 rounded-xl font-black text-xs shadow-lg hover:bg-green-700 transition" :disabled="exportList.length === 0">CSV</button>
                 </div>
-
                 <div class="space-y-3 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-4 rounded-2xl border border-gray-200 relative group animate-in slide-in-from-right duration-300">
-                        <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-gray-300 hover:text-red-500 transition">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path d="M6 18L18 6M6 6l12 12" /></svg>
-                        </button>
-                        
-                        <p class="font-black text-[11px] text-blue-900 mb-1 uppercase tracking-tight">{{ item.name }}</p>
-                        <p class="text-[8px] font-bold text-gray-400 uppercase mb-3">{{ getSetName(item.sku) }} #{{ item.number }}</p>
-                        
-                        <div class="space-y-3">
-                            <div>
-                                <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Edition</label>
-                                <select v-model="item.selectedVariant" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-xl bg-white font-bold text-blue-600 outline-none">
-                                    <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
-                                </select>
-                            </div>
-                            <div class="grid grid-cols-2 gap-3">
-                                <div>
-                                    <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Condition</label>
-                                    <select v-model="item.selectedCondition" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-xl bg-white font-bold outline-none">
-                                        <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label class="text-[9px] font-black text-gray-400 uppercase block mb-1">Price (CHF)</label>
-                                    <input v-model="item.price" type="number" step="0.01" class="w-full border-2 border-gray-200 p-2 text-[10px] rounded-xl bg-white font-black text-green-700 outline-none">
-                                </div>
-                            </div>
+                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-4 rounded-2xl relative">
+                        <button @click="removeFromExport(index)" class="absolute top-2 right-2 text-red-300 hover:text-red-500">✕</button>
+                        <p class="font-black text-[10px] uppercase text-blue-900">{{ item.name }}</p>
+                        <div class="grid grid-cols-2 gap-2 mt-2">
+                            <select v-model="item.selectedVariant" class="text-[9px] p-1 rounded border font-bold"><option>Unlimited</option><option>1st Edition</option><option>Shadowless</option></select>
+                            <input v-model="item.price" type="number" class="text-[9px] p-1 rounded border font-bold">
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DETAIL MODAL -->
+        <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4" @click.self="selectedCard = null">
+            <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl animate-in fade-in zoom-in duration-300">
+                <!-- Image Side -->
+                <div class="md:w-1/2 bg-gray-50 p-8 flex items-center justify-center">
+                    <img :src="selectedCard.image_url" class="max-h-full drop-shadow-2xl rounded-xl">
+                </div>
+                <!-- Data Side -->
+                <div class="md:w-1/2 p-8 overflow-y-auto relative">
+                    <button @click="selectedCard = null" class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl">✕</button>
+                    
+                    <div class="mb-6">
+                        <h3 class="text-3xl font-black uppercase tracking-tighter">{{ selectedCard.name }}</h3>
+                        <div class="flex gap-2 items-center mt-2">
+                            <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-[10px] font-black uppercase">{{ selectedCard.category }}</span>
+                            <span class="text-gray-400 font-bold text-sm">#{{ selectedCard.number }}</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6 border-y py-6 border-gray-100 mb-6">
+                        <div>
+                            <p class="text-[10px] font-black text-gray-400 uppercase">Rarity</p>
+                            <p class="font-bold text-blue-600">{{ selectedCard.rarity }}</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-black text-gray-400 uppercase">HP</p>
+                            <p class="font-bold">{{ selectedCard.hp }}</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-black text-gray-400 uppercase">Illustrator</p>
+                            <p class="font-bold">{{ selectedCard.illustrator }}</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-black text-gray-400 uppercase">Weakness</p>
+                            <p class="font-bold text-red-500">{{ selectedCard.weakness }}</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue-50 p-6 rounded-2xl">
+                        <p class="text-[10px] font-black text-blue-400 uppercase mb-2">Technical Info</p>
+                        <p class="text-sm text-blue-800 leading-relaxed italic">Detailed card mechanics and attack descriptions will be populated in the next data sync.</p>
+                    </div>
+
+                    <button @click="addToExport(selectedCard); selectedCard = null" class="w-full mt-8 bg-blue-600 text-white py-4 rounded-2xl font-black uppercase tracking-widest hover:bg-blue-700 transition">Add to Export Queue</button>
                 </div>
             </div>
         </div>
@@ -139,7 +142,6 @@
         createApp({
             data() {
                 return {
-                    // CONFIG: Add new sets here
                     availableSets: [
                         { id: 'base-set', name: 'Base Set', vendor: 'Wizards of the Coast' },
                         { id: 'jungle', name: 'Jungle', vendor: 'Wizards of the Coast' },
@@ -153,20 +155,18 @@
                     searchQuery: '',
                     selectedSet: 'all',
                     activeCategory: 'All',
-                    loading: true
+                    loading: true,
+                    selectedCard: null
                 }
             },
             watch: {
-                exportList: {
-                    handler(newList) { localStorage.setItem('cardex_export_queue', JSON.stringify(newList)); },
-                    deep: true
-                }
+                exportList: { handler(newList) { localStorage.setItem('cardex_export_queue', JSON.stringify(newList)); }, deep: true }
             },
             computed: {
                 filteredCards() {
                     return this.cards.filter(c => {
-                        const matchesSearch = c.name.toLowerCase().includes(this.searchQuery.toLowerCase()) || 
-                                              c.illustrator.toLowerCase().includes(this.searchQuery.toLowerCase());
+                        const s = this.searchQuery.toLowerCase();
+                        const matchesSearch = c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s);
                         const matchesCategory = this.activeCategory === 'All' || c.category === this.activeCategory;
                         const matchesSet = this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet);
                         return matchesSearch && matchesCategory && matchesSet;
@@ -175,68 +175,36 @@
             },
             mounted() { 
                 this.loadAllData();
-                const savedQueue = localStorage.getItem('cardex_export_queue');
-                if (savedQueue) this.exportList = JSON.parse(savedQueue);
+                const saved = localStorage.getItem('cardex_export_queue');
+                if (saved) this.exportList = JSON.parse(saved);
             },
             methods: {
                 async loadAllData() {
                     this.loading = true;
-                    this.cards = [];
-                    
-                    // Creates an array of fetch promises for each set
-                    const fetchPromises = this.availableSets.map(set => 
-                        fetch(`https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${set.id}/database.json`)
-                        .then(res => res.json())
-                        .catch(err => {
-                            console.error(`Error loading ${set.id}`, err);
-                            return [];
-                        })
+                    const promises = this.availableSets.map(s => 
+                        fetch(`https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${s.id}/database.json`).then(res => res.json())
                     );
-
-                    try {
-                        const results = await Promise.all(fetchPromises);
-                        // Merge all results into a single list
-                        this.cards = results.flat();
-                    } catch (error) {
-                        alert("Error loading databases");
-                    } finally {
-                        this.loading = false;
-                    }
+                    const results = await Promise.all(promises);
+                    this.cards = results.flat();
+                    this.loading = false;
                 },
-                getSetName(sku) {
-                    const setInfo = this.availableSets.find(s => sku.startsWith(s.id));
-                    return setInfo ? setInfo.name : 'Unknown Set';
-                },
-                addToExport(card) {
-                    this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00 });
-                },
+                showDetails(card) { this.selectedCard = card; },
+                addToExport(card) { this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00 }); },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
-                clearQueue() { if(confirm("Clear all items?")) this.exportList = []; },
+                clearQueue() { if(confirm("Clear all?")) this.exportList = []; },
                 exportCSV() {
                     let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
-                    
                     this.exportList.forEach(item => {
-                        const setInfo = this.availableSets.find(s => item.sku.startsWith(s.id));
-                        const vendor = setInfo ? setInfo.vendor : "The Pokémon Company";
-                        const setName = setInfo ? setInfo.name : "Pokemon";
-
-                        const varClean = item.selectedVariant.toLowerCase().replace(/\s+/g, '-');
-                        const condClean = item.selectedCondition.toLowerCase().replace(/\s+/g, '-');
-                        const handle = `${item.sku}-${varClean}-${condClean}`;
-                        const title = `Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]`;
-                        const cleanIllus = item.illustrator.replace(/^Illus\.\s+/i, '');
-
-                        const tags = `"Pokemon, ${item.category}, ${setName}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
-                        
-                        csv += `"${handle}","${title}","","${vendor}","Single Card Raw",${tags},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${handle}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
+                        const set = this.availableSets.find(s => item.sku.startsWith(s.id));
+                        const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
+                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator}, ${item.selectedVariant}"`;
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant})","","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
-                    
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-                    const link = document.body.appendChild(document.createElement("a"));
+                    const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_global_export.csv`;
+                    link.download = `cardex_export.csv`;
                     link.click();
-                    document.body.removeChild(link);
                 }
             }
         }).mount('#app');

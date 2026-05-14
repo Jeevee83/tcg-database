@@ -7,7 +7,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-1-dark-alakazam.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-1-dark-alakazam.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-2-dark-arbok",
@@ -17,7 +22,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-2-dark-arbok.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-2-dark-arbok.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-3-dark-blastoise",
@@ -27,7 +37,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-3-dark-blastoise.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-3-dark-blastoise.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-4-dark-charizard",
@@ -37,7 +52,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-4-dark-charizard.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-4-dark-charizard.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-5-dark-dragonite",
@@ -47,7 +67,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-5-dark-dragonite.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-5-dark-dragonite.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-6-dark-dugtrio",
@@ -57,7 +82,12 @@
         "rarity": "Rare Holo",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-6-dark-dugtrio.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-6-dark-dugtrio.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-7-dark-golbat",
@@ -67,7 +97,12 @@
         "rarity": "Rare Holo",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-7-dark-golbat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-7-dark-golbat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-8-dark-gyarados",
@@ -77,7 +112,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-8-dark-gyarados.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-8-dark-gyarados.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-9-dark-hypno",
@@ -87,7 +127,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-9-dark-hypno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-9-dark-hypno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-10-dark-machamp",
@@ -97,7 +142,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-10-dark-machamp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-10-dark-machamp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-11-dark-magneton",
@@ -107,7 +157,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Miki Tanaka",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-11-dark-magneton.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-11-dark-magneton.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-12-dark-slowbro",
@@ -117,7 +172,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-12-dark-slowbro.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-12-dark-slowbro.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-13-dark-vileplume",
@@ -127,7 +187,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-13-dark-vileplume.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-13-dark-vileplume.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-14-dark-weezing",
@@ -137,7 +202,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Shin-ichi Yoshida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-14-dark-weezing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-14-dark-weezing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-15-here-comes-team-rocket",
@@ -147,7 +217,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-15-here-comes-team-rocket.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-15-here-comes-team-rocket.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-16-rockets-sneak-attack",
@@ -157,7 +232,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-16-rockets-sneak-attack.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-16-rockets-sneak-attack.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-17-rainbow-energy",
@@ -167,7 +247,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Takumi Akabane",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-17-rainbow-energy.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-17-rainbow-energy.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-18-dark-alakazam",
@@ -177,7 +262,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-18-dark-alakazam.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-18-dark-alakazam.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-19-dark-arbok",
@@ -187,7 +277,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-19-dark-arbok.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-19-dark-arbok.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-20-dark-blastoise",
@@ -197,7 +292,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-20-dark-blastoise.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-20-dark-blastoise.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-21-dark-charizard",
@@ -207,7 +307,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-21-dark-charizard.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-21-dark-charizard.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-22-dark-dragonite",
@@ -217,7 +322,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-22-dark-dragonite.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-22-dark-dragonite.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-23-dark-dugtrio",
@@ -227,7 +337,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-23-dark-dugtrio.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-23-dark-dugtrio.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-24-dark-golbat",
@@ -237,7 +352,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-24-dark-golbat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-24-dark-golbat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-25-dark-gyarados",
@@ -247,7 +367,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-25-dark-gyarados.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-25-dark-gyarados.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-26-dark-hypno",
@@ -257,7 +382,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-26-dark-hypno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-26-dark-hypno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-27-dark-machamp",
@@ -267,7 +397,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-27-dark-machamp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-27-dark-machamp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-28-dark-magneton",
@@ -277,7 +412,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Miki Tanaka",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-28-dark-magneton.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-28-dark-magneton.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-29-dark-slowbro",
@@ -287,7 +427,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-29-dark-slowbro.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-29-dark-slowbro.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-30-dark-vileplume",
@@ -297,7 +442,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-30-dark-vileplume.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-30-dark-vileplume.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-31-dark-weezing",
@@ -307,7 +457,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Shin-ichi Yoshida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-31-dark-weezing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-31-dark-weezing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-32-dark-charmeleon",
@@ -317,7 +472,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-32-dark-charmeleon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-32-dark-charmeleon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-33-dark-dragonair",
@@ -327,7 +487,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-33-dark-dragonair.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-33-dark-dragonair.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-34-dark-electrode",
@@ -337,7 +502,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-34-dark-electrode.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-34-dark-electrode.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-35-dark-flareon",
@@ -347,7 +517,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-35-dark-flareon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-35-dark-flareon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-36-dark-gloom",
@@ -357,7 +532,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-36-dark-gloom.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-36-dark-gloom.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-37-dark-golduck",
@@ -367,7 +547,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-37-dark-golduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-37-dark-golduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-38-dark-jolteon",
@@ -377,7 +562,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-38-dark-jolteon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-38-dark-jolteon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-39-dark-kadabra",
@@ -387,7 +577,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-39-dark-kadabra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-39-dark-kadabra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-40-dark-machoke",
@@ -397,7 +592,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-40-dark-machoke.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-40-dark-machoke.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-41-dark-muk",
@@ -407,7 +607,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-41-dark-muk.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-41-dark-muk.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-42-dark-persian",
@@ -417,7 +622,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Shin-ichi Yoshida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-42-dark-persian.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-42-dark-persian.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-43-dark-primeape",
@@ -427,7 +637,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-43-dark-primeape.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-43-dark-primeape.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-44-dark-rapidash",
@@ -437,7 +652,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-44-dark-rapidash.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-44-dark-rapidash.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-45-dark-vaporeon",
@@ -447,7 +667,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-45-dark-vaporeon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-45-dark-vaporeon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-46-dark-wartortle",
@@ -457,7 +682,12 @@
         "rarity": "N/A",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-46-dark-wartortle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-46-dark-wartortle.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-47-magikarp",
@@ -467,7 +697,12 @@
         "rarity": "N/A",
         "hp": "30",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-47-magikarp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-47-magikarp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-48-porygon",
@@ -477,7 +712,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-48-porygon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-48-porygon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-49-abra",
@@ -487,7 +727,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-49-abra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-49-abra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-50-charmander",
@@ -497,7 +742,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-50-charmander.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-50-charmander.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-51-dark-raticate",
@@ -507,7 +757,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Shin-ichi Yoshida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-51-dark-raticate.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-51-dark-raticate.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-52-diglett",
@@ -517,7 +772,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-52-diglett.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-52-diglett.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-53-dratini",
@@ -527,7 +787,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-53-dratini.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-53-dratini.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-54-drowzee",
@@ -537,7 +802,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-54-drowzee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-54-drowzee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-55-eevee",
@@ -547,7 +817,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-55-eevee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-55-eevee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-56-ekans",
@@ -557,7 +832,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-56-ekans.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-56-ekans.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-57-grimer",
@@ -567,7 +847,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-57-grimer.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-57-grimer.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-58-koffing",
@@ -577,7 +862,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-58-koffing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-58-koffing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-59-machop",
@@ -587,7 +877,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-59-machop.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-59-machop.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-60-magnemite",
@@ -597,7 +892,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Miki Tanaka",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-60-magnemite.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-60-magnemite.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-61-mankey",
@@ -607,7 +907,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-61-mankey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-61-mankey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-62-meowth",
@@ -617,7 +922,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-62-meowth.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-62-meowth.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-63-oddish",
@@ -627,7 +937,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-63-oddish.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-63-oddish.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-64-ponyta",
@@ -637,7 +952,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-64-ponyta.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-64-ponyta.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-65-psyduck",
@@ -647,7 +967,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-65-psyduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-65-psyduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-66-rattata",
@@ -657,7 +982,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-66-rattata.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-66-rattata.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-67-slowpoke",
@@ -667,7 +997,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-67-slowpoke.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-67-slowpoke.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-68-squirtle",
@@ -677,7 +1012,12 @@
         "rarity": "N/A",
         "hp": "50",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-68-squirtle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-68-squirtle.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-69-voltorb",
@@ -687,7 +1027,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-69-voltorb.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-69-voltorb.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-70-zubat",
@@ -697,7 +1042,12 @@
         "rarity": "N/A",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-70-zubat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-70-zubat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-71-here-comes-team-rocket",
@@ -707,7 +1057,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-71-here-comes-team-rocket.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-71-here-comes-team-rocket.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-72-rockets-sneak-attack",
@@ -717,7 +1072,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-72-rockets-sneak-attack.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-72-rockets-sneak-attack.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-73-the-bosss-way",
@@ -727,7 +1087,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-73-the-bosss-way.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-73-the-bosss-way.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-74-challenge",
@@ -737,7 +1102,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-74-challenge.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-74-challenge.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-75-digger",
@@ -747,7 +1117,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-75-digger.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-75-digger.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-76-imposter-oaks-revenge",
@@ -757,7 +1132,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-76-imposter-oaks-revenge.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-76-imposter-oaks-revenge.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-77-nightly-garbage-run",
@@ -767,7 +1147,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-77-nightly-garbage-run.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-77-nightly-garbage-run.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-78-goop-gas-attack",
@@ -777,7 +1162,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-78-goop-gas-attack.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-78-goop-gas-attack.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-79-sleep",
@@ -787,7 +1177,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-79-sleep.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-79-sleep.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-80-rainbow-energy",
@@ -797,7 +1192,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Takumi Akabane",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-80-rainbow-energy.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-80-rainbow-energy.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-81-full-heal-energy",
@@ -807,7 +1207,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-81-full-heal-energy.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-81-full-heal-energy.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-82-potion-energy",
@@ -817,7 +1222,12 @@
         "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-82-potion-energy.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-82-potion-energy.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "team-rocket-83-dark-raichu",
@@ -827,6 +1237,11 @@
         "rarity": "Rare Holo (Secret)",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-83-dark-raichu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-83-dark-raichu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     }
 ]

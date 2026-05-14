@@ -7,7 +7,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-1-alakazam.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-1-alakazam.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-2-blastoise",
@@ -17,7 +22,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-2-blastoise.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-2-blastoise.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-3-chansey",
@@ -27,7 +37,12 @@
         "rarity": "Rare Holo",
         "hp": "120",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-3-chansey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-3-chansey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-4-charizard",
@@ -37,7 +52,12 @@
         "rarity": "Rare Holo",
         "hp": "120",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-4-charizard.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-4-charizard.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-5-clefairy",
@@ -47,7 +67,12 @@
         "rarity": "Rare Holo",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-5-clefairy.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-5-clefairy.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-6-gyarados",
@@ -57,7 +82,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-6-gyarados.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-6-gyarados.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-7-hitmonchan",
@@ -67,7 +97,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-7-hitmonchan.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-7-hitmonchan.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-8-machamp",
@@ -77,7 +112,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-8-machamp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-8-machamp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-9-magneton",
@@ -87,7 +127,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-9-magneton.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-9-magneton.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-10-mewtwo",
@@ -97,7 +142,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-10-mewtwo.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-10-mewtwo.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-11-nidoking",
@@ -107,7 +157,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-11-nidoking.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-11-nidoking.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-12-ninetales",
@@ -117,7 +172,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-12-ninetales.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-12-ninetales.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-13-poliwrath",
@@ -127,7 +187,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-13-poliwrath.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-13-poliwrath.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-14-raichu",
@@ -137,7 +202,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-14-raichu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-14-raichu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-15-venusaur",
@@ -147,7 +217,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-15-venusaur.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-15-venusaur.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-16-zapdos",
@@ -157,7 +232,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-16-zapdos.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-16-zapdos.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-17-beedrill",
@@ -167,7 +247,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-17-beedrill.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-17-beedrill.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-18-dragonair",
@@ -177,7 +262,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-18-dragonair.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-18-dragonair.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-19-dugtrio",
@@ -187,7 +277,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-19-dugtrio.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-19-dugtrio.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-20-electabuzz",
@@ -197,7 +292,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-20-electabuzz.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-20-electabuzz.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-21-electrode",
@@ -207,7 +307,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-21-electrode.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-21-electrode.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-22-pidgeotto",
@@ -217,7 +322,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-22-pidgeotto.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-22-pidgeotto.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-23-arcanine",
@@ -227,7 +337,12 @@
         "rarity": "Uncommon",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-23-arcanine.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-23-arcanine.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-24-charmeleon",
@@ -237,7 +352,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-24-charmeleon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-24-charmeleon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-25-dewgong",
@@ -247,7 +367,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-25-dewgong.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-25-dewgong.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-26-dratini",
@@ -257,7 +382,12 @@
         "rarity": "Uncommon",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-26-dratini.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-26-dratini.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-27-farfetchd",
@@ -267,7 +397,12 @@
         "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-27-farfetchd.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-27-farfetchd.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-28-growlithe",
@@ -277,7 +412,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-28-growlithe.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-28-growlithe.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-29-haunter",
@@ -287,7 +427,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-29-haunter.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-29-haunter.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-30-ivysaur",
@@ -297,7 +442,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-30-ivysaur.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-30-ivysaur.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-31-jynx",
@@ -307,7 +457,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-31-jynx.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-31-jynx.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-32-kadabra",
@@ -317,7 +472,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-32-kadabra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-32-kadabra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-33-kakuna",
@@ -327,7 +487,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-33-kakuna.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-33-kakuna.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-34-machoke",
@@ -337,7 +502,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-34-machoke.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-34-machoke.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-35-magikarp",
@@ -347,7 +517,12 @@
         "rarity": "Uncommon",
         "hp": "30",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-35-magikarp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-35-magikarp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-36-magmar",
@@ -357,7 +532,12 @@
         "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-36-magmar.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-36-magmar.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-37-nidorino",
@@ -367,7 +547,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-37-nidorino.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-37-nidorino.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-38-poliwhirl",
@@ -377,7 +562,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-38-poliwhirl.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-38-poliwhirl.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-39-porygon",
@@ -387,7 +577,12 @@
         "rarity": "Uncommon",
         "hp": "30",
         "illustrator": "Tomoaki Imakuni",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-39-porygon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-39-porygon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-40-raticate",
@@ -397,7 +592,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-40-raticate.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-40-raticate.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-41-seel",
@@ -407,7 +607,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-41-seel.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-41-seel.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-42-wartortle",
@@ -417,7 +622,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-42-wartortle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-42-wartortle.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-43-abra",
@@ -427,7 +637,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-43-abra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-43-abra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-44-bulbasaur",
@@ -437,7 +652,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-44-bulbasaur.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-44-bulbasaur.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-45-caterpie",
@@ -447,7 +667,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-45-caterpie.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-45-caterpie.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-46-charmander",
@@ -457,7 +682,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-46-charmander.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-46-charmander.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-47-diglett",
@@ -467,7 +697,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-47-diglett.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-47-diglett.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-48-doduo",
@@ -477,7 +712,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-48-doduo.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-48-doduo.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-49-drowzee",
@@ -487,7 +727,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-49-drowzee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-49-drowzee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-50-gastly",
@@ -497,7 +742,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-50-gastly.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-50-gastly.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-51-koffing",
@@ -507,7 +757,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-51-koffing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-51-koffing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-52-machop",
@@ -517,7 +772,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-52-machop.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-52-machop.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-53-magnemite",
@@ -527,7 +787,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-53-magnemite.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-53-magnemite.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-54-metapod",
@@ -537,7 +802,12 @@
         "rarity": "Common",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-54-metapod.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-54-metapod.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-55-nidoran",
@@ -547,7 +817,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-55-nidoran.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-55-nidoran.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-56-onix",
@@ -557,7 +832,12 @@
         "rarity": "Common",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-56-onix.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-56-onix.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-57-pidgey",
@@ -567,7 +847,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-57-pidgey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-57-pidgey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-58-pikachu",
@@ -577,7 +862,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-58-pikachu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-58-pikachu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-59-poliwag",
@@ -587,7 +877,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-59-poliwag.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-59-poliwag.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-60-ponyta",
@@ -597,7 +892,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-60-ponyta.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-60-ponyta.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-61-rattata",
@@ -607,7 +907,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-61-rattata.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-61-rattata.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-62-sandshrew",
@@ -617,7 +922,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-62-sandshrew.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-62-sandshrew.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-63-squirtle",
@@ -627,7 +937,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-63-squirtle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-63-squirtle.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-64-starmie",
@@ -637,7 +952,12 @@
         "rarity": "Common",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-64-starmie.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-64-starmie.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-65-staryu",
@@ -647,7 +967,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-65-staryu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-65-staryu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-66-tangela",
@@ -657,7 +982,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-66-tangela.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-66-tangela.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-67-voltorb",
@@ -667,7 +997,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-67-voltorb.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-67-voltorb.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-68-vulpix",
@@ -677,7 +1012,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-68-vulpix.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-68-vulpix.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-69-weedle",
@@ -687,7 +1027,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-69-weedle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-69-weedle.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-70-clefairy-doll",
@@ -697,7 +1042,12 @@
         "rarity": "Rare",
         "hp": "10",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-70-clefairy-doll.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-70-clefairy-doll.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-71-computer-search",
@@ -707,7 +1057,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-71-computer-search.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-71-computer-search.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-72-devolution-spray",
@@ -717,7 +1072,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-72-devolution-spray.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-72-devolution-spray.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-73-imposter-professor-oak",
@@ -727,7 +1087,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-73-imposter-professor-oak.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-73-imposter-professor-oak.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-74-itemfinder",
@@ -737,7 +1102,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-74-itemfinder.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-74-itemfinder.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-75-lass",
@@ -747,7 +1117,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-75-lass.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-75-lass.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-76-pokmon-breeder",
@@ -757,7 +1132,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-76-pokmon-breeder.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-76-pokmon-breeder.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-77-pokmon-trader",
@@ -767,7 +1147,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-77-pokmon-trader.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-77-pokmon-trader.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-78-scoop-up",
@@ -777,7 +1162,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-78-scoop-up.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-78-scoop-up.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-79-super-energy-removal",
@@ -787,7 +1177,12 @@
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-79-super-energy-removal.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-79-super-energy-removal.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-80-defender",
@@ -797,7 +1192,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-80-defender.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-80-defender.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-81-energy-retrieval",
@@ -807,7 +1207,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-81-energy-retrieval.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-81-energy-retrieval.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-82-full-heal",
@@ -817,7 +1222,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-82-full-heal.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-82-full-heal.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-83-maintanence",
@@ -827,7 +1237,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-83-maintanence.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-83-maintanence.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-84-plus-power",
@@ -837,7 +1252,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-84-plus-power.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-84-plus-power.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-85-pokmon-center",
@@ -847,7 +1267,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-85-pokmon-center.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-85-pokmon-center.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-86-pokmon-flute",
@@ -857,7 +1282,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-86-pokmon-flute.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-86-pokmon-flute.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-87-professor-oak",
@@ -867,7 +1297,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-87-professor-oak.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-87-professor-oak.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-88-pokdex",
@@ -877,7 +1312,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-88-pokdex.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-88-pokdex.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-89-revive",
@@ -887,7 +1327,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-89-revive.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-89-revive.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-90-super-potion",
@@ -897,7 +1342,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-90-super-potion.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-90-super-potion.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-91-bill",
@@ -907,7 +1357,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-91-bill.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-91-bill.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-92-energy-removal",
@@ -917,7 +1372,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-92-energy-removal.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-92-energy-removal.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-93-gust-of-wind",
@@ -927,7 +1387,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-93-gust-of-wind.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-93-gust-of-wind.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-94-potion",
@@ -937,7 +1402,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-94-potion.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-94-potion.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-95-switch",
@@ -947,7 +1417,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-95-switch.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-95-switch.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-96-double-colorless",
@@ -957,7 +1432,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-96-double-colorless.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-96-double-colorless.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-97-fighting",
@@ -967,7 +1447,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-97-fighting.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-97-fighting.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-98-fire",
@@ -977,7 +1462,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-98-fire.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-98-fire.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-99-grass",
@@ -987,7 +1477,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-99-grass.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-99-grass.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-100-lightning",
@@ -997,7 +1492,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-100-lightning.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-100-lightning.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-101-psychic",
@@ -1007,7 +1507,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-101-psychic.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-101-psychic.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "base-set-102-water",
@@ -1017,6 +1522,11 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-102-water.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-102-water.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     }
 ]

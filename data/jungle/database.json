@@ -7,7 +7,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-1-clefable.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-1-clefable.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-2-electrode",
@@ -17,7 +22,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-2-electrode.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-2-electrode.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-3-flareon",
@@ -27,7 +37,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-3-flareon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-3-flareon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-4-jolteon",
@@ -37,7 +52,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-4-jolteon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-4-jolteon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-5-kangaskhan",
@@ -47,7 +67,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-5-kangaskhan.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-5-kangaskhan.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-6-mr-mime",
@@ -57,7 +82,12 @@
         "rarity": "Rare Holo",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-6-mr-mime.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-6-mr-mime.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-7-nidoqueen",
@@ -67,7 +97,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-7-nidoqueen.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-7-nidoqueen.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-8-pidgeot",
@@ -77,7 +112,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-8-pidgeot.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-8-pidgeot.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-9-pinsir",
@@ -87,7 +127,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-9-pinsir.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-9-pinsir.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-10-scyther",
@@ -97,7 +142,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-10-scyther.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-10-scyther.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-11-snorlax",
@@ -107,7 +157,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-11-snorlax.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-11-snorlax.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-12-vaporeon",
@@ -117,7 +172,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-12-vaporeon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-12-vaporeon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-13-venomoth",
@@ -127,7 +187,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-13-venomoth.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-13-venomoth.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-14-victreebel",
@@ -137,7 +202,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-14-victreebel.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-14-victreebel.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-15-vileplume",
@@ -147,7 +217,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-15-vileplume.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-15-vileplume.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-16-wigglytuff",
@@ -157,7 +232,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-16-wigglytuff.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-16-wigglytuff.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-17-clefable",
@@ -167,7 +247,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-17-clefable.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-17-clefable.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-18-electrode",
@@ -177,7 +262,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-18-electrode.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-18-electrode.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-19-flareon",
@@ -187,7 +277,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-19-flareon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-19-flareon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-20-jolteon",
@@ -197,7 +292,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-20-jolteon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-20-jolteon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-21-kangaskhan",
@@ -207,7 +307,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-21-kangaskhan.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-21-kangaskhan.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-22-mr-mime",
@@ -217,7 +322,12 @@
         "rarity": "Rare",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-22-mr-mime.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-22-mr-mime.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-23-nidoqueen",
@@ -227,7 +337,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-23-nidoqueen.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-23-nidoqueen.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-24-pidgeot",
@@ -237,7 +352,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-24-pidgeot.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-24-pidgeot.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-25-pinsir",
@@ -247,7 +367,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-25-pinsir.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-25-pinsir.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-26-scyther",
@@ -257,7 +382,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-26-scyther.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-26-scyther.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-27-snorlax",
@@ -267,7 +397,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-27-snorlax.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-27-snorlax.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-28-vaporeon",
@@ -277,7 +412,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-28-vaporeon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-28-vaporeon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-29-venomoth",
@@ -287,7 +427,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-29-venomoth.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-29-venomoth.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-30-victreebel",
@@ -297,7 +442,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-30-victreebel.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-30-victreebel.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-31-vileplume",
@@ -307,7 +457,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-31-vileplume.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-31-vileplume.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-32-wigglytuff",
@@ -317,7 +472,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-32-wigglytuff.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-32-wigglytuff.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-33-butterfree",
@@ -327,7 +487,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-33-butterfree.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-33-butterfree.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-34-dodrio",
@@ -337,7 +502,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-34-dodrio.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-34-dodrio.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-35-exeggutor",
@@ -347,7 +517,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-35-exeggutor.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-35-exeggutor.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-36-fearow",
@@ -357,7 +532,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-36-fearow.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-36-fearow.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-37-gloom",
@@ -367,7 +547,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-37-gloom.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-37-gloom.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-38-lickitung",
@@ -377,7 +562,12 @@
         "rarity": "Uncommon",
         "hp": "90",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-38-lickitung.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-38-lickitung.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-39-marowak",
@@ -387,7 +577,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-39-marowak.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-39-marowak.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-40-nidorina",
@@ -397,7 +592,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-40-nidorina.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-40-nidorina.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-41-parasect",
@@ -407,7 +607,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-41-parasect.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-41-parasect.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-42-persian",
@@ -417,7 +622,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-42-persian.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-42-persian.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-43-primeape",
@@ -427,7 +637,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-43-primeape.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-43-primeape.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-44-rapidash",
@@ -437,7 +652,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-44-rapidash.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-44-rapidash.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-45-rhydon",
@@ -447,7 +667,12 @@
         "rarity": "Uncommon",
         "hp": "100",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-45-rhydon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-45-rhydon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-46-seaking",
@@ -457,7 +682,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-46-seaking.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-46-seaking.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-47-tauros",
@@ -467,7 +697,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-47-tauros.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-47-tauros.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-48-weepinbell",
@@ -477,7 +712,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-48-weepinbell.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-48-weepinbell.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-49-bellsprout",
@@ -487,7 +727,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-49-bellsprout.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-49-bellsprout.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-50-cubone",
@@ -497,7 +742,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-50-cubone.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-50-cubone.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-51-eevee",
@@ -507,7 +757,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-51-eevee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-51-eevee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-52-exeggcute",
@@ -517,7 +772,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-52-exeggcute.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-52-exeggcute.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-53-goldeen",
@@ -527,7 +787,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-53-goldeen.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-53-goldeen.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-54-jigglypuff",
@@ -537,7 +802,12 @@
         "rarity": "Common",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-54-jigglypuff.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-54-jigglypuff.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-55-mankey",
@@ -547,7 +817,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Kagemaru Himeno",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-55-mankey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-55-mankey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-56-meowth",
@@ -557,7 +832,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-56-meowth.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-56-meowth.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-57-nidoran",
@@ -567,7 +847,12 @@
         "rarity": "Common",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-57-nidoran.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-57-nidoran.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-58-oddish",
@@ -577,7 +862,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-58-oddish.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-58-oddish.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-59-paras",
@@ -587,7 +877,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-59-paras.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-59-paras.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-60-pikachu",
@@ -597,7 +892,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-60-pikachu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-60-pikachu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-61-rhyhorn",
@@ -607,7 +907,12 @@
         "rarity": "Common",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-61-rhyhorn.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-61-rhyhorn.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-62-spearow",
@@ -617,7 +922,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-62-spearow.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-62-spearow.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-63-venonat",
@@ -627,7 +937,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-63-venonat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-63-venonat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "jungle-64-pok-ball",
@@ -637,6 +952,11 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-64-pok-ball.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-64-pok-ball.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     }
 ]

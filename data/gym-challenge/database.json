@@ -7,7 +7,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-1-blaines-arcanine.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-1-blaines-arcanine.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-2-blaines-charizard",
@@ -17,7 +22,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-2-blaines-charizard.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-2-blaines-charizard.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-3-brocks-ninetales",
@@ -27,7 +37,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-3-brocks-ninetales.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-3-brocks-ninetales.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-4-erikas-venusaur",
@@ -37,7 +52,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-4-erikas-venusaur.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-4-erikas-venusaur.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-5-giovannis-gyarados",
@@ -47,7 +67,12 @@
         "rarity": "Rare Holo",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-5-giovannis-gyarados.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-5-giovannis-gyarados.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-6-giovannis-machamp",
@@ -57,7 +82,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-6-giovannis-machamp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-6-giovannis-machamp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-7-giovannis-nidoking",
@@ -67,7 +97,12 @@
         "rarity": "Rare Holo",
         "hp": "120",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-7-giovannis-nidoking.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-7-giovannis-nidoking.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-8-giovannis-persian",
@@ -77,7 +112,12 @@
         "rarity": "Rare Holo",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-8-giovannis-persian.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-8-giovannis-persian.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-9-kogas-beedrill",
@@ -87,7 +127,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-9-kogas-beedrill.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-9-kogas-beedrill.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-10-kogas-ditto",
@@ -97,7 +142,12 @@
         "rarity": "Rare Holo",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-10-kogas-ditto.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-10-kogas-ditto.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-11-lt-surges-raichu",
@@ -107,7 +157,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-11-lt-surges-raichu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-11-lt-surges-raichu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-12-mistys-golduck",
@@ -117,7 +172,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-12-mistys-golduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-12-mistys-golduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-13-mistys-gyarados",
@@ -127,7 +187,12 @@
         "rarity": "Rare Holo",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-13-mistys-gyarados.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-13-mistys-gyarados.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-14-rockets-mewtwo",
@@ -137,7 +202,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Shin-ichi Yoshida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-14-rockets-mewtwo.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-14-rockets-mewtwo.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-15-rockets-zapdos",
@@ -147,7 +217,12 @@
         "rarity": "Rare Holo",
         "hp": "70",
         "illustrator": "Shin-ichi Yoshida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-15-rockets-zapdos.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-15-rockets-zapdos.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-16-sabrinas-alakazam",
@@ -157,7 +232,12 @@
         "rarity": "Rare Holo",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-16-sabrinas-alakazam.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-16-sabrinas-alakazam.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-17-blaine",
@@ -167,7 +247,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-17-blaine.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-17-blaine.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-18-giovanni",
@@ -177,7 +262,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-18-giovanni.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-18-giovanni.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-19-koga",
@@ -187,7 +277,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-19-koga.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-19-koga.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-20-sabrina",
@@ -197,7 +292,12 @@
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-20-sabrina.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-20-sabrina.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-21-blaines-ninetales",
@@ -207,7 +307,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-21-blaines-ninetales.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-21-blaines-ninetales.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-22-brocks-dugtrio",
@@ -217,7 +322,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-22-brocks-dugtrio.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-22-brocks-dugtrio.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-23-giovannis-nidoqueen",
@@ -227,7 +337,12 @@
         "rarity": "Rare",
         "hp": "100",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-23-giovannis-nidoqueen.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-23-giovannis-nidoqueen.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-24-giovannis-pinsir",
@@ -237,7 +352,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-24-giovannis-pinsir.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-24-giovannis-pinsir.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-25-kogas-arbok",
@@ -247,7 +367,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-25-kogas-arbok.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-25-kogas-arbok.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-26-kogas-muk",
@@ -257,7 +382,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-26-kogas-muk.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-26-kogas-muk.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-27-kogas-pidgeotto",
@@ -267,7 +397,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-27-kogas-pidgeotto.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-27-kogas-pidgeotto.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-28-lt-surges-jolteon",
@@ -277,7 +412,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-28-lt-surges-jolteon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-28-lt-surges-jolteon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-29-sabrinas-gengar",
@@ -287,7 +427,12 @@
         "rarity": "Rare",
         "hp": "90",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-29-sabrinas-gengar.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-29-sabrinas-gengar.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-30-sabrinas-golduck",
@@ -297,7 +442,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-30-sabrinas-golduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-30-sabrinas-golduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-31-blaines-charmeleon",
@@ -307,7 +457,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-31-blaines-charmeleon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-31-blaines-charmeleon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-32-blaines-dodrio",
@@ -317,7 +472,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-32-blaines-dodrio.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-32-blaines-dodrio.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-33-blaines-rapidash",
@@ -327,7 +487,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-33-blaines-rapidash.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-33-blaines-rapidash.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-34-brocks-graveler",
@@ -337,7 +502,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-34-brocks-graveler.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-34-brocks-graveler.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-35-brocks-primeape",
@@ -347,7 +517,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-35-brocks-primeape.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-35-brocks-primeape.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-36-brocks-sandslash",
@@ -357,7 +532,12 @@
         "rarity": "Rare",
         "hp": "70",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-36-brocks-sandslash.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-36-brocks-sandslash.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-37-brocks-vulpix",
@@ -367,7 +547,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-37-brocks-vulpix.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-37-brocks-vulpix.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-38-erikas-bellsprout",
@@ -377,7 +562,12 @@
         "rarity": "Rare",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-38-erikas-bellsprout.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-38-erikas-bellsprout.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-39-erikas-bulbasaur",
@@ -387,7 +577,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-39-erikas-bulbasaur.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-39-erikas-bulbasaur.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-40-erikas-clefairy",
@@ -397,7 +592,12 @@
         "rarity": "Rare",
         "hp": "50",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-40-erikas-clefairy.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-40-erikas-clefairy.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-41-erikas-ivysaur",
@@ -407,7 +607,12 @@
         "rarity": "Rare",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-41-erikas-ivysaur.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-41-erikas-ivysaur.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-42-giovannis-machoke",
@@ -417,7 +622,12 @@
         "rarity": "Rare",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-42-giovannis-machoke.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-42-giovannis-machoke.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-43-giovannis-meowth",
@@ -427,7 +637,12 @@
         "rarity": "Uncommon",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-43-giovannis-meowth.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-43-giovannis-meowth.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-44-giovannis-nidorina",
@@ -437,7 +652,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-44-giovannis-nidorina.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-44-giovannis-nidorina.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-45-giovannis-nidorino",
@@ -447,7 +667,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-45-giovannis-nidorino.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-45-giovannis-nidorino.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-46-kogas-golbat",
@@ -457,7 +682,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-46-kogas-golbat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-46-kogas-golbat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-47-kogas-kakuna",
@@ -467,7 +697,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-47-kogas-kakuna.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-47-kogas-kakuna.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-48-kogas-koffing",
@@ -477,7 +712,12 @@
         "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-48-kogas-koffing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-48-kogas-koffing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-49-kogas-pidgey",
@@ -487,7 +727,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-49-kogas-pidgey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-49-kogas-pidgey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-50-kogas-weezing",
@@ -497,7 +742,12 @@
         "rarity": "Uncommon",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-50-kogas-weezing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-50-kogas-weezing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-51-lt-surges-eevee",
@@ -507,7 +757,12 @@
         "rarity": "Uncommon",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-51-lt-surges-eevee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-51-lt-surges-eevee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-52-lt-surges-electrode",
@@ -517,7 +772,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-52-lt-surges-electrode.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-52-lt-surges-electrode.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-53-lt-surges-raticate",
@@ -527,7 +787,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-53-lt-surges-raticate.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-53-lt-surges-raticate.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-54-mistys-dewgong",
@@ -537,7 +802,12 @@
         "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-54-mistys-dewgong.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-54-mistys-dewgong.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-55-sabrinas-haunter",
@@ -547,7 +817,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-55-sabrinas-haunter.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-55-sabrinas-haunter.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-56-sabrinas-hypno",
@@ -557,7 +832,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-56-sabrinas-hypno.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-56-sabrinas-hypno.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-57-sabrinas-jynx",
@@ -567,7 +847,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-57-sabrinas-jynx.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-57-sabrinas-jynx.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-58-sabrinas-kadabra",
@@ -577,7 +862,12 @@
         "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-58-sabrinas-kadabra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-58-sabrinas-kadabra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-59-sabrinas-mr-mime",
@@ -587,7 +877,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-59-sabrinas-mr-mime.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-59-sabrinas-mr-mime.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-60-blaines-charmander",
@@ -597,7 +892,12 @@
         "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-60-blaines-charmander.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-60-blaines-charmander.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-61-blaines-doduo",
@@ -607,7 +907,12 @@
         "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-61-blaines-doduo.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-61-blaines-doduo.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-62-blaines-growlithe",
@@ -617,7 +922,12 @@
         "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-62-blaines-growlithe.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-62-blaines-growlithe.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-63-blaines-mankey",
@@ -627,7 +937,12 @@
         "rarity": "Uncommon",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-63-blaines-mankey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-63-blaines-mankey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-64-blaines-ponyta",
@@ -637,7 +952,12 @@
         "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-64-blaines-ponyta.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-64-blaines-ponyta.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-65-blaines-rhyhorn",
@@ -647,7 +967,12 @@
         "rarity": "Common",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-65-blaines-rhyhorn.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-65-blaines-rhyhorn.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-66-blaines-vulpix",
@@ -657,7 +982,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-66-blaines-vulpix.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-66-blaines-vulpix.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-67-brocks-diglett",
@@ -667,7 +997,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-67-brocks-diglett.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-67-brocks-diglett.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-68-brocks-geodude",
@@ -677,7 +1012,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-68-brocks-geodude.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-68-brocks-geodude.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-69-erikas-jigglypuff",
@@ -687,7 +1027,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-69-erikas-jigglypuff.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-69-erikas-jigglypuff.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-70-erikas-oddish",
@@ -697,7 +1042,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-70-erikas-oddish.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-70-erikas-oddish.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-71-erikas-paras",
@@ -707,7 +1057,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-71-erikas-paras.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-71-erikas-paras.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-72-giovannis-machop",
@@ -717,7 +1072,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-72-giovannis-machop.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-72-giovannis-machop.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-73-giovannis-magikarp",
@@ -727,7 +1087,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-73-giovannis-magikarp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-73-giovannis-magikarp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-74-giovannis-meowth",
@@ -737,7 +1102,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-74-giovannis-meowth.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-74-giovannis-meowth.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-75-giovannis-nidoranf",
@@ -747,7 +1117,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-75-giovannis-nidoranf.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-75-giovannis-nidoranf.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-76-giovannis-nidoranm",
@@ -757,7 +1132,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-76-giovannis-nidoranm.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-76-giovannis-nidoranm.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-77-kogas-ekans",
@@ -767,7 +1147,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-77-kogas-ekans.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-77-kogas-ekans.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-78-kogas-grimer",
@@ -777,7 +1162,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-78-kogas-grimer.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-78-kogas-grimer.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-79-kogas-koffing",
@@ -787,7 +1177,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-79-kogas-koffing.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-79-kogas-koffing.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-80-kogas-pidgey",
@@ -797,7 +1192,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-80-kogas-pidgey.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-80-kogas-pidgey.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-81-kogas-tangela",
@@ -807,7 +1207,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-81-kogas-tangela.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-81-kogas-tangela.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-82-kogas-weedle",
@@ -817,7 +1222,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-82-kogas-weedle.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-82-kogas-weedle.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-83-kogas-zubat",
@@ -827,7 +1237,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-83-kogas-zubat.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-83-kogas-zubat.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-84-lt-surges-pikachu",
@@ -837,7 +1252,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-84-lt-surges-pikachu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-84-lt-surges-pikachu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-85-lt-surges-rattata",
@@ -847,7 +1267,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-85-lt-surges-rattata.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-85-lt-surges-rattata.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-86-lt-surges-voltorb",
@@ -857,7 +1282,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-86-lt-surges-voltorb.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-86-lt-surges-voltorb.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-87-mistys-horsea",
@@ -867,7 +1297,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-87-mistys-horsea.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-87-mistys-horsea.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-88-mistys-magikarp",
@@ -877,7 +1312,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-88-mistys-magikarp.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-88-mistys-magikarp.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-89-mistys-poliwag",
@@ -887,7 +1327,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-89-mistys-poliwag.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-89-mistys-poliwag.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-90-mistys-psyduck",
@@ -897,7 +1342,12 @@
         "rarity": "Common",
         "hp": "60",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-90-mistys-psyduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-90-mistys-psyduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-91-mistys-seel",
@@ -907,7 +1357,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-91-mistys-seel.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-91-mistys-seel.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-92-mistys-staryu",
@@ -917,7 +1372,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-92-mistys-staryu.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-92-mistys-staryu.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-93-sabrinas-abra",
@@ -927,7 +1387,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-93-sabrinas-abra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-93-sabrinas-abra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-94-sabrinas-abra",
@@ -937,7 +1402,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-94-sabrinas-abra.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-94-sabrinas-abra.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-95-sabrinas-drowzee",
@@ -947,7 +1417,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-95-sabrinas-drowzee.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-95-sabrinas-drowzee.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-96-sabrinas-gastly",
@@ -957,7 +1432,12 @@
         "rarity": "Common",
         "hp": "30",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-96-sabrinas-gastly.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-96-sabrinas-gastly.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-97-sabrinas-gastly",
@@ -967,7 +1447,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Atsuko Nishida",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-97-sabrinas-gastly.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-97-sabrinas-gastly.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-98-sabrinas-porygon",
@@ -977,7 +1462,12 @@
         "rarity": "Common",
         "hp": "40",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-98-sabrinas-porygon.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-98-sabrinas-porygon.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-99-sabrinas-psyduck",
@@ -987,7 +1477,12 @@
         "rarity": "Common",
         "hp": "50",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-99-sabrinas-psyduck.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-99-sabrinas-psyduck.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-100-blaine",
@@ -997,7 +1492,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-100-blaine.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-100-blaine.png",
+        "type": "Normal",
+        "stage": "Basic",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-101-brocks-protection",
@@ -1007,7 +1507,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-101-brocks-protection.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-101-brocks-protection.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-102-chaos-gym",
@@ -1017,7 +1522,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-102-chaos-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-102-chaos-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-103-erikas-kindness",
@@ -1027,7 +1537,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-103-erikas-kindness.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-103-erikas-kindness.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-104-giovanni",
@@ -1037,7 +1552,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-104-giovanni.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-104-giovanni.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-105-giovannis-last-resort",
@@ -1047,7 +1567,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-105-giovannis-last-resort.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-105-giovannis-last-resort.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-106-koga",
@@ -1057,7 +1582,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-106-koga.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-106-koga.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-107-lt-surges-secret-plan",
@@ -1067,7 +1597,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-107-lt-surges-secret-plan.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-107-lt-surges-secret-plan.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-108-mistys-wish",
@@ -1077,7 +1612,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-108-mistys-wish.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-108-mistys-wish.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-109-resistance-gym",
@@ -1087,7 +1627,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-109-resistance-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-109-resistance-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-110-sabrina",
@@ -1097,7 +1642,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-110-sabrina.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-110-sabrina.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-111-blaines-quiz-2",
@@ -1107,7 +1657,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-111-blaines-quiz-2.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-111-blaines-quiz-2.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-112-blaines-quiz-3",
@@ -1117,7 +1672,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-112-blaines-quiz-3.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-112-blaines-quiz-3.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-113-cinnabar-city-gym",
@@ -1127,7 +1687,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-113-cinnabar-city-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-113-cinnabar-city-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-114-fuchsia-city-gym",
@@ -1137,7 +1702,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-114-fuchsia-city-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-114-fuchsia-city-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-115-kogas-ninja-trick",
@@ -1147,7 +1717,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Sumiyoshi Kizuki",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-115-kogas-ninja-trick.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-115-kogas-ninja-trick.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-116-master-ball",
@@ -1157,7 +1732,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-116-master-ball.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-116-master-ball.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-117-max-revive",
@@ -1167,7 +1747,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Hikaru Koike",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-117-max-revive.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-117-max-revive.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-118-mistys-tears",
@@ -1177,7 +1762,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-118-mistys-tears.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-118-mistys-tears.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-119-rockets-minefield-gym",
@@ -1187,7 +1777,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-119-rockets-minefield-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-119-rockets-minefield-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-120-rockets-secret-experiment",
@@ -1197,7 +1792,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-120-rockets-secret-experiment.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-120-rockets-secret-experiment.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-121-sabrinas-psychic-control",
@@ -1207,7 +1807,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-121-sabrinas-psychic-control.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-121-sabrinas-psychic-control.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-122-saffron-city-gym",
@@ -1217,7 +1822,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-122-saffron-city-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-122-saffron-city-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-123-viridian-city-gym",
@@ -1227,7 +1837,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-123-viridian-city-gym.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-123-viridian-city-gym.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-124-fervor",
@@ -1237,7 +1852,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-124-fervor.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-124-fervor.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-125-transparent-walls",
@@ -1247,7 +1867,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-125-transparent-walls.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-125-transparent-walls.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-126-warp-point",
@@ -1257,7 +1882,12 @@
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-126-warp-point.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-126-warp-point.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-127-fighting",
@@ -1267,7 +1897,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-127-fighting.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-127-fighting.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-128-fire",
@@ -1277,7 +1912,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-128-fire.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-128-fire.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-129-grass",
@@ -1287,7 +1927,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-129-grass.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-129-grass.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-130-lightning",
@@ -1297,7 +1942,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-130-lightning.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-130-lightning.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-131-psychic",
@@ -1307,7 +1957,12 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-131-psychic.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-131-psychic.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     },
     {
         "sku": "gym-challenge-132-water",
@@ -1317,6 +1972,11 @@
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
-        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-132-water.png"
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-132-water.png",
+        "type": "Normal",
+        "stage": "N/A",
+        "weakness": "N/A",
+        "resistance": "N/A",
+        "retreat": "N/A"
     }
 ]
