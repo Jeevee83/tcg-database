@@ -60,20 +60,23 @@
         <div class="h-[210px] lg:h-[135px]"></div>
 
         <div class="max-w-[1800px] mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <!-- SIDEBAR STICKY -->
             <aside class="lg:col-span-3">
                 <div class="lg:sticky lg:top-[145px]">
-                    <!-- BOX CODA ACCORCIATO (h-[55vh]) -->
-                    <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col h-[55vh] max-h-[600px]">
+                    <!-- BOX CODA ALLUNGATO (h-[72vh]) -->
+                    <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col h-[72vh] max-h-[850px]">
                         <div class="p-5 border-b border-slate-800 bg-slate-900/20 flex justify-between items-center shrink-0">
                             <div>
                                 <h3 class="text-slate-500 text-[9px] font-black uppercase tracking-[0.2em]">Export Queue</h3>
-                                <span class="text-4xl font-light text-white leading-none">{{ exportList.length }}</span>
+                                <span class="text-5xl font-light text-white leading-none">{{ exportList.length }}</span>
                             </div>
                             <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg" :disabled="exportList.length === 0">CSV</button>
                         </div>
 
+                        <!-- Lista Carte Scorrevole -->
                         <div class="custom-scroll overflow-y-auto p-4 space-y-3 flex-grow">
-                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800 relative group">
+                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-left duration-200">
                                 <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-slate-600 hover:text-red-500 transition font-bold">✕</button>
                                 <p class="font-black text-[10px] text-blue-400 mb-3 uppercase truncate pr-4">{{ item.name }}</p>
                                 <div class="grid grid-cols-2 gap-2 mb-2">
@@ -92,15 +95,22 @@
                                     </div>
                                 </div>
                             </div>
+                            <div v-if="exportList.length === 0" class="py-20 text-center opacity-10">
+                                <p class="text-[10px] font-black uppercase tracking-widest uppercase">Select cards</p>
+                            </div>
                         </div>
 
-                        <div class="p-4 border-t border-slate-800 bg-slate-900/40 shrink-0">
-                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[10px] text-red-400 hover:text-red-600 uppercase font-black tracking-widest transition">Clear All Items</button>
+                        <!-- Footer Box Fisso -->
+                        <div class="p-5 border-t border-slate-800 bg-slate-900/40 shrink-0">
+                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[10px] text-red-400 hover:text-red-500 uppercase font-black tracking-widest transition text-center">
+                                Clear All Items
+                            </button>
                         </div>
                     </div>
                 </div>
             </aside>
 
+            <!-- MAIN GRID -->
             <main class="lg:col-span-9">
                 <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 animate-pulse"><div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem]"></div></div>
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -119,14 +129,15 @@
             </main>
         </div>
 
-        <!-- MODAL -->
+        <!-- MODAL (RESTANTE CODICE INVARIATO) -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
+            <!-- Modal Content... -->
             <div class="bg-[#1e293b] rounded-[3.5rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
                 <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition font-bold">✕</button>
                 <div class="md:w-1/2 bg-[#080e1e] p-12 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto"><img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] rounded-xl scale-110"></div>
                 <div class="md:w-1/2 flex flex-col bg-[#1e293b]">
                     <div class="flex-grow overflow-y-auto p-12 pb-6 custom-scroll">
-                        <header class="mb-8"><span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span><h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3><p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-500 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p></header>
+                        <header class="mb-8"><span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span><h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3><p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-600 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p></header>
                         <div class="grid grid-cols-2 gap-y-10 gap-x-6 border-y border-slate-800 py-10 mb-10 text-center"><div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label"><p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p><p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p></div></div>
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6"><p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p><div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-inner"><div class="flex justify-between items-start mb-2"><div class="flex flex-wrap gap-1 items-center"><span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span><p class="font-black uppercase text-base ml-2 text-white leading-none">{{ atk.name }}</p></div><p class="font-black text-xl text-white">{{ atk.damage }}</p></div><p class="text-xs text-slate-400 leading-relaxed italic">{{ atk.text }}</p></div></div>
                     </div>
