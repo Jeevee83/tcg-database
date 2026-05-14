@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardex TCG - Dark Dashboard</title>
+    <title>Cardex TCG - Manager</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         [v-cloak] { display: none; }
-        body { background-color: #0f172a; }
+        body { background-color: #0f172a; overflow-x: hidden; }
         
+        /* Stile Header Fisso */
+        header { height: 120px; }
+
         .modal-overlay { background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(12px); }
         
-        /* Scrollbar sottile per la coda */
+        /* Scrollbar sottile */
         .custom-scroll::-webkit-scrollbar { width: 4px; }
         .custom-scroll::-webkit-scrollbar-track { background: #1e293b; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
 
+        /* Bottoni Sidebar */
         .dash-btn {
             background: #1e293b;
             border-left: 4px solid transparent;
@@ -35,21 +39,21 @@
         .type-Lightning { background: #eab308; color: #000; } .type-Psychic { background: #a855f7; }
     </style>
 </head>
-<body class="text-slate-200 font-sans"> <!-- Ritorno al font-sans di sistema -->
+<body class="text-slate-200 font-sans">
     <div id="app" v-cloak>
         
-        <!-- HEADER FULL WIDTH STICKY -->
-        <header class="sticky top-0 z-50 bg-[#0f172a]/95 backdrop-blur-xl border-b border-slate-800 shadow-2xl">
-            <div class="max-w-[1600px] mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-6">
-                <div class="flex flex-col items-center md:items-start text-center md:text-left">
-                    <h1 class="text-6xl font-bold text-white tracking-tighter leading-none uppercase">Cardex</h1>
+        <!-- HEADER FISSO (Sempre in alto) -->
+        <header class="fixed top-0 left-0 right-0 z-50 bg-[#0f172a]/95 backdrop-blur-xl border-b border-slate-800">
+            <div class="max-w-[1600px] mx-auto px-8 h-full flex flex-col md:flex-row justify-between items-center py-4">
+                <div class="flex flex-col items-center md:items-start">
+                    <h1 class="text-5xl font-bold text-white tracking-tighter leading-none uppercase">Cardex</h1>
                     <div class="flex gap-4 mt-2">
-                        <p class="text-slate-500 font-black uppercase tracking-[0.2em] text-[10px]">TCG Management System</p>
+                        <p class="text-slate-500 font-black uppercase tracking-[0.2em] text-[10px]">TCG Management</p>
                         <p class="text-slate-700 font-black uppercase tracking-[0.2em] text-[10px]">by Jeevee83</p>
                     </div>
                 </div>
                 
-                <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+                <div class="flex gap-4 w-full md:w-auto mt-4 md:mt-0">
                     <div class="relative">
                         <input v-model="searchQuery" type="text" placeholder="Search card..." 
                                class="bg-[#1e293b] border border-slate-700 p-3 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none w-full md:w-80 text-sm font-bold text-white">
@@ -63,11 +67,15 @@
             </div>
         </header>
 
-        <div class="max-w-[1600px] mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-10 mt-4">
+        <!-- SPAZIATORE PER HEADER FISSO -->
+        <div class="h-[120px] md:h-[120px]"></div>
+
+        <div class="max-w-[1600px] mx-auto p-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
             
-            <!-- STICKY SIDEBAR -->
+            <!-- SIDEBAR STICKY (Fissa mentre scorri) -->
             <aside class="lg:col-span-3">
-                <div class="lg:sticky lg:top-36 space-y-6">
+                <div class="lg:sticky lg:top-[150px] space-y-6">
+                    
                     <!-- Categories -->
                     <div class="bg-[#1e293b]/30 p-4 rounded-2xl border border-slate-800/50">
                         <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4 flex items-center px-1">
@@ -76,7 +84,7 @@
                         <div class="flex flex-col gap-2">
                             <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
                                     @click="activeCategory = cat"
-                                    :class="['dash-btn text-left px-5 py-4 rounded-xl font-bold text-sm', 
+                                    :class="['dash-btn text-left px-5 py-3.5 rounded-xl font-bold text-sm', 
                                     activeCategory === cat ? 'active' : '', 
                                     cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">
                                 {{ cat }}
@@ -84,9 +92,9 @@
                         </div>
                     </div>
 
-                    <!-- EXPORT QUEUE BOX (SCROLL FIX) -->
-                    <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col">
-                        <div class="p-6 border-b border-slate-800 bg-slate-900/10">
+                    <!-- Export Queue (Scroll Interno) -->
+                    <div class="bg-[#1e293b] rounded-[2.5rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col">
+                        <div class="p-6 border-b border-slate-800 bg-slate-900/20">
                             <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4">Export Queue</h3>
                             <div class="flex justify-between items-center">
                                 <span class="text-6xl font-light text-white leading-none">{{ exportList.length }}</span>
@@ -94,31 +102,28 @@
                             </div>
                         </div>
 
-                        <!-- ZONA SCROLL INTERNA DINAMICA -->
-                        <div class="custom-scroll overflow-y-auto p-4 space-y-4 max-h-[60vh]">
-                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-5 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-right duration-200">
+                        <!-- Lista Scorrevole -->
+                        <div class="custom-scroll overflow-y-auto p-4 space-y-4 max-h-[50vh]">
+                            <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-5 rounded-2xl border border-slate-800 relative group">
                                 <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-slate-600 hover:text-red-500 transition font-bold">✕</button>
                                 <p class="font-black text-[11px] text-blue-400 mb-4 uppercase tracking-wide truncate pr-4">{{ item.name }}</p>
                                 
                                 <div class="space-y-3">
-                                    <select v-model="item.selectedVariant" class="w-full bg-[#1e293b] border border-slate-700 p-2 rounded-lg text-[10px] font-bold text-slate-300 outline-none cursor-pointer">
+                                    <select v-model="item.selectedVariant" class="w-full bg-[#1e293b] border border-slate-700 p-2 rounded-lg text-[10px] font-bold text-slate-300 outline-none">
                                         <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
                                     </select>
                                     <div class="grid grid-cols-2 gap-2">
-                                        <select v-model="item.selectedCondition" class="w-full bg-[#1e293b] border border-slate-700 p-2 rounded-lg text-[10px] font-bold text-slate-300 outline-none cursor-pointer">
+                                        <select v-model="item.selectedCondition" class="w-full bg-[#1e293b] border border-slate-700 p-2 rounded-lg text-[10px] font-bold text-slate-300 outline-none">
                                             <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
                                         </select>
-                                        <div class="relative">
-                                            <span class="absolute left-2 top-2 text-[8px] font-black text-slate-600 uppercase font-black">CHF</span>
-                                            <input v-model="item.price" type="number" step="0.01" class="w-full bg-[#1e293b] border border-slate-700 p-2 pl-8 rounded-lg text-[10px] font-black text-green-400 outline-none">
-                                        </div>
+                                        <input v-model="item.price" type="number" step="0.01" class="w-full bg-[#1e293b] border border-slate-700 p-2 rounded-lg text-[10px] font-black text-green-400 outline-none text-right">
                                     </div>
                                     <div class="bg-black/20 p-2 rounded-lg flex items-center justify-between">
                                         <span class="text-[9px] font-black text-slate-600 uppercase ml-1">Qty</span>
                                         <div class="flex items-center gap-3">
-                                            <button @click="item.qty > 1 ? item.qty-- : null" class="w-6 h-6 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 font-bold">-</button>
-                                            <input v-model.number="item.qty" type="number" class="w-8 bg-transparent text-center text-xs font-black text-blue-400 outline-none">
-                                            <button @click="item.qty++" class="w-6 h-6 flex items-center justify-center rounded bg-blue-600/20 hover:bg-blue-600/40 text-blue-400 font-bold">+</button>
+                                            <button @click="item.qty > 1 ? item.qty-- : null" class="text-slate-500 font-bold">-</button>
+                                            <span class="text-xs font-black text-blue-400">{{ item.qty }}</span>
+                                            <button @click="item.qty++" class="text-blue-500 font-bold">+</button>
                                         </div>
                                     </div>
                                 </div>
@@ -132,16 +137,15 @@
                 </div>
             </aside>
 
-            <!-- MAIN GRID -->
+            <!-- GRIGLIA CARTE -->
             <main class="lg:col-span-9">
-                <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 animate-pulse">
-                    <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem]"></div>
+                <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem] animate-pulse"></div>
                 </div>
                 
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
                     <div v-for="card in filteredCards" :key="card.sku" 
                          class="bg-[#1e293b] rounded-[2rem] border border-slate-800 hover:border-slate-500 transition-all duration-500 group overflow-hidden flex flex-col h-full relative shadow-lg">
-                        
                         <div class="relative p-4 flex-grow bg-black/10 flex items-center justify-center">
                             <div class="aspect-[3/4] overflow-hidden rounded-xl bg-slate-900/50 w-full flex items-center justify-center border border-white/5">
                                 <img :src="card.image_url" class="max-h-full max-w-full object-contain group-hover:scale-105 transition duration-700" loading="lazy">
@@ -150,7 +154,6 @@
                                 {{ getSetName(card.sku) }}
                             </div>
                         </div>
-
                         <div class="p-6 pt-2 text-center">
                             <div class="flex justify-between items-center mb-2">
                                 <span class="text-[10px] font-bold text-slate-600">#{{ card.number }}</span>
@@ -161,7 +164,6 @@
                                 </span>
                             </div>
                             <h4 class="font-black text-sm text-white uppercase tracking-tight truncate mb-4">{{ card.name }}</h4>
-                            
                             <div class="grid grid-cols-2 gap-3">
                                 <button @click="addToExport(card)" class="bg-blue-600 hover:bg-blue-500 text-white text-[10px] font-black py-3 rounded-xl transition uppercase tracking-widest shadow-lg active:scale-95">Add</button>
                                 <button @click="showDetails(card)" class="bg-slate-800 hover:bg-slate-700 text-slate-400 text-[10px] font-black py-3 rounded-xl transition uppercase tracking-widest">Details</button>
@@ -172,8 +174,14 @@
             </main>
         </div>
 
-        <!-- MODAL DETAILS -->
+        <!-- PULSANTE TORNA IN ALTO -->
+        <button @click="scrollToTop" class="fixed bottom-8 right-8 z-[60] bg-blue-600 text-white p-4 rounded-full shadow-2xl hover:bg-blue-500 transition transform active:scale-90 flex items-center justify-center border-2 border-white/10">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 15l7-7 7 7"/></svg>
+        </button>
+
+        <!-- MODAL (STESSO CODICE) -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
+            <!-- ... stesso codice modal ... -->
             <div class="bg-[#1e293b] rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
                 <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition font-bold">✕</button>
                 <div class="md:w-1/2 bg-[#080e1e] p-12 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto">
@@ -262,6 +270,7 @@
                 },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
                 clearQueue() { if(confirm("Clear current queue?")) this.exportList = []; },
+                scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); },
                 generateProductHTML(item) {
                     let html = `<strong>Technical Specifications</strong><br><ul><li>Set: ${this.getSetName(item.sku)}</li><li>Number: ${item.number}</li><li>Rarity: ${item.rarity}</li>`;
                     if(item.hp && item.hp !== 'N/A') html += `<li>HP: ${item.hp}</li>`;
