@@ -19,12 +19,15 @@
                 <p class="text-[10px] text-gray-400 font-medium tracking-widest mt-1">by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                <!-- Search -->
                 <div class="relative flex-grow">
                     <input v-model="searchQuery" type="text" placeholder="Search name or artist..." class="w-full md:w-64 border-2 border-gray-100 p-3 rounded-xl shadow-inner focus:border-blue-400 outline-none transition pl-10 text-sm font-bold">
                     <svg class="w-5 h-5 absolute left-3 top-3.5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
+                <!-- Set Selector (JUNGLE ADDED) -->
                 <select v-model="selectedSet" @change="loadData" class="border-2 border-gray-100 p-3 rounded-xl bg-white shadow-inner font-black text-gray-600 cursor-pointer focus:border-blue-400 outline-none text-sm">
                     <option value="base-set">Base Set (102)</option>
+                    <option value="jungle">Jungle (64)</option>
                 </select>
             </div>
         </header>
@@ -55,17 +58,17 @@
                             <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-105 transition duration-500" loading="lazy">
                         </div>
 
-                        <div class="px-1">
+                        <div class="px-1 text-center">
                             <div class="flex justify-between items-center mb-1">
                                 <span class="text-[9px] font-black text-gray-300">{{ card.number }}</span>
                                 <span class="text-[8px] bg-blue-50 text-blue-500 px-2 py-0.5 rounded-full font-black uppercase tracking-tighter">{{ card.category }}</span>
                             </div>
                             <p class="font-black text-xs truncate text-gray-800 uppercase tracking-tighter mb-0.5">{{ card.name }}</p>
-                            <p class="text-[9px] text-gray-400 font-bold italic truncate">Illus. {{ card.illustrator }}</p>
+                            <p class="text-[9px] text-gray-400 font-bold italic truncate">{{ card.illustrator }}</p>
                             <p class="text-[9px] text-blue-400 font-black uppercase mt-1">{{ card.rarity }}</p>
                         </div>
-                        <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl flex items-center justify-center text-center p-4">
-                            <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[10px] font-black shadow-xl translate-y-4 group-hover:translate-y-0 transition-transform tracking-widest uppercase">Add to Queue</span>
+                        <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl flex items-center justify-center">
+                            <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[10px] font-black shadow-xl translate-y-4 group-hover:translate-y-0 transition-transform tracking-widest uppercase">+ ADD</span>
                         </div>
                     </div>
                 </div>
@@ -78,7 +81,7 @@
                         <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue</h2>
                         <div class="flex gap-2 items-center mt-1">
                             <p class="text-[10px] font-black text-blue-500 uppercase tracking-widest">{{ exportList.length }} items</p>
-                            <button v-if="exportList.length > 0" @click="clearQueue" class="text-[9px] font-black text-red-400 hover:text-red-600 uppercase underline decoration-2 underline-offset-2 transition">Clear All</button>
+                            <button v-if="exportList.length > 0" @click="clearQueue" class="text-[9px] font-black text-red-400 hover:text-red-600 uppercase underline transition">Clear All</button>
                         </div>
                     </div>
                     <button @click="exportCSV" class="bg-green-600 text-white px-5 py-3 rounded-xl font-black hover:bg-green-700 shadow-lg transition active:scale-95 disabled:opacity-20 disabled:grayscale" :disabled="exportList.length === 0">
@@ -116,10 +119,6 @@
                         </div>
                     </div>
                 </div>
-                <div v-if="exportList.length === 0" class="text-center text-gray-200 py-20 flex flex-col items-center">
-                    <svg class="h-16 w-16 mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-                    <p class="font-bold uppercase text-sm tracking-widest">Your queue is empty</p>
-                </div>
             </div>
         </div>
     </div>
@@ -138,11 +137,8 @@
                 }
             },
             watch: {
-                // Ogni volta che exportList cambia, salviamo nel browser
                 exportList: {
-                    handler(newList) {
-                        localStorage.setItem('cardex_export_queue', JSON.stringify(newList));
-                    },
+                    handler(newList) { localStorage.setItem('cardex_export_queue', JSON.stringify(newList)); },
                     deep: true
                 }
             },
@@ -158,11 +154,8 @@
             },
             mounted() { 
                 this.loadData();
-                // Recuperiamo la coda salvata all'avvio
                 const savedQueue = localStorage.getItem('cardex_export_queue');
-                if (savedQueue) {
-                    this.exportList = JSON.parse(savedQueue);
-                }
+                if (savedQueue) this.exportList = JSON.parse(savedQueue);
             },
             methods: {
                 async loadData() {
@@ -174,40 +167,24 @@
                     } catch (error) { console.error(error); } finally { this.loading = false; }
                 },
                 addToExport(card) {
-                    this.exportList.unshift({ 
-                        ...card, 
-                        selectedCondition: 'Near Mint', 
-                        selectedVariant: 'Unlimited',
-                        price: 1.00 
-                    });
+                    this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00 });
                 },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
-                clearQueue() {
-                    if(confirm("Are you sure you want to clear the entire list?")) {
-                        this.exportList = [];
-                    }
-                },
+                clearQueue() { if(confirm("Clear all items?")) this.exportList = []; },
                 exportCSV() {
                     let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
-                    const vendor = this.selectedSet === 'base-set' ? "Wizards of the Coast" : "The Pokémon Company";
+                    
+                    const vendor = (this.selectedSet === 'base-set' || this.selectedSet === 'jungle') ? "Wizards of the Coast" : "The Pokémon Company";
+                    const setName = this.selectedSet === 'base-set' ? "Base Set" : "Jungle";
 
                     this.exportList.forEach(item => {
                         const varClean = item.selectedVariant.toLowerCase().replace(/\s+/g, '-');
                         const condClean = item.selectedCondition.toLowerCase().replace(/\s+/g, '-');
                         const handle = `${item.sku}-${varClean}-${condClean}`;
                         const title = `Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]`;
-                        const cleanIllustrator = item.illustrator.replace(/^Illus\.\s+/i, '');
+                        const cleanIllus = item.illustrator.replace(/^Illus\.\s+/i, '');
 
-                        const tagsList = [
-                            'Pokemon',
-                            item.category,
-                            'Base Set',
-                            item.rarity,
-                            cleanIllustrator,
-                            item.selectedVariant,
-                            item.selectedCondition
-                        ];
-                        const tags = `"${tagsList.join(', ')}"`;
+                        const tags = `"Pokemon, ${item.category}, ${setName}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
                         
                         csv += `"${handle}","${title}","","${vendor}","Single Card Raw",${tags},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${handle}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
@@ -215,7 +192,7 @@
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.body.appendChild(document.createElement("a"));
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_export_shopify.csv`;
+                    link.download = `cardex_${this.selectedSet}_shopify.csv`;
                     link.click();
                     document.body.removeChild(link);
                 }
