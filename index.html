@@ -25,7 +25,7 @@
         <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
             <div>
                 <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none text-center md:text-left">Cardex TCG</h1>
-                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic text-center md:text-left">Global Management System</p>
+                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic text-center md:text-left">Ultimate Management System by Jeevee83</p>
                 <p class="text-[9px] text-gray-300 font-bold tracking-widest mt-1 uppercase text-center md:text-left">by Jeevee83</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-3">
@@ -96,7 +96,6 @@
                                     <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-10 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
                                 </div>
                             </div>
-                            <!-- QUANTITY BOX -->
                             <div class="bg-white p-3 rounded-xl border-2 border-slate-100 flex items-center justify-between">
                                 <label class="text-[9px] font-black text-slate-300 uppercase">Quantity:</label>
                                 <input v-model.number="item.qty" type="number" min="1" class="w-16 font-black text-right text-blue-600 outline-none">
@@ -108,7 +107,7 @@
             </div>
         </div>
 
-        <!-- MODAL -->
+        <!-- DETAIL MODAL -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-10" @click.self="selectedCard = null">
             <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative">
                 <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-300 hover:text-slate-900 text-4xl transition">✕</button>
@@ -131,7 +130,6 @@
                                 <p class="font-black text-sm uppercase tracking-tight text-slate-700">{{ val }}</p>
                             </div>
                         </div>
-                        <!-- Attacks -->
                         <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6 mb-6">
                             <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
                             <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-slate-50 p-6 rounded-3xl border border-slate-100">
@@ -229,7 +227,9 @@
                 },
 
                 exportCSV() {
-                    let csv = "Handle,Title,Body (HTML),Vendor,Standard Product Type,Custom Product Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
+                    // HEADER AGGIORNATO PER SHOPIFY 2024
+                    let csv = "Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Image Src\n";
+                    
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
@@ -237,8 +237,10 @@
                         const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
                         const productBody = this.generateProductHTML(item);
                         
-                        // Header alignment fix for quantity
-                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},"${item.image_url}"\n`;
+                        // "Product Category" UFFICIALE: Toys & Games > Games > Card Games > Trading Cards
+                        const officialCat = "Toys & Games > Games > Card Games > Trading Cards";
+
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","${officialCat}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},,"${item.image_url}"\n`;
                     });
 
                     const now = new Date();
