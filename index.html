@@ -17,17 +17,27 @@
         .custom-scroll::-webkit-scrollbar-track { background: #1e293b; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
 
-        /* Stile Bottoni Categoria Orizzontali */
+        /* Stile Bottoni Categoria */
         .cat-btn {
             background: #1e293b;
             border-bottom: 3px solid transparent;
             transition: all 0.2s ease;
+            white-space: nowrap;
         }
         .cat-btn:hover { background: #334155; }
         .cat-btn.active.accent-red { border-bottom-color: #f87171; background: #334155; }
         .cat-btn.active.accent-green { border-bottom-color: #4ade80; background: #334155; }
         .cat-btn.active.accent-blue { border-bottom-color: #60a5fa; background: #334155; }
         .cat-btn.active.accent-yellow { border-bottom-color: #fbbf24; background: #334155; }
+
+        /* Dashboard Button Side */
+        .dash-btn {
+            background: #1e293b;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .dash-btn:hover { background: #334155; }
+        .dash-btn.active { background: #334155; border-left-width: 6px; }
     </style>
 </head>
 <body class="text-slate-200 font-sans">
@@ -35,20 +45,20 @@
         
         <!-- FIXED HEADER (TOP BAR) -->
         <header class="fixed top-0 left-0 right-0 z-50 bg-[#0f172a] border-b border-slate-800 shadow-2xl">
-            <div class="max-w-[1800px] mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+            <div class="max-w-[1800px] mx-auto px-4 sm:px-6 py-4 flex flex-col lg:flex-row items-center justify-between gap-4">
                 
-                <!-- Brand Section -->
-                <div class="flex items-center gap-6">
-                    <div>
+                <!-- Brand + Categories Wrapper -->
+                <div class="flex flex-col sm:flex-row items-center gap-6 w-full lg:w-auto">
+                    <div class="text-center sm:text-left">
                         <h1 class="text-5xl font-bold text-white tracking-tighter leading-none uppercase">Cardex</h1>
                         <p class="text-[9px] text-slate-500 font-black uppercase tracking-[0.2em] mt-1">TCG System <span class="text-slate-700 ml-1">by Jeevee83</span></p>
                     </div>
                     
-                    <!-- Horizontal Categories -->
-                    <nav class="hidden xl:flex gap-1 bg-slate-900/50 p-1 rounded-xl border border-slate-800">
+                    <!-- Categories (ALWAYS VISIBLE NOW) -->
+                    <nav class="flex gap-1 bg-slate-900/50 p-1 rounded-xl border border-slate-800">
                         <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
                                 @click="activeCategory = cat"
-                                :class="['cat-btn px-4 py-2 rounded-lg font-bold text-xs uppercase tracking-wider', 
+                                :class="['cat-btn px-4 py-2 rounded-lg font-bold text-[10px] sm:text-xs uppercase tracking-wider', 
                                 activeCategory === cat ? 'active' : '', 
                                 cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">
                             {{ cat }}
@@ -57,13 +67,13 @@
                 </div>
 
                 <!-- Search & Set Section -->
-                <div class="flex items-center gap-3 flex-grow max-w-2xl justify-end">
+                <div class="flex items-center gap-3 w-full lg:max-w-2xl justify-center lg:justify-end">
                     <div class="relative flex-grow max-w-md">
                         <input v-model="searchQuery" type="text" placeholder="Search card..." 
                                class="w-full bg-[#1e293b] border border-slate-700 p-2.5 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-sm font-bold text-white">
-                        <svg class="w-4 h-4 absolute left-3 top-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                        <svg class="w-4 h-4 absolute left-3 top-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </div>
-                    <select v-model="selectedSet" class="bg-[#1e293b] border border-slate-700 p-2.5 rounded-xl font-bold text-slate-300 outline-none text-sm cursor-pointer">
+                    <select v-model="selectedSet" class="bg-[#1e293b] border border-slate-700 p-2.5 rounded-xl font-bold text-slate-300 outline-none text-sm cursor-pointer min-w-[140px] sm:min-w-[180px]">
                         <option value="all">All Generations</option>
                         <option v-for="set in availableSets" :key="set.id" :value="set.id">{{ set.name }}</option>
                     </select>
@@ -80,13 +90,13 @@
         </header>
 
         <!-- PADDING FOR FIXED HEADER -->
-        <div class="h-[140px]"></div>
+        <div class="h-[210px] lg:h-[140px]"></div>
 
         <div class="max-w-[1800px] mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
             
             <!-- LEFT SIDEBAR (STICKY QUEUE) -->
             <aside class="lg:col-span-3">
-                <div class="lg:sticky lg:top-40 space-y-6">
+                <div class="lg:sticky lg:top-[160px] space-y-6">
                     <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col">
                         <div class="p-6 border-b border-slate-800 bg-slate-900/20 flex justify-between items-center">
                             <div>
@@ -97,7 +107,7 @@
                         </div>
 
                         <!-- Scrollable Queue List -->
-                        <div class="custom-scroll overflow-y-auto p-4 space-y-3 max-h-[55vh]">
+                        <div class="custom-scroll overflow-y-auto p-4 space-y-3 max-h-[50vh]">
                             <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-left duration-200">
                                 <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-slate-600 hover:text-red-500 transition font-bold">✕</button>
                                 <p class="font-black text-[10px] text-blue-400 mb-3 uppercase truncate pr-4">{{ item.name }}</p>
@@ -112,19 +122,16 @@
                                         <input v-model="item.price" type="number" step="0.01" class="w-full bg-[#1e293b] border border-slate-700 p-2 pl-7 rounded-lg text-[10px] font-black text-green-400 outline-none text-right">
                                     </div>
                                     <div class="flex items-center gap-2 bg-black/20 px-2 rounded-lg">
-                                        <button @click="item.qty > 1 ? item.qty-- : null" class="text-slate-500">-</button>
+                                        <button @click="item.qty > 1 ? item.qty-- : null" class="text-slate-500 hover:text-white font-bold">-</button>
                                         <span class="text-[10px] font-black text-blue-400 w-4 text-center">{{ item.qty }}</span>
-                                        <button @click="item.qty++" class="text-blue-500">+</button>
+                                        <button @click="item.qty++" class="text-blue-500 hover:text-blue-300 font-bold">+</button>
                                     </div>
                                 </div>
-                            </div>
-                            <div v-if="exportList.length === 0" class="py-12 text-center opacity-10">
-                                <p class="text-[10px] font-black uppercase tracking-widest">Queue Empty</p>
                             </div>
                         </div>
 
                         <div class="p-4 border-t border-slate-800 bg-slate-900/40">
-                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[9px] text-slate-600 hover:text-red-400 uppercase font-black tracking-widest transition">Clear Queue</button>
+                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[9px] text-slate-500 hover:text-red-400 uppercase font-black tracking-widest transition">Clear Queue</button>
                         </div>
                     </div>
                 </div>
@@ -136,7 +143,7 @@
                     <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-[2rem] animate-pulse"></div>
                 </div>
                 
-                <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
                     <div v-for="card in filteredCards" :key="card.sku" 
                          class="bg-[#1e293b] rounded-[2rem] border border-slate-800 hover:border-slate-500 transition-all duration-500 group overflow-hidden flex flex-col h-full relative shadow-lg">
                         
@@ -150,7 +157,7 @@
                         </div>
 
                         <div class="p-5 pt-2 text-center">
-                            <div class="flex justify-between items-center mb-1">
+                            <div class="flex justify-between items-center mb-2">
                                 <span class="text-[9px] font-bold text-slate-600">#{{ card.number }}</span>
                                 <span :class="['text-[7px] font-black px-2 py-0.5 rounded-full uppercase', 
                                     card.category === 'Pokémon' ? 'bg-green-500/20 text-green-400' : 
@@ -158,7 +165,7 @@
                                     {{ card.category }}
                                 </span>
                             </div>
-                            <h4 class="font-black text-xs text-white uppercase tracking-tight truncate mb-4">{{ card.name }}</h4>
+                            <h4 class="font-black text-sm text-white uppercase tracking-tight truncate mb-4">{{ card.name }}</h4>
                             
                             <div class="grid grid-cols-2 gap-2">
                                 <button @click="addToExport(card)" class="bg-blue-600 hover:bg-blue-500 text-white text-[9px] font-black py-2.5 rounded-xl transition uppercase tracking-widest shadow-lg active:scale-95">Add</button>
@@ -170,7 +177,7 @@
             </main>
         </div>
 
-        <!-- MODAL DETAILS (UNCHANGED LOGIC) -->
+        <!-- MODAL DETAILS -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4" @click.self="selectedCard = null">
             <div class="bg-[#1e293b] rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
                 <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition font-bold">✕</button>
@@ -186,7 +193,7 @@
                         </header>
                         <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y border-slate-800 py-8 mb-8 text-center md:text-left">
                             <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
-                                <p class="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p>
+                                <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p>
                                 <p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p>
                             </div>
                         </div>
