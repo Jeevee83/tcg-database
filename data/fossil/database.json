@@ -10,9 +10,27 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-1-aerodactyl.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Mysterious Fossil",
+        "attacks": [
+            {
+                "name": "Wing Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-2-articuno",
@@ -26,8 +44,38 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Freeze Dry",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Blizzard",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-3-ditto",
@@ -40,9 +88,15 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-3-ditto.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": []
     },
     {
         "sku": "fossil-4-dragonite",
@@ -56,8 +110,27 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Dragonair",
+        "attacks": [
+            {
+                "name": "Slam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40×",
+                "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-5-gengar",
@@ -71,8 +144,26 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Haunter",
+        "attacks": [
+            {
+                "name": "Dark Mind",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-6-haunter",
@@ -86,8 +177,25 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Gastly",
+        "attacks": [
+            {
+                "name": "Nightmare",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "The Defending Pokémon is now Asleep."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-7-hitmonlee",
@@ -100,9 +208,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-7-hitmonlee.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stretch Kick",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            },
+            {
+                "name": "High Jump Kick",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-8-hypno",
@@ -115,9 +251,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-8-hypno.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Drowzee",
+        "attacks": [
+            {
+                "name": "Prophecy",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
+            },
+            {
+                "name": "Dark Mind",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-9-kabutops",
@@ -130,9 +293,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-9-kabutops.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Kabuto",
+        "attacks": [
+            {
+                "name": "Sharp Sickle",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Absorb",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-10-lapras",
@@ -145,9 +337,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-10-lapras.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each Water Energy attached to Lapras but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            },
+            {
+                "name": "Confuse Ray",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-11-magneton",
@@ -160,9 +378,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-11-magneton.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Magnemite",
+        "attacks": [
+            {
+                "name": "Sonicboom",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "100",
+                "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-12-moltres",
@@ -176,8 +423,36 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Wildfire",
+                "cost": [
+                    "Fire"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
+            },
+            {
+                "name": "Dive Bomb",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": "Flip a coin. If tails, this attack does nothing."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-13-muk",
@@ -190,9 +465,27 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-13-muk.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Grimer",
+        "attacks": [
+            {
+                "name": "Sludge",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-14-raichu",
@@ -205,9 +498,28 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-14-raichu.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Pikachu",
+        "attacks": [
+            {
+                "name": "Gigashock",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "30",
+                "text": "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do the damage to each of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-15-zapdos",
@@ -221,23 +533,60 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Thunderstorm",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-16-aerodactyl",
         "name": "Aerodactyl",
         "number": "16/62",
         "category": "Pokémon",
-        "rarity": "Rare Holo",
+        "rarity": "Rare",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-16-aerodactyl.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Mysterious Fossil",
+        "attacks": [
+            {
+                "name": "Wing Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-17-articuno",
@@ -251,8 +600,38 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Freeze Dry",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Blizzard",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-18-ditto",
@@ -265,9 +644,15 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-18-ditto.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": []
     },
     {
         "sku": "fossil-19-dragonite",
@@ -281,8 +666,27 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Dragonair",
+        "attacks": [
+            {
+                "name": "Slam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40×",
+                "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-20-gengar",
@@ -296,8 +700,26 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Haunter",
+        "attacks": [
+            {
+                "name": "Dark Mind",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-21-haunter",
@@ -311,8 +733,25 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Gastly",
+        "attacks": [
+            {
+                "name": "Nightmare",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "The Defending Pokémon is now Asleep."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-22-hitmonlee",
@@ -325,9 +764,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-22-hitmonlee.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stretch Kick",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            },
+            {
+                "name": "High Jump Kick",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-23-hypno",
@@ -340,9 +807,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-23-hypno.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Drowzee",
+        "attacks": [
+            {
+                "name": "Prophecy",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
+            },
+            {
+                "name": "Dark Mind",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-24-kabutops",
@@ -355,9 +849,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-24-kabutops.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Kabuto",
+        "attacks": [
+            {
+                "name": "Sharp Sickle",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Absorb",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-25-lapras",
@@ -370,9 +893,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-25-lapras.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each Water Energy attached to Lapras but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            },
+            {
+                "name": "Confuse Ray",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-26-magneton",
@@ -385,9 +934,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-26-magneton.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Magnemite",
+        "attacks": [
+            {
+                "name": "Sonicboom",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "100",
+                "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-27-moltres",
@@ -401,8 +979,36 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Wildfire",
+                "cost": [
+                    "Fire"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
+            },
+            {
+                "name": "Dive Bomb",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": "Flip a coin. If tails, this attack does nothing."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-28-muk",
@@ -415,9 +1021,27 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-28-muk.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Grimer",
+        "attacks": [
+            {
+                "name": "Sludge",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-29-raichu",
@@ -430,9 +1054,28 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-29-raichu.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Pikachu",
+        "attacks": [
+            {
+                "name": "Gigashock",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "30",
+                "text": "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do that damage to each of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-30-zapdos",
@@ -446,420 +1089,1101 @@
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "2",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Thunderstorm",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-31-arbok",
         "name": "Arbok",
         "number": "31/62",
         "category": "Pokémon",
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-31-arbok.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Ekans",
+        "attacks": [
+            {
+                "name": "Terror Strike",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+            },
+            {
+                "name": "Poison Fang",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "The Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-32-cloyster",
         "name": "Cloyster",
         "number": "32/62",
         "category": "Pokémon",
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-32-cloyster.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Shellder",
+        "attacks": [
+            {
+                "name": "Clamp",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
+            },
+            {
+                "name": "Spike Cannon",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-33-gastly",
         "name": "Gastly",
         "number": "33/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-33-gastly.png",
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Lick",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Energy Conversion",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-34-golbat",
         "name": "Golbat",
         "number": "34/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-34-golbat.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Psychic ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Zubat",
+        "attacks": [
+            {
+                "name": "Wing Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Leech Life",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "Remove a number of damage counters from Golbat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Golbat has fewer damage counters than that, remove all of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-35-golduck",
         "name": "Golduck",
         "number": "35/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-35-golduck.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Psyduck",
+        "attacks": [
+            {
+                "name": "Psyshock",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Hyper Beam",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-36-golem",
         "name": "Golem",
         "number": "36/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "80",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-36-golem.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "4",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Graveler",
+        "attacks": [
+            {
+                "name": "Avalanche",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": ""
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "100",
+                "text": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-37-graveler",
         "name": "Graveler",
         "number": "37/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-37-graveler.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Geodude",
+        "attacks": [
+            {
+                "name": "Harden",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+            },
+            {
+                "name": "Rock Throw",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-38-kingler",
         "name": "Kingler",
         "number": "38/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-38-kingler.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Krabby",
+        "attacks": [
+            {
+                "name": "Flail",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Does 10 damage times the number of damage counters on Kingler."
+            },
+            {
+                "name": "Crabhammer",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-39-magmar",
         "name": "Magmar",
         "number": "39/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-39-magmar.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Smokescreen",
+                "cost": [
+                    "Fire"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+            },
+            {
+                "name": "Smog",
+                "cost": [
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-40-omastar",
         "name": "Omastar",
         "number": "40/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-40-omastar.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Omanyte",
+        "attacks": [
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Does 20 damage plus 10 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            },
+            {
+                "name": "Spike Cannon",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-41-sandslash",
         "name": "Sandslash",
         "number": "41/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-41-sandslash.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Sandshrew",
+        "attacks": [
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20×",
+                "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-42-seadra",
         "name": "Seadra",
         "number": "42/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-42-seadra.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Horsea",
+        "attacks": [
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Does 20 damage plus 10 more damage for each Water Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            },
+            {
+                "name": "Agility",
+                "cost": [
+                    "Water",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-43-slowbro",
         "name": "Slowbro",
         "number": "43/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-43-slowbro.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Slowpoke",
+        "attacks": [
+            {
+                "name": "Psyshock",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-44-tentacruel",
         "name": "Tentacruel",
         "number": "44/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-44-tentacruel.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Tentacool",
+        "attacks": [
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            },
+            {
+                "name": "Jellyfish Sting",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "The Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-45-weezing",
         "name": "Weezing",
         "number": "45/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-45-weezing.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Koffing",
+        "attacks": [
+            {
+                "name": "Smog",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "60",
+                "text": "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Weezing does 60 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-46-ekans",
         "name": "Ekans",
         "number": "46/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-46-ekans.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Spit Poison",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            },
+            {
+                "name": "Wrap",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-47-geodude",
         "name": "Geodude",
         "number": "47/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-47-geodude.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stone Barrage",
+                "cost": [
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10×",
+                "text": "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-48-grimer",
         "name": "Grimer",
         "number": "48/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-48-grimer.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Nasty Goo",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Minimize",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-49-horsea",
         "name": "Horsea",
         "number": "49/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-49-horsea.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Smokescreen",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-50-kabuto",
         "name": "Kabuto",
         "number": "50/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "30",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-50-kabuto.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Mysterious Fossil",
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-51-krabby",
         "name": "Krabby",
         "number": "51/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-51-krabby.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Call for Family",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full.)"
+            },
+            {
+                "name": "Irongrip",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-52-omanyte",
         "name": "Omanyte",
         "number": "52/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-52-omanyte.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Mysterious Fossil",
+        "attacks": [
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-53-psyduck",
         "name": "Psyduck",
         "number": "53/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-53-psyduck.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Headache",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Your opponent can't play Trainer cards during his or her next turn."
+            },
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-54-shellder",
         "name": "Shellder",
         "number": "54/62",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
+        "rarity": "Common",
+        "hp": "30",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-54-shellder.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            },
+            {
+                "name": "Hide in Shell",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-55-slowpoke",
         "name": "Slowpoke",
         "number": "55/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "50",
         "illustrator": "Miki Tanaka",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-55-slowpoke.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Spacing Out",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
+            },
+            {
+                "name": "Scavenge",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-56-tentacool",
         "name": "Tentacool",
         "number": "56/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "30",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-56-tentacool.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Acid",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-57-zubat",
         "name": "Zubat",
         "number": "57/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-57-zubat.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Psychic ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            },
+            {
+                "name": "Leech Life",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Remove a number of damage counters from Zubat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Zubat has fewer damage counters than that, remove all of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "fossil-58-mr-fuji",
         "name": "Mr. Fuji",
         "number": "58/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-58-mr-fuji.png",
@@ -867,14 +2191,22 @@
         "stage": "Basic",
         "weakness": "N/A",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "N/A"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": [
+            "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck."
+        ]
     },
     {
         "sku": "fossil-59-energy-search",
         "name": "Energy Search",
         "number": "59/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-59-energy-search.png",
@@ -882,14 +2214,22 @@
         "stage": "Basic",
         "weakness": "N/A",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "N/A"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": [
+            "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward."
+        ]
     },
     {
         "sku": "fossil-60-gambler",
         "name": "Gambler",
         "number": "60/62",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-60-gambler.png",
@@ -897,14 +2237,22 @@
         "stage": "Basic",
         "weakness": "N/A",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "N/A"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": [
+            "Shuffle your hand into your deck. Flip a coin. If heads, draw 8 cards. If tails, draw 1 card."
+        ]
     },
     {
         "sku": "fossil-61-recycle",
         "name": "Recycle",
         "number": "61/62",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-61-recycle.png",
@@ -912,14 +2260,22 @@
         "stage": "N/A",
         "weakness": "N/A",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "N/A"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": [
+            "Flip a coin. If heads, put a card in your discard pile on top of your deck."
+        ]
     },
     {
         "sku": "fossil-62-mysterious-fossil",
         "name": "Mysterious Fossil",
         "number": "62/62",
         "category": "Trainer",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "10",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-62-mysterious-fossil.png",
@@ -927,6 +2283,14 @@
         "stage": "N/A",
         "weakness": "N/A",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "N/A"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": [
+            "Play Mysterious Fossil as if it were a Basic Pokémon. While in play, Mysterious Fossil counts as a Pokémon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play."
+        ]
     }
 ]

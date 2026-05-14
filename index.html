@@ -3,135 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardex TCG - Professional Manager</title>
+    <title>Cardex TCG - Professional Database</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         [v-cloak] { display: none; }
-        .modal-overlay { background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); }
+        .modal-overlay { background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); }
+        .type-pill { padding: 2px 8px; border-radius: 4px; color: white; font-weight: 800; font-size: 10px; text-transform: uppercase; }
+        .type-Fire { background: #ff4422; } .type-Water { background: #3399ff; } .type-Grass { background: #77cc55; }
+        .type-Lightning { background: #ffcc33; color: #333; } .type-Psychic { background: #ff5599; }
+        .type-Fighting { background: #bb5544; } .type-Colorless { background: #a8a878; }
     </style>
 </head>
-<body class="bg-gray-100 font-sans text-gray-900">
+<body class="bg-slate-50 font-sans text-slate-900">
     <div id="app" v-cloak class="max-w-7xl mx-auto p-4 md:p-6">
         
         <!-- HEADER -->
-        <header class="flex flex-col md:flex-row justify-between items-center mb-6 bg-white p-6 rounded-3xl shadow-sm gap-6 border-b-8 border-blue-600">
+        <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
             <div>
-                <h1 class="text-4xl font-black text-gray-900 tracking-tighter uppercase">Cardex TCG</h1>
-                <p class="text-xs font-bold text-blue-600 tracking-widest uppercase">Global Management System</p>
+                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">Cardex TCG</h1>
+                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic">Ultimate Management System by Jeevee83</p>
             </div>
-            <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-                <input v-model="searchQuery" type="text" placeholder="Search card or artist..." class="w-full md:w-72 border-2 border-gray-100 p-3 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold">
-                <select v-model="selectedSet" class="border-2 border-gray-100 p-3 rounded-2xl bg-white font-black text-gray-600 cursor-pointer outline-none">
-                    <option value="all">🌍 All Sets</option>
+            <div class="flex flex-col sm:flex-row gap-3">
+                <input v-model="searchQuery" type="text" placeholder="Search Pokemon, Artist, Attack..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
+                <select v-model="selectedSet" class="border-2 border-slate-100 p-4 rounded-2xl bg-white font-black text-slate-600 outline-none text-sm">
+                    <option value="all">🌍 All Generations</option>
                     <option v-for="set in availableSets" :key="set.id" :value="set.id">{{ set.name }}</option>
                 </select>
             </div>
         </header>
 
         <!-- FILTERS -->
-        <div class="flex flex-wrap gap-2 mb-8">
+        <div class="flex flex-wrap gap-2 mb-10 justify-center md:justify-start">
             <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
                     @click="activeCategory = cat"
-                    :class="['px-6 py-2 rounded-full font-black text-xs uppercase transition-all border-2', 
-                    activeCategory === cat ? 'bg-blue-600 border-blue-600 text-white shadow-lg' : 'bg-white border-white text-gray-400']">
+                    :class="['px-8 py-3 rounded-full font-black text-xs uppercase tracking-widest transition-all border-4', 
+                    activeCategory === cat ? 'bg-blue-600 border-blue-600 text-white shadow-xl scale-105' : 'bg-white border-white text-slate-400 hover:border-blue-100']">
                 {{ cat }}
             </button>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <!-- Main Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <!-- MAIN GRID -->
             <div class="lg:col-span-2">
-                <div v-if="loading" class="text-center py-20 animate-pulse font-black text-gray-300 uppercase tracking-widest">Loading Database...</div>
-                <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+                <div v-if="loading" class="text-center py-20 font-black text-slate-200 text-4xl italic uppercase animate-pulse">Syncing Global Data...</div>
+                <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
                     <div v-for="card in filteredCards" :key="card.sku" 
-                         class="bg-white p-4 rounded-3xl shadow-sm hover:shadow-2xl transition-all border-2 border-transparent hover:border-blue-500 group">
+                         class="bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-500 group relative flex flex-col h-full">
                         
-                        <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[3/4] bg-gray-50 border border-gray-100">
-                            <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-105 transition duration-500">
+                        <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[3/4] bg-slate-50">
+                            <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-110 transition duration-700">
                         </div>
 
-                        <div class="space-y-1 mb-4">
-                            <div class="flex justify-between items-center">
-                                <span class="text-[9px] font-black text-gray-300">{{ card.number }}</span>
-                                <span class="text-[8px] bg-blue-50 text-blue-500 px-2 py-0.5 rounded-full font-black uppercase">{{ card.category }}</span>
+                        <div class="text-center flex-grow">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="text-[10px] font-black text-slate-300">#{{ card.number }}</span>
+                                <span class="text-[8px] bg-blue-50 text-blue-600 px-2 py-1 rounded-lg font-black uppercase">{{ card.category }}</span>
                             </div>
-                            <p class="font-black text-xs truncate text-gray-800 uppercase tracking-tighter">{{ card.name }}</p>
-                            <p class="text-[10px] text-blue-500 font-bold italic">{{ card.rarity }}</p>
+                            <p class="font-black text-sm truncate text-slate-800 uppercase tracking-tighter mb-1">{{ card.name }}</p>
+                            <p class="text-[9px] text-slate-400 font-bold italic truncate mb-4">Illus. {{ card.illustrator }}</p>
                         </div>
                         
-                        <!-- Actions -->
-                        <div class="grid grid-cols-2 gap-2">
-                            <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2 rounded-xl hover:bg-blue-700 transition uppercase">Add</button>
-                            <button @click="showDetails(card)" class="bg-gray-100 text-gray-600 text-[9px] font-black py-2 rounded-xl hover:bg-gray-200 transition uppercase">Details</button>
+                        <div class="grid grid-cols-2 gap-2 mt-auto">
+                            <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2.5 rounded-xl hover:bg-blue-700 uppercase shadow-md">Add</button>
+                            <button @click="showDetails(card)" class="bg-slate-100 text-slate-600 text-[9px] font-black py-2.5 rounded-xl hover:bg-slate-200 uppercase">Details</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Export Queue -->
-            <div class="bg-white p-6 rounded-3xl shadow-xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-gray-100">
-                <div class="flex justify-between items-start mb-6">
-                    <h2 class="text-xl font-black text-gray-800 uppercase tracking-tighter">Export Queue ({{ exportList.length }})</h2>
-                    <button @click="exportCSV" class="bg-green-600 text-white px-4 py-2 rounded-xl font-black text-xs shadow-lg hover:bg-green-700 transition" :disabled="exportList.length === 0">CSV</button>
+            <!-- EXPORT QUEUE (Persistent) -->
+            <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-slate-100">
+                <div class="flex justify-between items-start mb-8">
+                    <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter italic">Queue <span class="text-blue-500 ml-2">[{{ exportList.length }}]</span></h2>
+                    <button @click="exportCSV" class="bg-green-600 text-white px-6 py-3 rounded-2xl font-black text-sm shadow-xl hover:bg-green-700" :disabled="exportList.length === 0">CSV</button>
                 </div>
-                <div class="space-y-3 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-4 rounded-2xl relative">
-                        <button @click="removeFromExport(index)" class="absolute top-2 right-2 text-red-300 hover:text-red-500">✕</button>
-                        <p class="font-black text-[10px] uppercase text-blue-900">{{ item.name }}</p>
-                        <div class="grid grid-cols-2 gap-2 mt-2">
-                            <select v-model="item.selectedVariant" class="text-[9px] p-1 rounded border font-bold"><option>Unlimited</option><option>1st Edition</option><option>Shadowless</option></select>
-                            <input v-model="item.price" type="number" class="text-[9px] p-1 rounded border font-bold">
+                <div class="space-y-4 overflow-y-auto pr-2 flex-grow">
+                    <div v-for="(item, index) in exportList" :key="index" class="bg-slate-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
+                        <button @click="removeFromExport(index)" class="absolute top-4 right-4 text-slate-300 hover:text-red-500 font-bold">✕</button>
+                        <p class="font-black text-xs text-blue-900 mb-4 uppercase">{{ item.name }}</p>
+                        <div class="space-y-3">
+                            <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none">
+                                <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
+                            </select>
+                            <div class="grid grid-cols-2 gap-3">
+                                <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none">
+                                    <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
+                                </select>
+                                <div class="relative">
+                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400">CHF</span>
+                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-9 rounded-xl font-black text-[10px] text-green-700 outline-none">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <button v-if="exportList.length > 0" @click="clearQueue" class="mt-4 text-[10px] font-black text-red-400 uppercase tracking-widest hover:text-red-600">Clear All Items</button>
             </div>
         </div>
 
-        <!-- DETAIL MODAL -->
+        <!-- THE ULTIMATE POKEDEX MODAL -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4" @click.self="selectedCard = null">
-            <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl animate-in fade-in zoom-in duration-300">
-                <!-- Image Side -->
-                <div class="md:w-1/2 bg-gray-50 p-8 flex items-center justify-center">
-                    <img :src="selectedCard.image_url" class="max-h-full drop-shadow-2xl rounded-xl">
-                </div>
-                <!-- Data Side -->
-                <div class="md:w-1/2 p-8 overflow-y-auto relative">
-                    <button @click="selectedCard = null" class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl">✕</button>
-                    
-                    <div class="mb-6">
-                        <h3 class="text-3xl font-black uppercase tracking-tighter">{{ selectedCard.name }}</h3>
-                        <div class="flex gap-2 items-center mt-2">
-                            <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-[10px] font-black uppercase">{{ selectedCard.category }}</span>
-                            <span class="text-gray-400 font-bold text-sm">#{{ selectedCard.number }}</span>
-                        </div>
+            <div class="bg-white rounded-[3rem] max-w-6xl w-full max-h-[92vh] overflow-hidden flex flex-col md:row shadow-2xl relative">
+                <div class="flex flex-col md:flex-row h-full">
+                    <!-- Left: Card Image -->
+                    <div class="md:w-1/2 bg-slate-50 p-12 flex items-center justify-center border-r border-slate-100">
+                        <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_45px_45px_rgba(0,0,0,0.3)] rounded-2xl scale-110">
                     </div>
+                    <!-- Right: Verified Data -->
+                    <div class="md:w-1/2 p-12 overflow-y-auto">
+                        <button @click="selectedCard = null" class="absolute top-8 right-8 text-slate-300 hover:text-slate-900 text-3xl transition">✕</button>
+                        
+                        <div class="mb-10">
+                            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
+                            <h3 class="text-5xl font-black uppercase tracking-tighter text-slate-900 leading-none mt-4">{{ selectedCard.name }}</h3>
+                            <div class="flex justify-between items-center mt-4">
+                                <p class="text-slate-300 font-black text-2xl tracking-tighter italic">#{{ selectedCard.number }}</p>
+                                <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-600 font-black text-3xl tracking-tighter">{{ selectedCard.hp }} HP</p>
+                            </div>
+                        </div>
 
-                    <div class="grid grid-cols-2 gap-6 border-y py-6 border-gray-100 mb-6">
-                        <div>
-                            <p class="text-[10px] font-black text-gray-400 uppercase">Rarity</p>
-                            <p class="font-bold text-blue-600">{{ selectedCard.rarity }}</p>
+                        <!-- Technical Grid -->
+                        <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y-4 border-slate-50 py-8 mb-8">
+                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
+                                <p class="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-1">{{ label }}</p>
+                                <p class="font-black text-base uppercase tracking-tight text-slate-700">{{ val }}</p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="text-[10px] font-black text-gray-400 uppercase">HP</p>
-                            <p class="font-bold">{{ selectedCard.hp }}</p>
+
+                        <!-- Attacks Section -->
+                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6 mb-10">
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Attacks & Abilities</p>
+                            <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-slate-50 p-6 rounded-3xl border border-slate-100">
+                                <div class="flex justify-between items-start mb-2">
+                                    <div class="flex gap-1 items-center">
+                                        <span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span>
+                                        <p class="font-black uppercase text-lg ml-2">{{ atk.name }}</p>
+                                    </div>
+                                    <p class="font-black text-xl text-slate-900">{{ atk.damage }}</p>
+                                </div>
+                                <p class="text-sm text-slate-500 leading-relaxed font-medium italic">{{ atk.text }}</p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="text-[10px] font-black text-gray-400 uppercase">Illustrator</p>
-                            <p class="font-bold">{{ selectedCard.illustrator }}</p>
+
+                        <!-- Rules for Trainer/Energy -->
+                        <div v-if="selectedCard.rules && selectedCard.rules.length > 0" class="bg-slate-900 rounded-[2rem] p-8 text-white mb-10">
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-[0.2em] mb-4">Card Text</p>
+                            <p v-for="rule in selectedCard.rules" :key="rule" class="text-sm font-medium leading-relaxed opacity-90 italic mb-2">{{ rule }}</p>
                         </div>
-                        <div>
-                            <p class="text-[10px] font-black text-gray-400 uppercase">Weakness</p>
-                            <p class="font-bold text-red-500">{{ selectedCard.weakness }}</p>
-                        </div>
+
+                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-6 rounded-[2.5rem] font-black uppercase tracking-widest text-lg hover:bg-blue-700 shadow-2xl transition transform hover:-translate-y-1">Add to Export List</button>
                     </div>
-
-                    <div class="bg-blue-50 p-6 rounded-2xl">
-                        <p class="text-[10px] font-black text-blue-400 uppercase mb-2">Technical Info</p>
-                        <p class="text-sm text-blue-800 leading-relaxed italic">Detailed card mechanics and attack descriptions will be populated in the next data sync.</p>
-                    </div>
-
-                    <button @click="addToExport(selectedCard); selectedCard = null" class="w-full mt-8 bg-blue-600 text-white py-4 rounded-2xl font-black uppercase tracking-widest hover:bg-blue-700 transition">Add to Export Queue</button>
                 </div>
             </div>
         </div>
@@ -150,23 +172,15 @@
                         { id: 'gym-heroes', name: 'Gym Heroes', vendor: 'Wizards of the Coast' },
                         { id: 'gym-challenge', name: 'Gym Challenge', vendor: 'Wizards of the Coast' }
                     ],
-                    cards: [],
-                    exportList: [],
-                    searchQuery: '',
-                    selectedSet: 'all',
-                    activeCategory: 'All',
-                    loading: true,
-                    selectedCard: null
+                    cards: [], exportList: [], searchQuery: '', selectedSet: 'all', activeCategory: 'All', loading: true, selectedCard: null
                 }
             },
-            watch: {
-                exportList: { handler(newList) { localStorage.setItem('cardex_export_queue', JSON.stringify(newList)); }, deep: true }
-            },
+            watch: { exportList: { handler(newList) { localStorage.setItem('cardex_export_queue', JSON.stringify(newList)); }, deep: true } },
             computed: {
                 filteredCards() {
                     return this.cards.filter(c => {
                         const s = this.searchQuery.toLowerCase();
-                        const matchesSearch = c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s);
+                        const matchesSearch = c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s) || (c.attacks && c.attacks.some(a => a.name.toLowerCase().includes(s)));
                         const matchesCategory = this.activeCategory === 'All' || c.category === this.activeCategory;
                         const matchesSet = this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet);
                         return matchesSearch && matchesCategory && matchesSet;
@@ -181,30 +195,30 @@
             methods: {
                 async loadAllData() {
                     this.loading = true;
-                    const promises = this.availableSets.map(s => 
-                        fetch(`https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${s.id}/database.json`).then(res => res.json())
-                    );
+                    const promises = this.availableSets.map(s => fetch(`https://raw.githubusercontent.com/Jeevee83/tcg-database/main/data/${s.id}/database.json`).then(res => res.json()));
                     const results = await Promise.all(promises);
                     this.cards = results.flat();
                     this.loading = false;
                 },
+                getSetName(sku) { return this.availableSets.find(s => sku.startsWith(s.id))?.name || 'Set'; },
                 showDetails(card) { this.selectedCard = card; },
                 addToExport(card) { this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00 }); },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
-                clearQueue() { if(confirm("Clear all?")) this.exportList = []; },
+                clearQueue() { if(confirm("Clear all items?")) this.exportList = []; },
                 exportCSV() {
                     let csv = "Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
                         const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator}, ${item.selectedVariant}"`;
-                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant})","","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-                    const link = document.createElement("a");
+                    const link = document.body.appendChild(document.createElement("a"));
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_export.csv`;
+                    link.download = `cardex_export_chf.csv`;
                     link.click();
+                    document.body.removeChild(link);
                 }
             }
         }).mount('#app');

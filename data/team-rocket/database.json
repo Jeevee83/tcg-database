@@ -5,14 +5,32 @@
         "number": "1/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "60",
+        "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-1-dark-alakazam.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Kadabra",
+        "attacks": [
+            {
+                "name": "Confuse Ray",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-2-dark-arbok",
@@ -20,14 +38,32 @@
         "number": "2/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "60",
-        "illustrator": "Mitsuhiro Arita",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-2-dark-arbok.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Wartortle",
+        "attacks": [
+            {
+                "name": "Hydro Pump",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40+",
+                "text": "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-3-dark-blastoise",
@@ -35,14 +71,43 @@
         "number": "3/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "70",
-        "illustrator": "Mitsuhiro Arita",
+        "hp": "120",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-3-dark-blastoise.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Scrunch",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)"
+            },
+            {
+                "name": "Double-edge",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": "Chansey does 80 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-4-dark-charizard",
@@ -50,14 +115,33 @@
         "number": "4/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "80",
-        "illustrator": "Ken Sugimori",
+        "hp": "120",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-4-dark-charizard.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Water ×2",
+        "resistance": "Fighting -30",
+        "retreat": "3",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Charmeleon",
+        "attacks": [
+            {
+                "name": "Fire Spin",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "100",
+                "text": "Discard 2 Energy cards attached to Charizard in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-5-dark-dragonite",
@@ -70,9 +154,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-5-dark-dragonite.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Clefairy",
+        "attacks": [
+            {
+                "name": "Metronome",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)"
+            },
+            {
+                "name": "Minimize",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-6-dark-dugtrio",
@@ -80,14 +190,41 @@
         "number": "6/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "50",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-6-dark-dugtrio.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Sing",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Metronome",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "",
+                "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefairy's type is still Colorless.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-7-dark-golbat",
@@ -95,14 +232,44 @@
         "number": "7/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "50",
+        "hp": "100",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-7-dark-golbat.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Fighting -30",
+        "retreat": "3",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Magikarp",
+        "attacks": [
+            {
+                "name": "Dragon Rage",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": ""
+            },
+            {
+                "name": "Bubblebeam",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-8-dark-gyarados",
@@ -111,13 +278,40 @@
         "category": "Pokémon",
         "rarity": "Rare Holo",
         "hp": "70",
-        "illustrator": "Kagemaru Himeno",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-8-dark-gyarados.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Jab",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Special Punch",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-9-dark-hypno",
@@ -126,13 +320,43 @@
         "category": "Pokémon",
         "rarity": "Rare Holo",
         "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-9-dark-hypno.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Magnemite",
+        "attacks": [
+            {
+                "name": "Thunder Wave",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": "Does 20 damage to each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-10-dark-machamp",
@@ -140,14 +364,41 @@
         "number": "10/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "70",
-        "illustrator": "Mitsuhiro Arita",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-10-dark-machamp.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Psychic",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+            },
+            {
+                "name": "Barrier",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Discard 1 Psychic Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-11-dark-magneton",
@@ -155,14 +406,43 @@
         "number": "11/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "60",
-        "illustrator": "Miki Tanaka",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-11-dark-magneton.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidorino",
+        "attacks": [
+            {
+                "name": "Thrash",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30+",
+                "text": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself."
+            },
+            {
+                "name": "Toxic",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-12-dark-slowbro",
@@ -170,14 +450,43 @@
         "number": "12/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "60",
-        "illustrator": "Mitsuhiro Arita",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-12-dark-slowbro.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidorina",
+        "attacks": [
+            {
+                "name": "Boyfriends",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+            },
+            {
+                "name": "Mega Punch",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-13-dark-vileplume",
@@ -185,14 +494,43 @@
         "number": "13/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-13-dark-vileplume.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Vulpix",
+        "attacks": [
+            {
+                "name": "Lure",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
+            },
+            {
+                "name": "Fire Blast",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": "Discard 1 Fire Energy card attached to Ninetales in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-14-dark-weezing",
@@ -200,14 +538,42 @@
         "number": "14/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "60",
-        "illustrator": "Shin-ichi Yoshida",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-14-dark-weezing.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Pidgeotto",
+        "attacks": [
+            {
+                "name": "Wing Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Hurricane",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-15-here-comes-team-rocket",
@@ -215,14 +581,44 @@
         "number": "15/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "N/A",
+        "hp": "90",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-15-here-comes-team-rocket.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Poliwhirl",
+        "attacks": [
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30+",
+                "text": "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            },
+            {
+                "name": "Whirlpool",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-16-rockets-sneak-attack",
@@ -230,14 +626,44 @@
         "number": "16/83",
         "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "N/A",
+        "hp": "80",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-16-rockets-sneak-attack.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Pikachu",
+        "attacks": [
+            {
+                "name": "Agility",
+                "cost": [
+                    "Lightning",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu."
+            },
+            {
+                "name": "Thunder",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": "Flip a coin. If tails, Raichu does 30 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-17-rainbow-energy",
@@ -245,59 +671,163 @@
         "number": "17/83",
         "category": "Energy",
         "rarity": "Rare Holo",
-        "hp": "N/A",
-        "illustrator": "Takumi Akabane",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-17-rainbow-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Swords Dance",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+            },
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-18-dark-alakazam",
         "name": "Dark Alakazam",
         "number": "18/83",
         "category": "Pokémon",
-        "rarity": "Rare",
-        "hp": "60",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Rare Holo",
+        "hp": "100",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-18-dark-alakazam.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Ivysaur",
+        "attacks": [
+            {
+                "name": "Solarbeam",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-19-dark-arbok",
         "name": "Dark Arbok",
         "number": "19/83",
         "category": "Pokémon",
-        "rarity": "Rare",
-        "hp": "60",
+        "rarity": "Rare Holo",
+        "hp": "80",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-19-dark-arbok.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Jigglypuff",
+        "attacks": [
+            {
+                "name": "Lullaby",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Do the Wave",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-20-dark-blastoise",
         "name": "Dark Blastoise",
         "number": "20/83",
         "category": "Pokémon",
-        "rarity": "Rare",
-        "hp": "70",
-        "illustrator": "Mitsuhiro Arita",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-20-dark-blastoise.png",
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "3",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Thunder",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": "Flip a coin. If tails, Zapdos does 30 damage to itself."
+            },
+            {
+                "name": "Thunderbolt",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "100",
+                "text": "Discard all Energy cards attached to Zapdos in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-21-dark-charizard",
@@ -310,9 +840,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-21-dark-charizard.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Kakuna",
+        "attacks": [
+            {
+                "name": "Twineedle",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            },
+            {
+                "name": "Poison Sting",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-22-dark-dragonite",
@@ -320,14 +879,44 @@
         "number": "22/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "70",
+        "hp": "80",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-22-dark-dragonite.png",
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Dratini",
+        "attacks": [
+            {
+                "name": "Slam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            },
+            {
+                "name": "Hyper Beam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "20",
+                "text": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-23-dark-dugtrio",
@@ -335,14 +924,44 @@
         "number": "23/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "50",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "70",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-23-dark-dugtrio.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "2",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Diglett",
+        "attacks": [
+            {
+                "name": "Slash",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40",
+                "text": ""
+            },
+            {
+                "name": "Earthquake",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "70",
+                "text": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-24-dark-golbat",
@@ -350,14 +969,40 @@
         "number": "24/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "50",
-        "illustrator": "Mitsuhiro Arita",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-24-dark-golbat.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Thundershock",
+                "cost": [
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Thunderpunch",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30+",
+                "text": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-25-dark-gyarados",
@@ -365,14 +1010,32 @@
         "number": "25/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "70",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-25-dark-gyarados.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Voltorb",
+        "attacks": [
+            {
+                "name": "Electric Shock",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": "Flip a coin. If tails, Electrode does 10 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-26-dark-hypno",
@@ -380,14 +1043,42 @@
         "number": "26/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-26-dark-hypno.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "3",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fetch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Draw a card."
+            },
+            {
+                "name": "Comet Punch",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "20×",
+                "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-27-dark-machamp",
@@ -395,14 +1086,31 @@
         "number": "27/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "70",
-        "illustrator": "Mitsuhiro Arita",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-27-dark-machamp.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Meditate",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-28-dark-magneton",
@@ -411,13 +1119,41 @@
         "category": "Pokémon",
         "rarity": "Rare",
         "hp": "60",
-        "illustrator": "Miki Tanaka",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-28-dark-magneton.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Pidgey",
+        "attacks": [
+            {
+                "name": "Whirlwind",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+            },
+            {
+                "name": "Mirror Move",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "",
+                "text": "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-29-dark-slowbro",
@@ -426,13 +1162,42 @@
         "category": "Pokémon",
         "rarity": "Rare",
         "hp": "60",
-        "illustrator": "Mitsuhiro Arita",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-29-dark-slowbro.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Irongrip",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Guillotine",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-30-dark-vileplume",
@@ -440,14 +1205,33 @@
         "number": "30/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-30-dark-vileplume.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "4",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Body Slam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-31-dark-weezing",
@@ -455,14 +1239,31 @@
         "number": "31/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "60",
-        "illustrator": "Shin-ichi Yoshida",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-31-dark-weezing.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Venonat",
+        "attacks": [
+            {
+                "name": "Venom Powder",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-32-dark-charmeleon",
@@ -470,778 +1271,2067 @@
         "number": "32/83",
         "category": "Pokémon",
         "rarity": "Rare",
-        "hp": "50",
-        "illustrator": "Kagemaru Himeno",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-32-dark-charmeleon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Weepinbell",
+        "attacks": [
+            {
+                "name": "Lure",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+            },
+            {
+                "name": "Acid",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon can't retreat during your next turn."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-33-dark-dragonair",
         "name": "Dark Dragonair",
         "number": "33/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "100",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-33-dark-dragonair.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Growlithe",
+        "attacks": [
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": "Discard 1 Fire Energy card attached to Arcanine in order to use this attack."
+            },
+            {
+                "name": "Take Down",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": "Arcanine does 30 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-34-dark-electrode",
         "name": "Dark Electrode",
         "number": "34/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "60",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-34-dark-electrode.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Metapod",
+        "attacks": [
+            {
+                "name": "Whirlwind",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+            },
+            {
+                "name": "Mega Drain",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Butterfree has fewer damage counters than that, remove all of them."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-35-dark-flareon",
         "name": "Dark Flareon",
         "number": "35/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
+        "rarity": "Uncommon",
+        "hp": "80",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-35-dark-flareon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Charmander",
+        "attacks": [
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": "Discard 1 Fire Energy card attached to Charmeleon in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-36-dark-gloom",
         "name": "Dark Gloom",
         "number": "36/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-36-dark-gloom.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Seel",
+        "attacks": [
+            {
+                "name": "Aurora Beam",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": ""
+            },
+            {
+                "name": "Ice Beam",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-37-dark-golduck",
         "name": "Dark Golduck",
         "number": "37/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "60",
+        "rarity": "Uncommon",
+        "hp": "70",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-37-dark-golduck.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Doduo",
+        "attacks": [
+            {
+                "name": "Rage",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on Dodrio."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-38-dark-jolteon",
         "name": "Dark Jolteon",
         "number": "38/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Mitsuhiro Arita",
+        "rarity": "Uncommon",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-38-dark-jolteon.png",
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-39-dark-kadabra",
         "name": "Dark Kadabra",
         "number": "39/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
+        "rarity": "Uncommon",
+        "hp": "80",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-39-dark-kadabra.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Exeggcute",
+        "attacks": [
+            {
+                "name": "Teleport",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Switch Exeggutor with 1 of your Benched Pokémon."
+            },
+            {
+                "name": "Big Eggsplosion",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20×",
+                "text": "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-40-dark-machoke",
         "name": "Dark Machoke",
         "number": "40/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "60",
-        "illustrator": "Mitsuhiro Arita",
+        "rarity": "Uncommon",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-40-dark-machoke.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Leek Slap",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "30",
+                "text": "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again)."
+            },
+            {
+                "name": "Pot Smash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-41-dark-muk",
         "name": "Dark Muk",
         "number": "41/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-41-dark-muk.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Spearow",
+        "attacks": [
+            {
+                "name": "Agility",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow."
+            },
+            {
+                "name": "Drill Peck",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-42-dark-persian",
         "name": "Dark Persian",
         "number": "42/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
-        "illustrator": "Shin-ichi Yoshida",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-42-dark-persian.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Flare",
+                "cost": [
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-43-dark-primeape",
         "name": "Dark Primeape",
         "number": "43/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
-        "illustrator": "Mitsuhiro Arita",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-43-dark-primeape.png",
         "type": "Normal",
         "stage": "Basic",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Gastly",
+        "attacks": [
+            {
+                "name": "Hypnosis",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Dream Eater",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "50",
+                "text": "You can't use this attack unless the Defending Pokémon is Asleep."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-44-dark-rapidash",
         "name": "Dark Rapidash",
         "number": "44/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-44-dark-rapidash.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Bulbasaur",
+        "attacks": [
+            {
+                "name": "Vine Whip",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Poisonpowder",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "The Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-45-dark-vaporeon",
         "name": "Dark Vaporeon",
         "number": "45/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "60",
-        "illustrator": "Mitsuhiro Arita",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-45-dark-vaporeon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Doubleslap",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+            },
+            {
+                "name": "Meditate",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20+",
+                "text": "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-46-dark-wartortle",
         "name": "Dark Wartortle",
         "number": "46/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "60",
-        "illustrator": "Kagemaru Himeno",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-46-dark-wartortle.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "Abra",
+        "attacks": [
+            {
+                "name": "Recover",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Discard 1 Psychic Energy card attached to Kadabra in order to use this attack. Remove all damage counters from Kadabra."
+            },
+            {
+                "name": "Super Psy",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-47-magikarp",
         "name": "Magikarp",
         "number": "47/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "30",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-47-magikarp.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Weedle",
+        "attacks": [
+            {
+                "name": "Stiffen",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)"
+            },
+            {
+                "name": "Poisonpowder",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-48-porygon",
         "name": "Porygon",
         "number": "48/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Keiji Kinebuchi",
+        "rarity": "Uncommon",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-48-porygon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "3",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Tongue Wrap",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-49-abra",
         "name": "Abra",
         "number": "49/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Uncommon",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-49-abra.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Machop",
+        "attacks": [
+            {
+                "name": "Karate Chop",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50-",
+                "text": "Does 50 damage minus 10 damage for each damage counter on Machoke."
+            },
+            {
+                "name": "Submission",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": "Machoke does 20 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-50-charmander",
         "name": "Charmander",
         "number": "50/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "30",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-50-charmander.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Tackle",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Flail",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Does 10 damage times the number of damage counters on Magikarp."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-51-dark-raticate",
         "name": "Dark Raticate",
         "number": "51/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Uncommon",
         "hp": "50",
-        "illustrator": "Shin-ichi Yoshida",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-51-dark-raticate.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fire Punch",
+                "cost": [
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": "Discard 1 Fire Energy card attached to Magmar in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-52-diglett",
         "name": "Diglett",
         "number": "52/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-52-diglett.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Cubone",
+        "attacks": [
+            {
+                "name": "Bonemerang",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            },
+            {
+                "name": "Call for Friend",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "",
+                "text": "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-53-dratini",
         "name": "Dratini",
         "number": "53/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-53-dratini.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidoran ♀",
+        "attacks": [
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            },
+            {
+                "name": "Double Kick",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-54-drowzee",
         "name": "Drowzee",
         "number": "54/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-54-drowzee.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidoran ♂",
+        "attacks": [
+            {
+                "name": "Double Kick",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            },
+            {
+                "name": "Horn Drill",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-55-eevee",
         "name": "Eevee",
         "number": "55/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Atsuko Nishida",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-55-eevee.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Paras",
+        "attacks": [
+            {
+                "name": "Spore",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-56-ekans",
         "name": "Ekans",
         "number": "56/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-56-ekans.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Meowth",
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Pounce",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "If the Defending Pokémon attacks Persian during your next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-57-grimer",
         "name": "Grimer",
         "number": "57/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-57-grimer.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Grass ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Poliwag",
+        "attacks": [
+            {
+                "name": "Amnesia",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+            },
+            {
+                "name": "Doubleslap",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-58-koffing",
         "name": "Koffing",
         "number": "58/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-58-koffing.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Rattata",
+        "attacks": [
+            {
+                "name": "Bite",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Super Fang",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "",
+                "text": "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-59-machop",
         "name": "Machop",
         "number": "59/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Uncommon",
+        "hp": "100",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-59-machop.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "3",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Rhyhorn",
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Fighting",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Ram",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-60-magnemite",
         "name": "Magnemite",
         "number": "60/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Miki Tanaka",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-60-magnemite.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Goldeen",
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Waterfall",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-61-mankey",
         "name": "Mankey",
         "number": "61/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-61-mankey.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Headbutt",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-62-meowth",
         "name": "Meowth",
         "number": "62/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Atsuko Nishida",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-62-meowth.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stomp",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+            },
+            {
+                "name": "Rampage",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20+",
+                "text": "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-63-oddish",
         "name": "Oddish",
         "number": "63/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-63-oddish.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Squirtle",
+        "attacks": [
+            {
+                "name": "Withdraw",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)"
+            },
+            {
+                "name": "Bite",
+                "cost": [
+                    "Water",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-64-ponyta",
         "name": "Ponyta",
         "number": "64/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Atsuko Nishida",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-64-ponyta.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Bellsprout",
+        "attacks": [
+            {
+                "name": "Poisonpowder",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            },
+            {
+                "name": "Razor Leaf",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-65-psyduck",
         "name": "Psyduck",
         "number": "65/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
+        "rarity": "Common",
+        "hp": "30",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-65-psyduck.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Psyshock",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-66-rattata",
         "name": "Rattata",
         "number": "66/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
-        "illustrator": "Atsuko Nishida",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-66-rattata.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Vine Whip",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Call for Family",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-67-slowpoke",
         "name": "Slowpoke",
         "number": "67/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-67-slowpoke.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Leech Seed",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-68-squirtle",
         "name": "Squirtle",
         "number": "68/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "50",
-        "illustrator": "Atsuko Nishida",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-68-squirtle.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "String Shot",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-69-voltorb",
         "name": "Voltorb",
         "number": "69/83",
         "category": "Pokémon",
-        "rarity": "N/A",
-        "hp": "40",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-69-voltorb.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Ember",
+                "cost": [
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": "Discard 1 Fire Energy card attached to Charmander in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-70-zubat",
         "name": "Zubat",
         "number": "70/83",
         "category": "Pokémon",
-        "rarity": "N/A",
+        "rarity": "Common",
         "hp": "40",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-70-zubat.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Snivel",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+            },
+            {
+                "name": "Rage",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on Cubone."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-71-here-comes-team-rocket",
         "name": "Here Comes Team Rocket",
         "number": "71/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Common",
+        "hp": "30",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-71-here-comes-team-rocket.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "0",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Dig",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Mud Slap",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-72-rockets-sneak-attack",
         "name": "Rocket's Sneak Attack",
         "number": "72/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-72-rockets-sneak-attack.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fury Attack",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-73-the-bosss-way",
         "name": "The Boss's Way",
         "number": "73/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
+        "rarity": "Common",
+        "hp": "50",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-73-the-bosss-way.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Confuse Ray",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-74-challenge",
         "name": "Challenge!",
         "number": "74/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Kagemaru Himeno",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-74-challenge.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Hypnosis",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Leech Seed",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-75-digger",
         "name": "Digger",
         "number": "75/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Common",
+        "hp": "30",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-75-digger.png",
         "type": "Normal",
         "stage": "N/A",
         "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Sleeping Gas",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Destiny Bond",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-76-imposter-oaks-revenge",
         "name": "Imposter Oak's Revenge",
         "number": "76/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Ken Sugimori",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-76-imposter-oaks-revenge.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-77-nightly-garbage-run",
         "name": "Nightly Garbage Run",
         "number": "77/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Common",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-77-nightly-garbage-run.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Lullaby",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-78-goop-gas-attack",
         "name": "Goop Gas Attack",
         "number": "78/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-78-goop-gas-attack.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Low Kick",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-79-sleep",
         "name": "Sleep!",
         "number": "79/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Sumiyoshi Kizuki",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-79-sleep.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Thunder Wave",
+                "cost": [
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "40",
+                "text": "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-80-rainbow-energy",
         "name": "Rainbow Energy",
         "number": "80/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Takumi Akabane",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-80-rainbow-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Pay Day",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, draw a card."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-81-full-heal-energy",
         "name": "Full Heal Energy",
         "number": "81/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Keiji Kinebuchi",
+        "rarity": "Common",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-81-full-heal-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Caterpie",
+        "attacks": [
+            {
+                "name": "Stiffen",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)"
+            },
+            {
+                "name": "Stun Spore",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-82-potion-energy",
         "name": "Potion Energy",
         "number": "82/83",
         "category": "Trainer",
-        "rarity": "N/A",
-        "hp": "N/A",
-        "illustrator": "Keiji Kinebuchi",
+        "rarity": "Common",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-82-potion-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+            },
+            {
+                "name": "Call for Family",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Nidoran ♂ or Nidoran ♀ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "team-rocket-83-dark-raichu",
         "name": "Dark Raichu",
         "number": "83/83",
         "category": "Pokémon",
-        "rarity": "Rare Holo (Secret)",
-        "hp": "70",
-        "illustrator": "Mitsuhiro Arita",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-83-dark-raichu.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Horn Hazard",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "30",
+                "text": "Flip a coin. If tails, this attack does nothing."
+            }
+        ],
+        "rules": []
     }
 ]

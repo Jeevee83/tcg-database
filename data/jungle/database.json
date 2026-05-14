@@ -10,9 +10,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-1-clefable.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Clefairy",
+        "attacks": [
+            {
+                "name": "Metronome",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)"
+            },
+            {
+                "name": "Minimize",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-2-electrode",
@@ -25,9 +51,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-2-electrode.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Voltorb",
+        "attacks": [
+            {
+                "name": "Tackle",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Chain Lightning",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-3-flareon",
@@ -40,9 +94,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-3-flareon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            },
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": "Discard 1 Fire Energy card attached to Flareon in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-4-jolteon",
@@ -55,9 +138,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-4-jolteon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            },
+            {
+                "name": "Pin Missile",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20×",
+                "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-5-kangaskhan",
@@ -70,9 +181,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-5-kangaskhan.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "3",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fetch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Draw a card."
+            },
+            {
+                "name": "Comet Punch",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "20×",
+                "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-6-mr-mime",
@@ -85,9 +224,26 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-6-mr-mime.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Meditate",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-7-nidoqueen",
@@ -100,9 +256,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-7-nidoqueen.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidorina",
+        "attacks": [
+            {
+                "name": "Boyfriends",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+            },
+            {
+                "name": "Mega Punch",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-8-pidgeot",
@@ -115,9 +300,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-8-pidgeot.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Pidgeotto",
+        "attacks": [
+            {
+                "name": "Wing Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Hurricane",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-9-pinsir",
@@ -130,9 +343,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-9-pinsir.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Irongrip",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Guillotine",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-10-scyther",
@@ -145,9 +387,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-10-scyther.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Swords Dance",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+            },
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-11-snorlax",
@@ -160,9 +429,28 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-11-snorlax.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "4",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Body Slam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-12-vaporeon",
@@ -175,9 +463,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-12-vaporeon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            },
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30+",
+                "text": "Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-13-venomoth",
@@ -190,9 +506,26 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-13-venomoth.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Venonat",
+        "attacks": [
+            {
+                "name": "Venom Powder",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-14-victreebel",
@@ -205,9 +538,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-14-victreebel.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Weepinbell",
+        "attacks": [
+            {
+                "name": "Lure",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+            },
+            {
+                "name": "Acid",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon can't retreat during your next turn."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-15-vileplume",
@@ -220,9 +579,27 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-15-vileplume.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Gloom",
+        "attacks": [
+            {
+                "name": "Petal Dance",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40×",
+                "text": "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-16-wigglytuff",
@@ -235,9 +612,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-16-wigglytuff.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Jigglypuff",
+        "attacks": [
+            {
+                "name": "Lullaby",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Do the Wave",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-17-clefable",
@@ -250,9 +654,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-17-clefable.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Clefairy",
+        "attacks": [
+            {
+                "name": "Metronome",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)"
+            },
+            {
+                "name": "Minimize",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-18-electrode",
@@ -265,9 +695,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-18-electrode.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Voltorb",
+        "attacks": [
+            {
+                "name": "Tackle",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Chain Lightning",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-19-flareon",
@@ -280,9 +738,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-19-flareon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            },
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": "Discard 1 Fire Energy card attached to Flareon in order to use this attack."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-20-jolteon",
@@ -295,9 +782,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-20-jolteon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            },
+            {
+                "name": "Pin Missile",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20×",
+                "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-21-kangaskhan",
@@ -310,9 +825,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-21-kangaskhan.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "3",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fetch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Draw a card."
+            },
+            {
+                "name": "Comet Punch",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "20×",
+                "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-22-mr-mime",
@@ -325,9 +868,26 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-22-mr-mime.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Meditate",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-23-nidoqueen",
@@ -340,9 +900,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-23-nidoqueen.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidorina",
+        "attacks": [
+            {
+                "name": "Boyfriends",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+            },
+            {
+                "name": "Mega Punch",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-24-pidgeot",
@@ -355,9 +944,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-24-pidgeot.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Pidgeotto",
+        "attacks": [
+            {
+                "name": "Wing Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Hurricane",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-25-pinsir",
@@ -370,9 +987,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-25-pinsir.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Irongrip",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Guillotine",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-26-scyther",
@@ -385,9 +1031,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-26-scyther.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Swords Dance",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+            },
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-27-snorlax",
@@ -400,9 +1073,28 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-27-snorlax.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "4",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Body Slam",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "30",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-28-vaporeon",
@@ -415,9 +1107,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-28-vaporeon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            },
+            {
+                "name": "Water Gun",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30+",
+                "text": "Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-29-venomoth",
@@ -430,9 +1150,26 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-29-venomoth.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Venonat",
+        "attacks": [
+            {
+                "name": "Venom Powder",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-30-victreebel",
@@ -445,9 +1182,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-30-victreebel.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Weepinbell",
+        "attacks": [
+            {
+                "name": "Lure",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+            },
+            {
+                "name": "Acid",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon can't retreat during your next turn."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-31-vileplume",
@@ -460,9 +1223,27 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-31-vileplume.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "2",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Gloom",
+        "attacks": [
+            {
+                "name": "Petal Dance",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "40×",
+                "text": "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-32-wigglytuff",
@@ -475,9 +1256,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-32-wigglytuff.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Jigglypuff",
+        "attacks": [
+            {
+                "name": "Lullaby",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Do the Wave",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-33-butterfree",
@@ -490,9 +1298,38 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-33-butterfree.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Metapod",
+        "attacks": [
+            {
+                "name": "Whirlwind",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+            },
+            {
+                "name": "Mega Drain",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-34-dodrio",
@@ -505,9 +1342,27 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-34-dodrio.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Doduo",
+        "attacks": [
+            {
+                "name": "Rage",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on Dodrio."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-35-exeggutor",
@@ -520,9 +1375,34 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-35-exeggutor.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "3",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Exeggcute",
+        "attacks": [
+            {
+                "name": "Teleport",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Switch Exeggutor with 1 of your Benched Pokémon."
+            },
+            {
+                "name": "Big Eggsplosion",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20×",
+                "text": "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-36-fearow",
@@ -535,9 +1415,39 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-36-fearow.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Spearow",
+        "attacks": [
+            {
+                "name": "Agility",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20",
+                "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow."
+            },
+            {
+                "name": "Drill Peck",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-37-gloom",
@@ -550,9 +1460,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-37-gloom.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Oddish",
+        "attacks": [
+            {
+                "name": "Poisonpowder",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Poisoned."
+            },
+            {
+                "name": "Foul Odor",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Both the Defending Pokémon and Gloom are now Confused (after doing damage)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-38-lickitung",
@@ -565,9 +1501,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-38-lickitung.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "3",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Tongue Wrap",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-39-marowak",
@@ -580,9 +1542,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-39-marowak.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Cubone",
+        "attacks": [
+            {
+                "name": "Bonemerang",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            },
+            {
+                "name": "Call for Friend",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "",
+                "text": "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-40-nidorina",
@@ -595,9 +1585,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-40-nidorina.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Nidoran ♀",
+        "attacks": [
+            {
+                "name": "Supersonic",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            },
+            {
+                "name": "Double Kick",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30×",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-41-parasect",
@@ -610,9 +1627,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-41-parasect.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Paras",
+        "attacks": [
+            {
+                "name": "Spore",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-42-persian",
@@ -625,9 +1670,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-42-persian.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "Meowth",
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Pounce",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "If the Defending Pokémon attacks Persian during your next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-43-primeape",
@@ -640,9 +1713,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-43-primeape.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Mankey",
+        "attacks": [
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20×",
+                "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+            },
+            {
+                "name": "Tantrum",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "50",
+                "text": "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-44-rapidash",
@@ -655,9 +1756,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-44-rapidash.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Water ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Fire"
+        ],
+        "evolvesFrom": "Ponyta",
+        "attacks": [
+            {
+                "name": "Stomp",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+            },
+            {
+                "name": "Agility",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-45-rhydon",
@@ -670,9 +1799,39 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-45-rhydon.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "3",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "Rhyhorn",
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Fighting",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Ram",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "50",
+                "text": "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-46-seaking",
@@ -685,9 +1844,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-46-seaking.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "Goldeen",
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Waterfall",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-47-tauros",
@@ -700,9 +1885,37 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-47-tauros.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "2",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stomp",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+            },
+            {
+                "name": "Rampage",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20+",
+                "text": "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-48-weepinbell",
@@ -715,9 +1928,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-48-weepinbell.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Bellsprout",
+        "attacks": [
+            {
+                "name": "Poisonpowder",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+            },
+            {
+                "name": "Razor Leaf",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-49-bellsprout",
@@ -730,9 +1969,34 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-49-bellsprout.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Vine Whip",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Call for Family",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-50-cubone",
@@ -745,9 +2009,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-50-cubone.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "1",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Snivel",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+            },
+            {
+                "name": "Rage",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Does 10 damage plus 10 more damage for each damage counter on Cubone."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-51-eevee",
@@ -760,9 +2050,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-51-eevee.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Tail Wag",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your opponent's next turn. (Benching either Pokémon ends this effect.)"
+            },
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-52-exeggcute",
@@ -775,9 +2091,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-52-exeggcute.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Hypnosis",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Leech Seed",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-53-goldeen",
@@ -790,9 +2132,25 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-53-goldeen.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Water"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-54-jigglypuff",
@@ -805,9 +2163,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-54-jigglypuff.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Lullaby",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-55-mankey",
@@ -820,9 +2204,25 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-55-mankey.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-56-meowth",
@@ -835,9 +2235,26 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-56-meowth.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Pay Day",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, draw a card."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-57-nidoran",
@@ -850,9 +2267,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-57-nidoran.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+            },
+            {
+                "name": "Call for Family",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Nidoran ♂ or Nidoran ♀ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-58-oddish",
@@ -865,9 +2308,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-58-oddish.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stun Spore",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Sprout",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-59-paras",
@@ -880,9 +2349,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-59-paras.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Spore",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-60-pikachu",
@@ -895,9 +2391,26 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-60-pikachu.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Spark",
+                "cost": [
+                    "Lightning",
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-61-rhyhorn",
@@ -910,9 +2423,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-61-rhyhorn.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
+        "retreat": "3",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Leer",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)"
+            },
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Fighting",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-62-spearow",
@@ -925,9 +2465,36 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-62-spearow.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "N/A"
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
+        "retreat": "0",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Peck",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Mirror Move",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "",
+                "text": "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-63-venonat",
@@ -940,9 +2507,35 @@
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-63-venonat.png",
         "type": "Normal",
         "stage": "Basic",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "1",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [
+            {
+                "name": "Stun Spore",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Leech Life",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance)."
+            }
+        ],
+        "rules": []
     },
     {
         "sku": "jungle-64-pok-ball",
@@ -957,6 +2550,14 @@
         "stage": "N/A",
         "weakness": "N/A",
         "resistance": "N/A",
-        "retreat": "N/A"
+        "retreat": "0",
+        "types": [
+            "N/A"
+        ],
+        "evolvesFrom": "N/A",
+        "attacks": [],
+        "rules": [
+            "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+        ]
     }
 ]
