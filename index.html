@@ -76,28 +76,39 @@
                 </div>
             </div>
 
-            <!-- EXPORT QUEUE -->
+            <!-- EXPORT QUEUE (Quantity support added) -->
             <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-slate-100">
                 <div class="flex justify-between items-start mb-8">
                     <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter italic">Queue <span class="text-blue-500 ml-2">[{{ exportList.length }}]</span></h2>
                     <button @click="exportCSV" class="bg-green-600 text-white px-6 py-3 rounded-2xl font-black text-sm shadow-xl hover:bg-green-700 transition" :disabled="exportList.length === 0">CSV</button>
                 </div>
                 <div class="space-y-4 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
+                    <div v-for="(item, index) in exportList" :key="index" class="bg-slate-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
                         <button @click="removeFromExport(index)" class="absolute top-4 right-4 text-slate-300 hover:text-red-500 font-bold">✕</button>
                         <p class="font-black text-xs text-blue-900 mb-4 uppercase leading-none">{{ item.name }}</p>
+                        
                         <div class="space-y-3">
+                            <!-- Edition -->
                             <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none">
                                 <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
                             </select>
-                            <div class="grid grid-cols-2 gap-3">
+                            
+                            <div class="grid grid-cols-2 gap-2">
+                                <!-- Condition -->
                                 <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none">
                                     <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
                                 </select>
+                                <!-- Price -->
                                 <div class="relative">
-                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400 uppercase">CHF</span>
-                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-10 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
+                                    <span class="absolute left-2 top-2.5 text-[8px] font-black text-slate-400">CHF</span>
+                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-8 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
                                 </div>
+                            </div>
+
+                            <!-- QUANTITY (NEW) -->
+                            <div class="flex items-center gap-3 bg-white p-2 rounded-xl border border-slate-200">
+                                <label class="text-[9px] font-black text-slate-400 uppercase">Quantity:</label>
+                                <input v-model.number="item.qty" type="number" min="1" class="w-full font-black text-center text-sm outline-none text-blue-600">
                             </div>
                         </div>
                     </div>
@@ -106,7 +117,7 @@
             </div>
         </div>
 
-        <!-- DETAIL MODAL (THE POKEDEX) -->
+        <!-- DETAIL MODAL -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-10" @click.self="selectedCard = null">
             <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative">
                 <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-300 hover:text-slate-900 text-4xl transition">✕</button>
@@ -202,39 +213,27 @@
                 },
                 getSetName(sku) { return this.availableSets.find(s => sku.startsWith(s.id))?.name || 'Set'; },
                 showDetails(card) { this.selectedCard = card; },
-                addToExport(card) { this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00 }); },
+                addToExport(card) { this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00, qty: 1 }); },
                 removeFromExport(index) { this.exportList.splice(index, 1); },
-                clearQueue() { if(confirm("Clear all items?")) this.exportList = []; },
+                clearQueue() { if(confirm("Clear current queue?")) this.exportList = []; },
                 
-                // --- NUOVA FUNZIONE PER GENERARE L'HTML DEL PRODOTTO ---
                 generateProductHTML(item) {
-                    let html = `<h3>Technical Specifications</h3>`;
-                    html += `<table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">`;
+                    let html = `<h3>Technical Specifications</h3><table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">`;
                     html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Set</td><td style="padding: 8px;">${this.getSetName(item.sku)}</td></tr>`;
                     html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Number</td><td style="padding: 8px;">${item.number}</td></tr>`;
                     html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Rarity</td><td style="padding: 8px;">${item.rarity}</td></tr>`;
                     if(item.hp && item.hp !== 'N/A') html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">HP</td><td style="padding: 8px;">${item.hp}</td></tr>`;
-                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Illustrator</td><td style="padding: 8px;">${item.illustrator}</td></tr>`;
-                    html += `</table>`;
-
+                    html += `<tr style="border-bottom: 1px solid #eee;"><td style="padding: 8px; font-weight: bold;">Illustrator</td><td style="padding: 8px;">${item.illustrator}</td></tr></table>`;
                     if(item.attacks && item.attacks.length > 0) {
                         html += `<h3>Attacks & Abilities</h3>`;
                         item.attacks.forEach(atk => {
-                            html += `<div style="margin-bottom: 15px; border-left: 4px solid #2563eb; padding-left: 10px;">`;
-                            html += `<p><strong>${atk.name.toUpperCase()}</strong> (${atk.damage ? atk.damage : '0'} damage)</p>`;
-                            html += `<p style="font-style: italic; font-size: 0.9em;">${atk.text}</p>`;
-                            html += `</div>`;
+                            html += `<div style="margin-bottom: 15px; border-left: 4px solid #2563eb; padding-left: 10px;"><p><strong>${atk.name.toUpperCase()}</strong> (${atk.damage ? atk.damage : '0'} damage)</p><p style="font-style: italic; font-size: 0.9em;">${atk.text}</p></div>`;
                         });
                     }
-
                     if(item.rules && item.rules.length > 0) {
                         html += `<h3>Card Text</h3>`;
-                        item.rules.forEach(rule => {
-                            html += `<p style="font-style: italic;">${rule}</p>`;
-                        });
+                        item.rules.forEach(rule => { html += `<p style="font-style: italic;">${rule}</p>`; });
                     }
-
-                    // Escaping per il CSV (doppie virgolette diventano quadruple o gestite dalla riga)
                     return html.replace(/"/g, '""');
                 },
 
@@ -244,17 +243,16 @@
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
                         const cleanIllus = item.illustrator.replace(/^Illus\.\s+/i, '');
-                        const tags = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}, ${item.selectedCondition}"`;
-                        
-                        // Generiamo il contenuto HTML
+                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${cleanIllus}, ${item.selectedVariant}"`;
                         const productBody = this.generateProductHTML(item);
                         
-                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw",${tags},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",1,"deny","manual",${item.price},"${item.image_url}"\n`;
+                        // "item.qty" is now used for "Variant Inventory Qty" column
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number} (${item.selectedVariant}) [${item.selectedCondition}]","${productBody}","${set.vendor}","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
                     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
-                    link.download = `cardex_full_export.csv`;
+                    link.download = `cardex_export_inventory.csv`;
                     link.click();
                 }
             }
