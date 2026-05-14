@@ -3,143 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardex TCG - Professional Database</title>
+    <title>Cardex TCG - Dark Dashboard</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         [v-cloak] { display: none; }
-        .modal-overlay { background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); }
+        body { background-color: #0f172a; } /* Dark background from screenshot */
+        
+        .modal-overlay { background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(12px); }
+        
+        /* Custom scrollbar for dark mode */
         ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+        /* Dashboard Button Style */
+        .dash-btn {
+            background: #1e293b;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .dash-btn:hover { background: #334155; transform: translateX(4px); }
+        .dash-btn.active { background: #334155; border-left-width: 6px; }
+
+        /* Accent Colors */
+        .accent-red { border-left-color: #f87171; }
+        .accent-green { border-left-color: #4ade80; }
+        .accent-blue { border-left-color: #60a5fa; }
+        .accent-yellow { border-left-color: #fbbf24; }
+
         .type-pill { padding: 2px 8px; border-radius: 4px; color: white; font-weight: 800; font-size: 10px; text-transform: uppercase; }
-        .type-Fire { background: #ff4422; } .type-Water { background: #3399ff; } .type-Grass { background: #77cc55; }
-        .type-Lightning { background: #ffcc33; color: #333; } .type-Psychic { background: #ff5599; }
-        .type-Fighting { background: #bb5544; } .type-Colorless { background: #a8a878; }
+        .type-Fire { background: #ef4444; } .type-Water { background: #3b82f6; } .type-Grass { background: #22c55e; }
+        .type-Lightning { background: #eab308; color: #000; } .type-Psychic { background: #a855f7; }
     </style>
 </head>
-<body class="bg-slate-50 font-sans text-gray-900">
-    <div id="app" v-cloak class="max-w-7xl mx-auto p-4 md:p-6">
+<body class="text-slate-200 font-sans">
+    <div id="app" v-cloak class="max-w-7xl mx-auto p-4 md:p-8">
         
-        <!-- HEADER -->
-        <header class="flex flex-col md:flex-row justify-between items-center mb-8 bg-white p-8 rounded-[2rem] shadow-sm gap-6 border-b-8 border-blue-600">
+        <!-- DASHBOARD HEADER -->
+        <header class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
             <div>
-                <h1 class="text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">Cardex TCG</h1>
-                <p class="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] mt-2 italic">Global Management System</p>
-                <p class="text-[9px] text-gray-300 font-bold tracking-widest mt-1 uppercase">by Jeevee83</p>
+                <h1 class="text-5xl font-bold text-white tracking-tight">Dashboard</h1>
+                <p class="text-slate-500 font-medium mt-2 uppercase tracking-widest text-xs">TCG Management System <span class="text-slate-700 ml-2">by Jeevee83</span></p>
             </div>
-            <div class="flex flex-col sm:flex-row gap-3">
-                <input v-model="searchQuery" type="text" placeholder="Search card, artist, attack..." class="border-2 border-slate-100 p-4 rounded-2xl shadow-inner focus:border-blue-400 outline-none font-bold text-sm w-full md:w-80">
-                <select v-model="selectedSet" class="border-2 border-slate-100 p-4 rounded-2xl bg-white font-black text-slate-600 outline-none text-sm cursor-pointer">
-                    <option value="all">🌍 All Generations</option>
+            <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+                <input v-model="searchQuery" type="text" placeholder="Search card..." class="bg-[#1e293b] border border-slate-700 p-3 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none w-full md:w-64 text-sm">
+                <select v-model="selectedSet" class="bg-[#1e293b] border border-slate-700 p-3 rounded-xl font-bold text-slate-300 outline-none text-sm cursor-pointer">
+                    <option value="all">All Generations</option>
                     <option v-for="set in availableSets" :key="set.id" :value="set.id">{{ set.name }}</option>
                 </select>
             </div>
         </header>
 
-        <!-- CATEGORY FILTERS -->
-        <div class="flex flex-wrap gap-2 mb-10 justify-center md:justify-start">
-            <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
-                    @click="activeCategory = cat"
-                    :class="['px-8 py-3 rounded-full font-black text-xs uppercase tracking-widest transition-all border-4', 
-                    activeCategory === cat ? 'bg-blue-600 border-blue-600 text-white shadow-xl scale-105' : 'bg-white border-white text-slate-400 hover:border-blue-100']">
-                {{ cat }}
-            </button>
-        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10">
+            
+            <!-- LEFT NAVIGATION (FILTERS) -->
+            <aside class="space-y-8">
+                <div>
+                    <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4 flex items-center">
+                        <span class="w-2 h-2 bg-red-400 rounded-full mr-2"></span> Category
+                    </h3>
+                    <div class="flex flex-col gap-2">
+                        <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
+                                @click="activeCategory = cat"
+                                :class="['dash-btn text-left px-4 py-3 rounded-lg font-bold text-sm', 
+                                activeCategory === cat ? 'active' : '', 
+                                cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">
+                            {{ cat }}
+                        </button>
+                    </div>
+                </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            <!-- MAIN GRID -->
-            <div class="lg:col-span-2">
-                <div v-if="loading" class="text-center py-20 font-black text-slate-200 text-4xl italic uppercase animate-pulse">Syncing Global Data...</div>
+                <!-- QUICK STATS -->
+                <div class="bg-[#1e293b]/50 p-6 rounded-2xl border border-slate-800">
+                    <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4">Export Queue</h3>
+                    <div class="flex justify-between items-end">
+                        <span class="text-4xl font-light text-white">{{ exportList.length }}</span>
+                        <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg font-black text-[10px] uppercase tracking-widest transition" :disabled="exportList.length === 0">Get CSV</button>
+                    </div>
+                    <button v-if="exportList.length > 0" @click="clearQueue" class="mt-4 text-[9px] text-slate-600 hover:text-red-400 uppercase font-bold transition">Clear queue</button>
+                </div>
+            </aside>
+
+            <!-- MAIN CONTENT (GRID) -->
+            <main class="lg:col-span-3">
+                <div v-if="loading" class="grid grid-cols-2 md:grid-cols-4 gap-4 animate-pulse">
+                    <div v-for="n in 8" class="bg-[#1e293b] aspect-[3/4] rounded-2xl"></div>
+                </div>
+                
                 <div v-else class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
                     <div v-for="card in filteredCards" :key="card.sku" 
-                         class="bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-500 group relative flex flex-col h-full">
+                         class="bg-[#1e293b] rounded-2xl border border-slate-800 hover:border-slate-600 transition-all duration-300 group overflow-hidden flex flex-col h-full">
                         
-                        <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[3/4] bg-slate-50">
-                            <img :src="card.image_url" class="w-full h-full object-contain group-hover:scale-110 transition duration-700">
-                            <div class="absolute top-3 left-3 bg-slate-900/80 text-white text-[7px] font-black px-2 py-1 rounded-md uppercase tracking-tighter">{{ getSetName(card.sku) }}</div>
+                        <div class="relative p-2 flex-grow">
+                            <img :src="card.image_url" class="w-full h-auto rounded-xl group-hover:scale-105 transition duration-500" loading="lazy">
+                            <div class="absolute top-4 left-4 bg-black/60 backdrop-blur-md text-[7px] font-black px-2 py-1 rounded text-slate-300 uppercase tracking-tighter">
+                                {{ getSetName(card.sku) }}
+                            </div>
                         </div>
 
-                        <div class="text-center flex-grow">
+                        <div class="p-4 pt-0">
                             <div class="flex justify-between items-center mb-1">
-                                <span class="text-[10px] font-black text-slate-300">#{{ card.number }}</span>
-                                <span class="text-[8px] bg-blue-50 text-blue-600 px-2 py-1 rounded-lg font-black uppercase">{{ card.category }}</span>
+                                <span class="text-[9px] font-bold text-slate-600">#{{ card.number }}</span>
+                                <span :class="['text-[7px] font-black px-2 py-0.5 rounded uppercase', 
+                                    card.category === 'Pokémon' ? 'bg-green-500/10 text-green-400' : 
+                                    card.category === 'Trainer' ? 'bg-blue-500/10 text-blue-400' : 'bg-yellow-500/10 text-yellow-400']">
+                                    {{ card.category }}
+                                </span>
                             </div>
-                            <p class="font-black text-sm truncate text-slate-800 uppercase tracking-tighter mb-1">{{ card.name }}</p>
-                            <p class="text-[9px] text-slate-400 font-bold italic truncate mb-4">Illus. {{ card.illustrator }}</p>
-                        </div>
-                        
-                        <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <button @click="addToExport(card)" class="bg-blue-600 text-white text-[9px] font-black py-2.5 rounded-xl hover:bg-blue-700 uppercase shadow-md transition">Add</button>
-                            <button @click="showDetails(card)" class="bg-slate-100 text-slate-600 text-[9px] font-black py-2.5 rounded-xl hover:bg-slate-200 uppercase transition">Details</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- EXPORT QUEUE (WITH SMART QTY MERGE) -->
-            <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl sticky top-6 h-fit max-h-[90vh] flex flex-col border border-slate-100">
-                <div class="flex justify-between items-start mb-8">
-                    <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter italic text-black">Queue <span class="text-blue-500 ml-1">[{{ exportList.length }}]</span></h2>
-                    <button @click="exportCSV" class="bg-green-600 text-white px-6 py-3 rounded-2xl font-black text-sm shadow-xl hover:bg-green-700 transition" :disabled="exportList.length === 0">CSV</button>
-                </div>
-                <div class="space-y-4 overflow-y-auto pr-2 flex-grow">
-                    <div v-for="(item, index) in exportList" :key="index" class="bg-gray-50 p-5 rounded-[1.5rem] border border-slate-100 relative group animate-in slide-in-from-right duration-300">
-                        <button @click="removeFromExport(index)" class="absolute top-4 right-4 text-slate-300 hover:text-red-500 font-bold">✕</button>
-                        <p class="font-black text-xs text-blue-900 mb-4 uppercase leading-none">{{ item.name }}</p>
-                        <div class="space-y-3">
-                            <select v-model="item.selectedVariant" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] text-blue-600 outline-none">
-                                <option>Unlimited</option><option>1st Edition</option><option>Shadowless</option>
-                            </select>
-                            <div class="grid grid-cols-2 gap-3">
-                                <select v-model="item.selectedCondition" class="w-full border-2 border-slate-200 p-2 rounded-xl bg-white font-black text-[10px] outline-none">
-                                    <option>MINT</option><option>Near Mint</option><option>Lightly Played</option><option>Played</option><option>Poor</option>
-                                </select>
-                                <div class="relative">
-                                    <span class="absolute left-3 top-2.5 text-[9px] font-black text-slate-400 uppercase font-black">CHF</span>
-                                    <input v-model="item.price" type="number" class="w-full border-2 border-slate-200 p-2 pl-10 rounded-xl bg-white font-black text-[10px] text-green-700 outline-none">
-                                </div>
-                            </div>
-                            <!-- QUANTITY CONTROL -->
-                            <div class="bg-white p-3 rounded-xl border-2 border-slate-100 flex items-center justify-between shadow-inner">
-                                <label class="text-[9px] font-black text-slate-300 uppercase pl-2">Quantity:</label>
-                                <div class="flex items-center gap-3 pr-2">
-                                    <button @click="item.qty > 1 ? item.qty-- : null" class="font-black text-slate-400 hover:text-red-500">-</button>
-                                    <input v-model.number="item.qty" type="number" min="1" class="w-8 font-black text-center text-sm outline-none text-blue-600 bg-transparent">
-                                    <button @click="item.qty++" class="font-black text-blue-600 hover:text-blue-800">+</button>
-                                </div>
+                            <h4 class="font-bold text-xs truncate text-white uppercase tracking-wide">{{ card.name }}</h4>
+                            
+                            <div class="grid grid-cols-2 gap-2 mt-4">
+                                <button @click="addToExport(card)" class="bg-slate-700 hover:bg-blue-600 text-white text-[9px] font-black py-2 rounded-lg transition uppercase">Add</button>
+                                <button @click="showDetails(card)" class="bg-slate-800 hover:bg-slate-700 text-slate-400 text-[9px] font-black py-2 rounded-lg transition uppercase">Details</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button v-if="exportList.length > 0" @click="clearQueue" class="mt-4 text-[10px] font-black text-red-400 uppercase tracking-widest hover:text-red-600">Clear All Items</button>
-            </div>
+            </main>
         </div>
 
-        <!-- MODAL DETTAGLI (UNCHANGED) -->
-        <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-10" @click.self="selectedCard = null">
-            <div class="bg-white rounded-[3rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl relative">
-                <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-300 hover:text-slate-900 text-4xl transition">✕</button>
-                <div class="md:w-1/2 bg-slate-50 p-8 md:p-12 flex items-center justify-center border-r border-slate-100 h-64 md:h-auto"><img :src="selectedCard.image_url" class="max-h-full drop-shadow-2xl rounded-2xl"></div>
-                <div class="md:w-1/2 flex flex-col bg-white">
-                    <div class="flex-grow overflow-y-auto p-8 md:p-12 pb-6">
-                        <header class="mb-10">
-                            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
-                            <h3 class="text-4xl font-black uppercase tracking-tighter text-slate-900 leading-tight mt-4">{{ selectedCard.name }}</h3>
-                            <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-600 font-black text-2xl tracking-tighter mt-1">{{ selectedCard.hp }} HP</p>
+        <!-- DARK MODAL -->
+        <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-50 flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
+            <div class="bg-[#1e293b] rounded-[2.5rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative">
+                
+                <button @click="selectedCard = null" class="absolute top-6 right-8 z-50 text-slate-500 hover:text-white text-3xl transition">✕</button>
+
+                <!-- Left: Card Image -->
+                <div class="md:w-1/2 bg-[#0f172a] p-10 flex items-center justify-center border-r border-slate-800">
+                    <img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-xl scale-110">
+                </div>
+                
+                <!-- Right: Data -->
+                <div class="md:w-1/2 flex flex-col bg-[#1e293b]">
+                    <div class="flex-grow overflow-y-auto p-10">
+                        <header class="mb-8">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="bg-blue-500 text-white px-3 py-0.5 rounded text-[9px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
+                                <p class="text-slate-600 font-bold text-lg italic">#{{ selectedCard.number }}</p>
+                            </div>
+                            <h3 class="text-4xl font-black uppercase text-white leading-none">{{ selectedCard.name }}</h3>
+                            <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-500 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p>
                         </header>
-                        <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y-2 border-slate-50 py-8 mb-8">
-                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label"><p class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-1">{{ label }}</p><p class="font-black text-sm uppercase tracking-tight text-slate-700 font-black">{{ val }}</p></div>
+
+                        <div class="grid grid-cols-2 gap-y-6 gap-x-4 border-y border-slate-800 py-8 mb-8">
+                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label">
+                                <p class="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p>
+                                <p class="font-bold text-sm text-slate-200 uppercase">{{ val }}</p>
+                            </div>
                         </div>
-                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6 mb-6">
-                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
-                            <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-slate-50 p-6 rounded-3xl border border-slate-100">
-                                <p class="font-black uppercase text-base mb-1">{{ atk.name }} <span class="float-right text-slate-900">{{ atk.damage }}</span></p>
-                                <p class="text-xs text-slate-500 italic">{{ atk.text }}</p>
+
+                        <!-- Attacks -->
+                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-4">
+                            <p class="text-[9px] font-black text-blue-400 uppercase tracking-widest">Abilities & Attacks</p>
+                            <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-5 rounded-2xl border border-slate-800">
+                                <div class="flex justify-between items-start mb-2">
+                                    <div class="flex flex-wrap gap-1 items-center">
+                                        <span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span>
+                                        <p class="font-black uppercase text-sm ml-2 text-white">{{ atk.name }}</p>
+                                    </div>
+                                    <p class="font-black text-lg text-white">{{ atk.damage }}</p>
+                                </div>
+                                <p class="text-[11px] text-slate-400 leading-relaxed italic">{{ atk.text }}</p>
                             </div>
                         </div>
                     </div>
-                    <div class="p-8 pt-0 bg-white"><button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-base hover:bg-blue-700 shadow-2xl transition transform active:scale-95">Add to Queue</button></div>
+
+                    <div class="p-10 pt-0">
+                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-4 rounded-2xl font-black uppercase tracking-widest transition">Add to Queue</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -166,7 +198,10 @@
                 filteredCards() {
                     return this.cards.filter(c => {
                         const s = this.searchQuery.toLowerCase();
-                        return (c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s)) && (this.activeCategory === 'All' || c.category === this.activeCategory) && (this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet));
+                        const matchesSearch = c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s);
+                        const matchesCategory = this.activeCategory === 'All' || c.category === this.activeCategory;
+                        const matchesSet = this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet);
+                        return matchesSearch && matchesCategory && matchesSet;
                     });
                 }
             },
@@ -186,56 +221,25 @@
                 },
                 getSetName(sku) { return this.availableSets.find(s => sku.startsWith(s.id))?.name || 'Set'; },
                 showDetails(card) { this.selectedCard = card; },
-                
-                // --- LOGICA SMART ADD: Se la carta esiste già in coda, aumenta QTY ---
                 addToExport(card) {
-                    const existing = this.exportList.find(i => 
-                        i.sku === card.sku && 
-                        i.selectedCondition === 'Near Mint' && 
-                        i.selectedVariant === 'Unlimited'
-                    );
-                    if (existing) {
-                        existing.qty++;
-                    } else {
-                        this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00, qty: 1 });
-                    }
+                    const existing = this.exportList.find(i => i.sku === card.sku && i.selectedCondition === 'Near Mint' && i.selectedVariant === 'Unlimited');
+                    if (existing) { existing.qty++; } 
+                    else { this.exportList.unshift({ ...card, selectedCondition: 'Near Mint', selectedVariant: 'Unlimited', price: 1.00, qty: 1 }); }
                 },
-
                 removeFromExport(index) { this.exportList.splice(index, 1); },
                 clearQueue() { if(confirm("Clear current queue?")) this.exportList = []; },
-                
-                generateProductHTML(item) {
-                    let html = `<strong>Technical Specifications</strong><br><ul>`;
-                    html += `<li>Set: ${this.getSetName(item.sku)}</li><li>Number: ${item.number}</li><li>Rarity: ${item.rarity}</li>`;
-                    if(item.hp && item.hp !== 'N/A') html += `<li>HP: ${item.hp}</li>`;
-                    html += `<li>Illustrator: ${item.illustrator}</li></ul><br>`;
-                    if(item.attacks && item.attacks.length > 0) {
-                        html += `<strong>Attacks & Abilities</strong><br>`;
-                        item.attacks.forEach(atk => { html += `<p><strong>${atk.name.toUpperCase()}</strong> (${atk.damage || '0'} dmg)<br><em>${atk.text}</em></p>`; });
-                    }
-                    return html.replace(/"/g, '""');
-                },
-
                 exportCSV() {
-                    const headers = ["Handle","Title","Body (HTML)","Vendor","Product Category","Type","Tags","Published","Option1 Name","Option1 Value","Option2 Name","Option2 Value","Variant SKU","Variant Grams","Variant Inventory Tracker","Variant Inventory Qty","Variant Inventory Policy","Variant Fulfillment Service","Variant Price","Variant Compare At Price","Image Src"];
-                    let csvRows = [headers.join(",")];
+                    let csv = "Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Image Src\n";
                     this.exportList.forEach(item => {
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
-                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator.replace(/^Illus\.\s+/i, '')}, ${item.selectedVariant}, ${item.selectedCondition}"`;
-                        
-                        const row = [
-                            `"${h}"`,`"Pokemon ${item.name} - ${item.number} (${item.selectedVariant})"`,`"${this.generateProductHTML(item)}"`,`"${set.vendor}"`,`""`,`"Single Card Raw"`,t,`"true"`,
-                            `"Edition"`,`"${item.selectedVariant}"`,`"Condition"`,`"${item.selectedCondition}"`,`"${h}"`,`"5"`,`"shopify"`,item.qty.toString(),`"deny"`,`"manual"`,item.price.toString(),`""`,`"${item.image_url}"`
-                        ];
-                        csvRows.push(row.join(","));
+                        const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator}, ${item.selectedVariant}"`;
+                        csv += `"${h}","Pokemon ${item.name} - ${item.number}","","${set.vendor}","","Single Card Raw",${t},true,"Edition","${item.selectedVariant}","Condition","${item.selectedCondition}","${h}",5,"shopify",${item.qty},"deny","manual",${item.price},"${item.image_url}"\n`;
                     });
-                    const now = new Date();
-                    const filename = `tcg-data-csv-${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}-${now.getHours()}-${now.getMinutes()}.csv`;
-                    const blob = new Blob([csvRows.join("\n")], { type: 'text/csv;charset=utf-8;' });
+                    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                     const link = document.createElement("a");
                     link.href = URL.createObjectURL(blob);
-                    link.download = filename;
+                    link.download = `tcg-export-${Date.now()}.csv`;
                     link.click();
                 }
             }
