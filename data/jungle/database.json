@@ -1,0 +1,642 @@
+[
+    {
+        "sku": "jungle-1-clefable",
+        "name": "Clefable",
+        "number": "1/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-1-clefable.png"
+    },
+    {
+        "sku": "jungle-2-electrode",
+        "name": "Electrode",
+        "number": "2/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-2-electrode.png"
+    },
+    {
+        "sku": "jungle-3-flareon",
+        "name": "Flareon",
+        "number": "3/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-3-flareon.png"
+    },
+    {
+        "sku": "jungle-4-jolteon",
+        "name": "Jolteon",
+        "number": "4/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-4-jolteon.png"
+    },
+    {
+        "sku": "jungle-5-kangaskhan",
+        "name": "Kangaskhan",
+        "number": "5/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-5-kangaskhan.png"
+    },
+    {
+        "sku": "jungle-6-mr-mime",
+        "name": "Mr. Mime",
+        "number": "6/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-6-mr-mime.png"
+    },
+    {
+        "sku": "jungle-7-nidoqueen",
+        "name": "Nidoqueen",
+        "number": "7/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-7-nidoqueen.png"
+    },
+    {
+        "sku": "jungle-8-pidgeot",
+        "name": "Pidgeot",
+        "number": "8/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-8-pidgeot.png"
+    },
+    {
+        "sku": "jungle-9-pinsir",
+        "name": "Pinsir",
+        "number": "9/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-9-pinsir.png"
+    },
+    {
+        "sku": "jungle-10-scyther",
+        "name": "Scyther",
+        "number": "10/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-10-scyther.png"
+    },
+    {
+        "sku": "jungle-11-snorlax",
+        "name": "Snorlax",
+        "number": "11/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-11-snorlax.png"
+    },
+    {
+        "sku": "jungle-12-vaporeon",
+        "name": "Vaporeon",
+        "number": "12/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-12-vaporeon.png"
+    },
+    {
+        "sku": "jungle-13-venomoth",
+        "name": "Venomoth",
+        "number": "13/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-13-venomoth.png"
+    },
+    {
+        "sku": "jungle-14-victreebel",
+        "name": "Victreebel",
+        "number": "14/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-14-victreebel.png"
+    },
+    {
+        "sku": "jungle-15-vileplume",
+        "name": "Vileplume",
+        "number": "15/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-15-vileplume.png"
+    },
+    {
+        "sku": "jungle-16-wigglytuff",
+        "name": "Wigglytuff",
+        "number": "16/64",
+        "category": "Pokémon",
+        "rarity": "Rare Holo",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-16-wigglytuff.png"
+    },
+    {
+        "sku": "jungle-17-clefable",
+        "name": "Clefable",
+        "number": "17/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-17-clefable.png"
+    },
+    {
+        "sku": "jungle-18-electrode",
+        "name": "Electrode",
+        "number": "18/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-18-electrode.png"
+    },
+    {
+        "sku": "jungle-19-flareon",
+        "name": "Flareon",
+        "number": "19/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-19-flareon.png"
+    },
+    {
+        "sku": "jungle-20-jolteon",
+        "name": "Jolteon",
+        "number": "20/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-20-jolteon.png"
+    },
+    {
+        "sku": "jungle-21-kangaskhan",
+        "name": "Kangaskhan",
+        "number": "21/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-21-kangaskhan.png"
+    },
+    {
+        "sku": "jungle-22-mr-mime",
+        "name": "Mr. Mime",
+        "number": "22/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-22-mr-mime.png"
+    },
+    {
+        "sku": "jungle-23-nidoqueen",
+        "name": "Nidoqueen",
+        "number": "23/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-23-nidoqueen.png"
+    },
+    {
+        "sku": "jungle-24-pidgeot",
+        "name": "Pidgeot",
+        "number": "24/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-24-pidgeot.png"
+    },
+    {
+        "sku": "jungle-25-pinsir",
+        "name": "Pinsir",
+        "number": "25/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-25-pinsir.png"
+    },
+    {
+        "sku": "jungle-26-scyther",
+        "name": "Scyther",
+        "number": "26/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-26-scyther.png"
+    },
+    {
+        "sku": "jungle-27-snorlax",
+        "name": "Snorlax",
+        "number": "27/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "90",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-27-snorlax.png"
+    },
+    {
+        "sku": "jungle-28-vaporeon",
+        "name": "Vaporeon",
+        "number": "28/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-28-vaporeon.png"
+    },
+    {
+        "sku": "jungle-29-venomoth",
+        "name": "Venomoth",
+        "number": "29/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-29-venomoth.png"
+    },
+    {
+        "sku": "jungle-30-victreebel",
+        "name": "Victreebel",
+        "number": "30/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-30-victreebel.png"
+    },
+    {
+        "sku": "jungle-31-vileplume",
+        "name": "Vileplume",
+        "number": "31/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-31-vileplume.png"
+    },
+    {
+        "sku": "jungle-32-wigglytuff",
+        "name": "Wigglytuff",
+        "number": "32/64",
+        "category": "Pokémon",
+        "rarity": "Rare",
+        "hp": "80",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-32-wigglytuff.png"
+    },
+    {
+        "sku": "jungle-33-butterfree",
+        "name": "Butterfree",
+        "number": "33/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-33-butterfree.png"
+    },
+    {
+        "sku": "jungle-34-dodrio",
+        "name": "Dodrio",
+        "number": "34/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-34-dodrio.png"
+    },
+    {
+        "sku": "jungle-35-exeggutor",
+        "name": "Exeggutor",
+        "number": "35/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "80",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-35-exeggutor.png"
+    },
+    {
+        "sku": "jungle-36-fearow",
+        "name": "Fearow",
+        "number": "36/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-36-fearow.png"
+    },
+    {
+        "sku": "jungle-37-gloom",
+        "name": "Gloom",
+        "number": "37/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-37-gloom.png"
+    },
+    {
+        "sku": "jungle-38-lickitung",
+        "name": "Lickitung",
+        "number": "38/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "90",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-38-lickitung.png"
+    },
+    {
+        "sku": "jungle-39-marowak",
+        "name": "Marowak",
+        "number": "39/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-39-marowak.png"
+    },
+    {
+        "sku": "jungle-40-nidorina",
+        "name": "Nidorina",
+        "number": "40/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-40-nidorina.png"
+    },
+    {
+        "sku": "jungle-41-parasect",
+        "name": "Parasect",
+        "number": "41/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-41-parasect.png"
+    },
+    {
+        "sku": "jungle-42-persian",
+        "name": "Persian",
+        "number": "42/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-42-persian.png"
+    },
+    {
+        "sku": "jungle-43-primeape",
+        "name": "Primeape",
+        "number": "43/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-43-primeape.png"
+    },
+    {
+        "sku": "jungle-44-rapidash",
+        "name": "Rapidash",
+        "number": "44/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-44-rapidash.png"
+    },
+    {
+        "sku": "jungle-45-rhydon",
+        "name": "Rhydon",
+        "number": "45/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "100",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-45-rhydon.png"
+    },
+    {
+        "sku": "jungle-46-seaking",
+        "name": "Seaking",
+        "number": "46/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-46-seaking.png"
+    },
+    {
+        "sku": "jungle-47-tauros",
+        "name": "Tauros",
+        "number": "47/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-47-tauros.png"
+    },
+    {
+        "sku": "jungle-48-weepinbell",
+        "name": "Weepinbell",
+        "number": "48/64",
+        "category": "Pokémon",
+        "rarity": "Uncommon",
+        "hp": "70",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-48-weepinbell.png"
+    },
+    {
+        "sku": "jungle-49-bellsprout",
+        "name": "Bellsprout",
+        "number": "49/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-49-bellsprout.png"
+    },
+    {
+        "sku": "jungle-50-cubone",
+        "name": "Cubone",
+        "number": "50/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-50-cubone.png"
+    },
+    {
+        "sku": "jungle-51-eevee",
+        "name": "Eevee",
+        "number": "51/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-51-eevee.png"
+    },
+    {
+        "sku": "jungle-52-exeggcute",
+        "name": "Exeggcute",
+        "number": "52/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-52-exeggcute.png"
+    },
+    {
+        "sku": "jungle-53-goldeen",
+        "name": "Goldeen",
+        "number": "53/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-53-goldeen.png"
+    },
+    {
+        "sku": "jungle-54-jigglypuff",
+        "name": "Jigglypuff",
+        "number": "54/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "60",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-54-jigglypuff.png"
+    },
+    {
+        "sku": "jungle-55-mankey",
+        "name": "Mankey",
+        "number": "55/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "30",
+        "illustrator": "Kagemaru Himeno",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-55-mankey.png"
+    },
+    {
+        "sku": "jungle-56-meowth",
+        "name": "Meowth",
+        "number": "56/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-56-meowth.png"
+    },
+    {
+        "sku": "jungle-57-nidoran",
+        "name": "Nidoran♀",
+        "number": "57/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "60",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-57-nidoran.png"
+    },
+    {
+        "sku": "jungle-58-oddish",
+        "name": "Oddish",
+        "number": "58/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-58-oddish.png"
+    },
+    {
+        "sku": "jungle-59-paras",
+        "name": "Paras",
+        "number": "59/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-59-paras.png"
+    },
+    {
+        "sku": "jungle-60-pikachu",
+        "name": "Pikachu",
+        "number": "60/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Ken Sugimori",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-60-pikachu.png"
+    },
+    {
+        "sku": "jungle-61-rhyhorn",
+        "name": "Rhyhorn",
+        "number": "61/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "70",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-61-rhyhorn.png"
+    },
+    {
+        "sku": "jungle-62-spearow",
+        "name": "Spearow",
+        "number": "62/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "50",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-62-spearow.png"
+    },
+    {
+        "sku": "jungle-63-venonat",
+        "name": "Venonat",
+        "number": "63/64",
+        "category": "Pokémon",
+        "rarity": "Common",
+        "hp": "40",
+        "illustrator": "Mitsuhiro Arita",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-63-venonat.png"
+    },
+    {
+        "sku": "jungle-64-pok-ball",
+        "name": "Poke Ball",
+        "number": "64/64",
+        "category": "Trainer",
+        "rarity": "Common",
+        "hp": "N/A",
+        "illustrator": "Keiji Kinebuchi",
+        "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/jungle/jungle-64-pok-ball.png"
+    }
+]
