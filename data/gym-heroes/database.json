@@ -559,9 +559,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-heroes-16-erika",
@@ -582,9 +580,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-heroes-17-lt-surge",
@@ -605,9 +601,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "You can play this card only if you have at least 1 Basic Pokémon card in your hand. Put a Basic Pokémon card from your hand into play as your Active Pokémon. Put your old Active Pokémon onto your Bench. (You can't play this card if your Bench is full.)"
-        ]
+        "rules": []
     },
     {
         "sku": "gym-heroes-18-misty",
@@ -628,9 +622,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), and if the attacking Pokémon has Misty in its name, the attack does 20 more damage to the Defending Pokémon."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-heroes-19-the-rockets-trap",
@@ -651,9 +643,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Flip a coin. If heads, choose up to 3 cards at random from your opponent's hand (don't look at them). Your opponent shuffles those cards into his or her deck."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-heroes-20-brocks-golem",

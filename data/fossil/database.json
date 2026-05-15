@@ -2197,9 +2197,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck."
-        ]
+        "rules": []
     },
     {
         "sku": "fossil-59-energy-search",
@@ -2220,9 +2218,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward."
-        ]
+        "rules": []
     },
     {
         "sku": "fossil-60-gambler",
@@ -2243,9 +2239,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Shuffle your hand into your deck. Flip a coin. If heads, draw 8 cards. If tails, draw 1 card."
-        ]
+        "rules": []
     },
     {
         "sku": "fossil-61-recycle",
@@ -2276,7 +2270,7 @@
         "number": "62/62",
         "category": "Trainer",
         "rarity": "Common",
-        "hp": "10",
+        "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-62-mysterious-fossil.png",
         "type": "Normal",

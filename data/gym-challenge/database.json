@@ -665,9 +665,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
-        ]
+        "rules": []
     },
     {
         "sku": "gym-challenge-18-giovanni",
@@ -688,9 +686,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-challenge-19-koga",
@@ -711,9 +707,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-challenge-20-sabrina",
@@ -734,9 +728,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name."
-        ]
+        "rules": []
     },
     {
         "sku": "gym-challenge-21-blaines-ninetales",
@@ -3819,9 +3811,7 @@
         ],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": [
-            "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
-        ]
+        "rules": []
     },
     {
         "sku": "gym-challenge-101-brocks-protection",
