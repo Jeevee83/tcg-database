@@ -669,21 +669,42 @@
         "sku": "team-rocket-17-rainbow-energy",
         "name": "Rainbow Energy",
         "number": "17/83",
-        "category": "Energy",
+        "category": "Pokémon",
         "rarity": "Rare Holo",
-        "hp": "N/A",
+        "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-17-rainbow-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
+        "weakness": "Fire ×2",
+        "resistance": "Fighting -30",
         "retreat": "0",
         "types": [
             "Grass"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Swords Dance",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+            },
+            {
+                "name": "Slash",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": ""
+            }
+        ],
         "rules": []
     },
     {
@@ -2832,252 +2853,454 @@
         "sku": "team-rocket-71-here-comes-team-rocket",
         "name": "Here Comes Team Rocket",
         "number": "71/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "30",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-71-here-comes-team-rocket.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
+        "weakness": "Grass ×2",
+        "resistance": "Lightning -30",
         "retreat": "0",
         "types": [
             "Fighting"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Dig",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Mud Slap",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-72-rockets-sneak-attack",
         "name": "Rocket's Sneak Attack",
         "number": "72/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-72-rockets-sneak-attack.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
+        "weakness": "Lightning ×2",
+        "resistance": "Fighting -30",
         "retreat": "0",
         "types": [
             "Colorless"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Fury Attack",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-73-the-bosss-way",
         "name": "The Boss's Way",
         "number": "73/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "50",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-73-the-bosss-way.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "0",
+        "retreat": "1",
         "types": [
             "Psychic"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Confuse Ray",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-74-challenge",
         "name": "Challenge!",
         "number": "74/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-74-challenge.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "0",
+        "retreat": "1",
         "types": [
             "Grass"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Hypnosis",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Leech Seed",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-75-digger",
         "name": "Digger",
         "number": "75/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "30",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-75-digger.png",
         "type": "Normal",
         "stage": "N/A",
         "weakness": "N/A",
-        "resistance": "N/A",
+        "resistance": "Fighting -30",
         "retreat": "0",
         "types": [
             "Psychic"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Sleeping Gas",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Destiny Bond",
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-76-imposter-oaks-revenge",
         "name": "Imposter Oak's Revenge",
         "number": "76/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "40",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-76-imposter-oaks-revenge.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Lightning ×2",
         "resistance": "N/A",
         "retreat": "0",
         "types": [
             "Water"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Horn Attack",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-77-nightly-garbage-run",
         "name": "Nightly Garbage Run",
         "number": "77/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "60",
         "illustrator": "Kagemaru Himeno",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-77-nightly-garbage-run.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "0",
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
         "types": [
             "Colorless"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Lullaby",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pokémon is now Asleep."
+            },
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-78-goop-gas-attack",
         "name": "Goop Gas Attack",
         "number": "78/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-78-goop-gas-attack.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "0",
+        "retreat": "1",
         "types": [
             "Fighting"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Low Kick",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": ""
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-79-sleep",
         "name": "Sleep!",
         "number": "79/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "40",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-79-sleep.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Fighting ×2",
         "resistance": "N/A",
-        "retreat": "0",
+        "retreat": "1",
         "types": [
             "Lightning"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Thunder Wave",
+                "cost": [
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Selfdestruct",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "40",
+                "text": "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-80-rainbow-energy",
         "name": "Rainbow Energy",
         "number": "80/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "50",
         "illustrator": "Mitsuhiro Arita",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-80-rainbow-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
-        "resistance": "N/A",
-        "retreat": "0",
+        "weakness": "Fighting ×2",
+        "resistance": "Psychic -30",
+        "retreat": "1",
         "types": [
             "Colorless"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Pay Day",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": "Flip a coin. If heads, draw a card."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-81-full-heal-energy",
         "name": "Full Heal Energy",
         "number": "81/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "70",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-81-full-heal-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Fire ×2",
         "resistance": "N/A",
-        "retreat": "0",
+        "retreat": "2",
         "types": [
             "Grass"
         ],
         "evolvesFrom": "Caterpie",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Stiffen",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)"
+            },
+            {
+                "name": "Stun Spore",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+            }
+        ],
         "rules": []
     },
     {
         "sku": "team-rocket-82-potion-energy",
         "name": "Potion Energy",
         "number": "82/83",
-        "category": "Trainer",
+        "category": "Pokémon",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "60",
         "illustrator": "Ken Sugimori",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/team-rocket/team-rocket-82-potion-energy.png",
         "type": "Normal",
         "stage": "N/A",
-        "weakness": "N/A",
+        "weakness": "Psychic ×2",
         "resistance": "N/A",
-        "retreat": "0",
+        "retreat": "1",
         "types": [
             "Grass"
         ],
         "evolvesFrom": "N/A",
-        "attacks": [],
+        "attacks": [
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10×",
+                "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+            },
+            {
+                "name": "Call for Family",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Search your deck for a Basic Pokémon named Nidoran ♂ or Nidoran ♀ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+            }
+        ],
         "rules": []
     },
     {

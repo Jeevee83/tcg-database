@@ -3,47 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardex TCG - Dashboard</title>
+    <title>Cardex TCG - Professional Dashboard</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         [v-cloak] { display: none; }
         body { background-color: #0f172a; overflow-x: hidden; }
+        
         .modal-overlay { background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(12px); }
+        
+        /* Scrollbar sottile */
         .custom-scroll::-webkit-scrollbar { width: 4px; }
         .custom-scroll::-webkit-scrollbar-track { background: #1e293b; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
-        .cat-btn { background: #1e293b; border-bottom: 3px solid transparent; transition: all 0.2s ease; white-space: nowrap; }
+
+        /* Bottoni Categoria */
+        .cat-btn {
+            background: #1e293b;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
         .cat-btn:hover { background: #334155; }
         .cat-btn.active.accent-red { border-bottom-color: #f87171; background: #334155; }
         .cat-btn.active.accent-green { border-bottom-color: #4ade80; background: #334155; }
         .cat-btn.active.accent-blue { border-bottom-color: #60a5fa; background: #334155; }
         .cat-btn.active.accent-yellow { border-bottom-color: #fbbf24; background: #334155; }
-        .dash-btn { background: #1e293b; border-left: 4px solid transparent; transition: all 0.3s ease; }
-        .type-pill { padding: 2px 8px; border-radius: 4px; color: white; font-weight: 800; font-size: 10px; text-transform: uppercase; }
+
+        /* Type Pills */
+        .type-pill { padding: 2px 10px; border-radius: 6px; color: white; font-weight: 800; font-size: 10px; text-transform: uppercase; display: inline-block; }
         .type-Fire { background: #ef4444; } .type-Water { background: #3b82f6; } .type-Grass { background: #22c55e; }
         .type-Lightning { background: #eab308; color: #000; } .type-Psychic { background: #a855f7; }
+        .type-Fighting { background: #f97316; } .type-Colorless { background: #94a3b8; }
+        .type-Darkness { background: #1e293b; border: 1px solid #475569; } .type-Metal { background: #64748b; }
     </style>
 </head>
 <body class="text-slate-200 font-sans">
     <div id="app" v-cloak>
         
-        <!-- HEADER -->
+        <!-- HEADER FISSO -->
         <header class="fixed top-0 left-0 right-0 z-50 bg-[#0f172a] border-b border-slate-800 shadow-2xl">
             <div class="max-w-[1800px] mx-auto px-4 sm:px-8 py-4 flex flex-col lg:flex-row items-center justify-between gap-4">
+                
                 <div class="flex flex-col sm:flex-row items-center gap-6 w-full lg:w-auto">
                     <div class="text-center sm:text-left">
                         <h1 class="text-5xl font-bold text-white tracking-tighter leading-none uppercase">Cardex</h1>
                         <p class="text-[9px] text-slate-500 font-black uppercase tracking-[0.2em] mt-1">TCG System <span class="text-slate-700 ml-1">by Jeevee83</span></p>
                     </div>
+                    
                     <nav class="flex gap-1 bg-slate-900/50 p-1 rounded-xl border border-slate-800">
-                        <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat" @click="activeCategory = cat"
-                                :class="['cat-btn px-4 py-2 rounded-lg font-bold text-[10px] sm:text-xs uppercase tracking-wider', activeCategory === cat ? 'active' : '', cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">{{ cat }}</button>
+                        <button v-for="cat in ['All', 'Pokémon', 'Trainer', 'Energy']" :key="cat"
+                                @click="activeCategory = cat"
+                                :class="['cat-btn px-4 py-2 rounded-lg font-bold text-[10px] sm:text-xs uppercase tracking-wider', 
+                                activeCategory === cat ? 'active' : '', 
+                                cat === 'Pokémon' ? 'accent-green' : cat === 'Trainer' ? 'accent-blue' : cat === 'Energy' ? 'accent-yellow' : 'accent-red']">
+                            {{ cat }}
+                        </button>
                     </nav>
                 </div>
+
                 <div class="flex items-center gap-3 w-full lg:max-w-2xl justify-center lg:justify-end">
                     <div class="relative flex-grow max-w-md">
-                        <input v-model="searchQuery" type="text" placeholder="Search card..." class="w-full bg-[#1e293b] border border-slate-700 p-2.5 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-sm font-bold text-white">
+                        <input v-model="searchQuery" type="text" placeholder="Search card or artist..." 
+                               class="w-full bg-[#1e293b] border border-slate-700 p-2.5 pl-10 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-sm font-bold text-white">
                         <svg class="w-4 h-4 absolute left-3 top-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </div>
                     <select v-model="selectedSet" class="bg-[#1e293b] border border-slate-700 p-2.5 rounded-xl font-bold text-slate-300 outline-none text-sm cursor-pointer min-w-[140px] sm:min-w-[180px]">
@@ -52,8 +74,12 @@
                     </select>
                 </div>
             </div>
+
             <div class="max-w-[1800px] mx-auto px-8 pb-2 flex justify-end">
-                <button @click="scrollToTop" class="text-[10px] font-black uppercase tracking-widest text-slate-500 hover:text-white flex items-center gap-2 transition"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-width="4"/></svg>Torna in alto</button>
+                <button @click="scrollToTop" class="text-[10px] font-black uppercase tracking-widest text-slate-500 hover:text-white flex items-center gap-2 transition">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-width="4"/></svg>
+                    Torna in alto
+                </button>
             </div>
         </header>
 
@@ -61,20 +87,18 @@
 
         <div class="max-w-[1800px] mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
             
-            <!-- SIDEBAR STICKY -->
+            <!-- SIDEBAR (QUEUE) -->
             <aside class="lg:col-span-3">
                 <div class="lg:sticky lg:top-[145px]">
-                    <!-- BOX CODA ALLUNGATO (h-[72vh]) -->
                     <div class="bg-[#1e293b] rounded-[2rem] border border-slate-700 shadow-2xl overflow-hidden flex flex-col h-[72vh] max-h-[850px]">
                         <div class="p-5 border-b border-slate-800 bg-slate-900/20 flex justify-between items-center shrink-0">
                             <div>
                                 <h3 class="text-slate-500 text-[9px] font-black uppercase tracking-[0.2em]">Export Queue</h3>
                                 <span class="text-5xl font-light text-white leading-none">{{ exportList.length }}</span>
                             </div>
-                            <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg" :disabled="exportList.length === 0">CSV</button>
+                            <button @click="exportCSV" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition shadow-lg active:scale-95" :disabled="exportList.length === 0">CSV</button>
                         </div>
 
-                        <!-- Lista Carte Scorrevole -->
                         <div class="custom-scroll overflow-y-auto p-4 space-y-3 flex-grow">
                             <div v-for="(item, index) in exportList" :key="index" class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800 relative group animate-in slide-in-from-left duration-200">
                                 <button @click="removeFromExport(index)" class="absolute top-3 right-3 text-slate-600 hover:text-red-500 transition font-bold">✕</button>
@@ -95,16 +119,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div v-if="exportList.length === 0" class="py-20 text-center opacity-10">
-                                <p class="text-[10px] font-black uppercase tracking-widest uppercase">Select cards</p>
-                            </div>
                         </div>
 
-                        <!-- Footer Box Fisso -->
                         <div class="p-5 border-t border-slate-800 bg-slate-900/40 shrink-0">
-                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[10px] text-red-400 hover:text-red-500 uppercase font-black tracking-widest transition text-center">
-                                Clear All Items
-                            </button>
+                            <button v-if="exportList.length > 0" @click="clearQueue" class="w-full py-2 text-[10px] text-red-400 hover:text-red-500 uppercase font-black tracking-widest transition text-center">Clear All Items</button>
                         </div>
                     </div>
                 </div>
@@ -129,19 +147,63 @@
             </main>
         </div>
 
-        <!-- MODAL (RESTANTE CODICE INVARIATO) -->
+        <!-- MODAL DETAILS -->
         <div v-if="selectedCard" class="fixed inset-0 modal-overlay z-[100] flex items-center justify-center p-4 md:p-8" @click.self="selectedCard = null">
-            <!-- Modal Content... -->
             <div class="bg-[#1e293b] rounded-[3.5rem] max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-700 relative animate-in zoom-in duration-300">
                 <button @click="selectedCard = null" class="absolute top-8 right-8 z-50 text-slate-500 hover:text-white text-4xl transition font-bold">✕</button>
                 <div class="md:w-1/2 bg-[#080e1e] p-12 flex items-center justify-center border-r border-slate-800 h-64 md:h-auto"><img :src="selectedCard.image_url" class="max-h-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] rounded-xl scale-110"></div>
                 <div class="md:w-1/2 flex flex-col bg-[#1e293b]">
                     <div class="flex-grow overflow-y-auto p-12 pb-6 custom-scroll">
-                        <header class="mb-8"><span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span><h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3><p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-600 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p></header>
-                        <div class="grid grid-cols-2 gap-y-10 gap-x-6 border-y border-slate-800 py-10 mb-10 text-center"><div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Weakness: selectedCard.weakness, Resistance: selectedCard.resistance, Retreat: selectedCard.retreat}" :key="label"><p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p><p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p></div></div>
-                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6"><p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p><div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-inner"><div class="flex justify-between items-start mb-2"><div class="flex flex-wrap gap-1 items-center"><span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span><p class="font-black uppercase text-base ml-2 text-white leading-none">{{ atk.name }}</p></div><p class="font-black text-xl text-white">{{ atk.damage }}</p></div><p class="text-xs text-slate-400 leading-relaxed italic">{{ atk.text }}</p></div></div>
+                        <header class="mb-8">
+                            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">{{ selectedCard.category }}</span>
+                            <h3 class="text-5xl font-black uppercase text-white leading-none mt-4 tracking-tighter">{{ selectedCard.name }}</h3>
+                            <p v-if="selectedCard.hp && selectedCard.hp !== 'N/A'" class="text-red-500 font-black text-2xl mt-2 tracking-tighter">{{ selectedCard.hp }} HP</p>
+                        </header>
+                        
+                        <!-- Stats Grid with Type Pills -->
+                        <div class="grid grid-cols-2 gap-y-8 gap-x-6 border-y border-slate-800 py-8 mb-8">
+                            <div v-for="(val, label) in {Rarity: selectedCard.rarity, Illustrator: selectedCard.illustrator, Retreat: selectedCard.retreat}" :key="label">
+                                <p class="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">{{ label }}</p>
+                                <p class="font-black text-sm text-slate-200 uppercase tracking-tight">{{ val }}</p>
+                            </div>
+                            <div>
+                                <p class="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">Weakness</p>
+                                <span v-if="selectedCard.weakness && selectedCard.weakness !== 'N/A'" :class="['type-pill', 'type-' + selectedCard.weakness.split(' ')[0]]">{{ selectedCard.weakness }}</span>
+                                <span v-else class="text-sm font-bold text-slate-200">N/A</span>
+                            </div>
+                            <div>
+                                <p class="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">Resistance</p>
+                                <span v-if="selectedCard.resistance && selectedCard.resistance !== 'N/A'" :class="['type-pill', 'type-' + selectedCard.resistance.split(' ')[0]]">{{ selectedCard.resistance }}</span>
+                                <span v-else class="text-sm font-bold text-slate-200">N/A</span>
+                            </div>
+                        </div>
+
+                        <!-- Attacks -->
+                        <div v-if="selectedCard.attacks && selectedCard.attacks.length > 0" class="space-y-6">
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Attacks & Abilities</p>
+                            <div v-for="atk in selectedCard.attacks" :key="atk.name" class="bg-[#0f172a] p-6 rounded-3xl border border-slate-800 shadow-inner">
+                                <div class="flex justify-between items-start mb-2">
+                                    <div class="flex flex-wrap gap-1 items-center">
+                                        <span v-for="t in atk.cost" :key="t" :class="['type-pill', 'type-' + t]">{{ t }}</span>
+                                        <p class="font-black uppercase text-base ml-2 text-white leading-none">{{ atk.name }}</p>
+                                    </div>
+                                    <p class="font-black text-xl text-white">{{ atk.damage }}</p>
+                                </div>
+                                <p class="text-xs text-slate-400 leading-relaxed italic">{{ atk.text }}</p>
+                            </div>
+                        </div>
+
+                        <!-- Rules (Trainers) -->
+                        <div v-if="selectedCard.rules && selectedCard.rules.length > 0" class="space-y-4 mt-6">
+                            <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest font-black">Card Text</p>
+                            <div class="bg-black/40 p-6 rounded-2xl border border-slate-800 italic text-xs text-slate-400 leading-relaxed">
+                                <p v-for="rule in selectedCard.rules" :key="rule" class="mb-2">{{ rule }}</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="p-12 pt-0 bg-[#1e293b]"><button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-5 rounded-[2.5rem] font-black uppercase tracking-widest text-lg shadow-2xl transition transform active:scale-95">Add to Queue</button></div>
+                    <div class="p-12 pt-0 bg-[#1e293b]">
+                        <button @click="addToExport(selectedCard); selectedCard = null" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-5 rounded-[2rem] font-black uppercase tracking-widest text-lg shadow-2xl transition transform active:scale-95">Add to Queue</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,7 +230,10 @@
                 filteredCards() {
                     return this.cards.filter(c => {
                         const s = this.searchQuery.toLowerCase();
-                        return (c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s)) && (this.activeCategory === 'All' || c.category === this.activeCategory) && (this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet));
+                        const matchesSearch = c.name.toLowerCase().includes(s) || c.illustrator.toLowerCase().includes(s);
+                        const matchesCategory = this.activeCategory === 'All' || c.category === this.activeCategory;
+                        const matchesSet = this.selectedSet === 'all' || c.sku.startsWith(this.selectedSet);
+                        return matchesSearch && matchesCategory && matchesSet;
                     });
                 }
             },
@@ -213,7 +278,7 @@
                         const set = this.availableSets.find(s => item.sku.startsWith(s.id));
                         const h = `${item.sku}-${item.selectedVariant.toLowerCase()}-${item.selectedCondition.toLowerCase().replace(' ', '-')}`;
                         const t = `"Pokemon, ${item.category}, ${set.name}, ${item.rarity}, ${item.illustrator.replace(/^Illus\.\s+/i, '')}, ${item.selectedVariant}, ${item.selectedCondition}"`;
-                        const row = [`"${h}"`,`"Pokemon ${item.name} - ${item.number} (${item.selectedVariant})"`,`"${this.generateProductHTML(item)}"`,`"${set.vendor}"`,`""`,`"Single Card Raw"`,t,`"true"`,`"Edition"`,`"${item.selectedVariant}"`,`"Condition"`,`"${item.selectedCondition}"`,`"${h}"`,`"5"`,`"shopify"`,item.qty.toString(),`"deny"`,`"manual"`,item.price.toString(),`""`,`"${item.image_url}"`];
+                        const row = [`"${h}"`,`"Pokemon ${item.name} - ${item.number} (${item.selectedVariant})"`,`"${this.generateProductHTML(item)}"`,`"${set.vendor}"`,`""`,`"Single Card Raw"`,t,`"true"`,`"Edition"`,`"${item.selectedVariant}"`,`"Condition"`,`"${item.selectedCondition}"`,`"${h}"`,`"5"`,`"shopify"`,item.qty.toString(),`"deny"`,`"manual"`,item.price.toString(),`""`,`"${item.image_url}"` ];
                         csvRows.push(row.join(","));
                     });
                     const now = new Date();

@@ -2182,7 +2182,7 @@
         "sku": "fossil-58-mr-fuji",
         "name": "Mr. Fuji",
         "number": "58/62",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Uncommon",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
@@ -2192,18 +2192,18 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck."
+        ]
     },
     {
         "sku": "fossil-59-energy-search",
         "name": "Energy Search",
         "number": "59/62",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
@@ -2213,18 +2213,18 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward."
+        ]
     },
     {
         "sku": "fossil-60-gambler",
         "name": "Gambler",
         "number": "60/62",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Common",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
@@ -2234,12 +2234,12 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "Shuffle your hand into your deck. Flip a coin. If heads, draw 8 cards. If tails, draw 1 card."
+        ]
     },
     {
         "sku": "fossil-61-recycle",
@@ -2255,9 +2255,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2270,7 +2268,7 @@
         "number": "62/62",
         "category": "Trainer",
         "rarity": "Common",
-        "hp": "N/A",
+        "hp": "10",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/fossil/fossil-62-mysterious-fossil.png",
         "type": "Normal",
@@ -2278,9 +2276,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [

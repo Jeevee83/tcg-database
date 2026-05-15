@@ -650,7 +650,7 @@
         "sku": "gym-challenge-17-blaine",
         "name": "Blaine",
         "number": "17/132",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
@@ -660,18 +660,18 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
+        ]
     },
     {
         "sku": "gym-challenge-18-giovanni",
         "name": "Giovanni",
         "number": "18/132",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
@@ -681,18 +681,18 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into."
+        ]
     },
     {
         "sku": "gym-challenge-19-koga",
         "name": "Koga",
         "number": "19/132",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
@@ -702,18 +702,18 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
+        ]
     },
     {
         "sku": "gym-challenge-20-sabrina",
         "name": "Sabrina",
         "number": "20/132",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Rare Holo",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
@@ -723,12 +723,12 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name."
+        ]
     },
     {
         "sku": "gym-challenge-21-blaines-ninetales",
@@ -3796,7 +3796,7 @@
         "sku": "gym-challenge-100-blaine",
         "name": "Blaine",
         "number": "100/132",
-        "category": "Pokémon",
+        "category": "Trainer",
         "rarity": "Rare",
         "hp": "N/A",
         "illustrator": "Ken Sugimori",
@@ -3806,12 +3806,12 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
-        "rules": []
+        "rules": [
+            "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
+        ]
     },
     {
         "sku": "gym-challenge-101-brocks-protection",
@@ -3827,9 +3827,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3850,9 +3848,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3874,9 +3870,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3897,9 +3891,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3920,9 +3912,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3943,9 +3933,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3966,9 +3954,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3989,9 +3975,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4012,9 +3996,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4036,9 +4018,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4059,9 +4039,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4082,9 +4060,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4105,9 +4081,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4129,9 +4103,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4153,9 +4125,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4176,9 +4146,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4199,9 +4167,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4222,9 +4188,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4245,9 +4209,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4269,9 +4231,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4292,9 +4252,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4315,9 +4273,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4339,9 +4295,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4363,9 +4317,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4386,9 +4338,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4409,9 +4359,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -4423,7 +4371,7 @@
         "name": "Fighting",
         "number": "127/132",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-127-fighting.png",
@@ -4432,9 +4380,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -4444,7 +4390,7 @@
         "name": "Fire",
         "number": "128/132",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-128-fire.png",
@@ -4453,9 +4399,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -4465,7 +4409,7 @@
         "name": "Grass",
         "number": "129/132",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-129-grass.png",
@@ -4474,9 +4418,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -4486,7 +4428,7 @@
         "name": "Lightning",
         "number": "130/132",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-130-lightning.png",
@@ -4495,9 +4437,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -4507,7 +4447,7 @@
         "name": "Psychic",
         "number": "131/132",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-131-psychic.png",
@@ -4516,9 +4456,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -4528,7 +4466,7 @@
         "name": "Water",
         "number": "132/132",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/gym-challenge/gym-challenge-132-water.png",
@@ -4537,9 +4475,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []

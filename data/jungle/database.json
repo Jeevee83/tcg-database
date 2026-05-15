@@ -2551,9 +2551,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [

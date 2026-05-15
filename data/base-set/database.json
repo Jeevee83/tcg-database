@@ -2699,7 +2699,7 @@
         "number": "70/102",
         "category": "Trainer",
         "rarity": "Rare",
-        "hp": "N/A",
+        "hp": "10",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-70-clefairy-doll.png",
         "type": "Normal",
@@ -2707,9 +2707,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2730,9 +2728,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2753,9 +2749,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2776,9 +2770,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2799,9 +2791,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2822,9 +2812,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2845,9 +2833,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2868,9 +2854,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2891,9 +2875,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2914,9 +2896,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2937,9 +2917,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2960,9 +2938,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -2983,9 +2959,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3006,9 +2980,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3029,9 +3001,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3052,9 +3022,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3075,9 +3043,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3098,9 +3064,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3121,9 +3085,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3144,9 +3106,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3167,9 +3127,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3190,9 +3148,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3213,9 +3169,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3236,9 +3190,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3259,9 +3211,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3282,9 +3232,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3305,9 +3253,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": [
@@ -3319,7 +3265,7 @@
         "name": "Fighting",
         "number": "97/102",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-97-fighting.png",
@@ -3328,9 +3274,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -3340,7 +3284,7 @@
         "name": "Fire",
         "number": "98/102",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-98-fire.png",
@@ -3349,9 +3293,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -3361,7 +3303,7 @@
         "name": "Grass",
         "number": "99/102",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-99-grass.png",
@@ -3370,9 +3312,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -3382,7 +3322,7 @@
         "name": "Lightning",
         "number": "100/102",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-100-lightning.png",
@@ -3391,9 +3331,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -3403,7 +3341,7 @@
         "name": "Psychic",
         "number": "101/102",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-101-psychic.png",
@@ -3412,9 +3350,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
@@ -3424,7 +3360,7 @@
         "name": "Water",
         "number": "102/102",
         "category": "Energy",
-        "rarity": "Common",
+        "rarity": "N/A",
         "hp": "N/A",
         "illustrator": "Keiji Kinebuchi",
         "image_url": "https://raw.githubusercontent.com/Jeevee83/tcg-database/main/images/base-set/base-set-102-water.png",
@@ -3433,9 +3369,7 @@
         "weakness": "N/A",
         "resistance": "N/A",
         "retreat": "0",
-        "types": [
-            "N/A"
-        ],
+        "types": [],
         "evolvesFrom": "N/A",
         "attacks": [],
         "rules": []
